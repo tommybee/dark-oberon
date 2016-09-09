@@ -1,0 +1,80 @@
+		      ====================================
+		      Dark Oberon README for version 1.0.2
+		      ====================================
+
+  Dark oberon is a real-time strategy released under GPL.
+  
+  Homepage: http://dark-oberon.sourceforge.net/
+
+Content
+=======
+
+  1. Requirements
+  2. How to compile
+  3. How to run
+
+1. Requirements
+===============
+
+Hardware requirements 
+---------------------
+
+  o Athlon 1 GHz (or equivalent Pentium)
+  o graphics card with 3D support (OpenGL)
+  o 512 MB RAM
+
+Software requirements
+---------------------
+
+  UNIX like OS (tested on FreeBSD and Linux).
+
+  Note: Dark Oberon works also under Windows 95+, but README is only for UNIX
+  like OSes.
+
+  Additional libraries requiered:
+
+    o GLFW 2.5 (http://glfw.sourceforge.net/)
+    o FMOD (http://fmod.org/)
+
+  Note: FMOD is needed only if you want to compile in sound/music support.
+
+2. How to compile
+=================
+
+   1. Download installation package dark-oberon-1.0.2.tar.gz
+
+   2. Extract it with command:
+
+       tar xzf dark-oberon-1.0.2.tar.gz
+
+   3. Change into created directory:
+
+       cd dark-oberon-1.0.2
+
+   4. Compile it with make:
+
+       make
+
+   If you want to compile sound support in, specify a -SOUND=1 option to make
+   in step 4. The full command will be:
+   
+       make SOUND=1
+
+   You will also need to add -lfmod-3.74 to the end of LIBRARIES variable in
+   src/Makefile.
+
+   If the compilation ends with "ld: cannot find -lglfw", you don't have GLFW
+   installed in you system or it was not found. If GLFW is not in your system
+   and there is no installation package, compile it yourself and put libglfw.a
+   into libs/ subdirectory. If it was not found, specify path to libglfw.a in
+   src/Makefile (variable LIBPATH) or copy it into libs/ subdirectory.
+
+   If you had any troubles with compiling, tell us on our Help forum. The link
+   for the forum can be found at our homepage.
+
+3. How to run
+=============
+
+  You can run Dark Oberon with command:
+
+    ./dark-oberon

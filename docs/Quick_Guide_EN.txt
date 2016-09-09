@@ -1,0 +1,146 @@
+
+				  Dark Oberon
+
+		      http://dark-oberon.sourceforge.net/
+
+				  Quick Guide
+
+About
+-----
+
+Dark Oberon is an open source real-time strategy game similar to Warcraft II
+released under GPL. Nowadays it only supports multi player game. However it is
+possible to try the game also in "single player" but without enemies.
+
+Running the game
+----------------
+
+To try the game without enemies select "Quick Play" in main menu. A random map
+and race will be choosen.
+
+To play multi player game, one player must create the game. The game is created
+by selecting "Play > Create > Create" in menu. Other players must connect to
+the player that has created the game by selecting "Play > Connect" and entering
+his IP address or computer name to the IP text field. The game is then started
+by clicking on "Play" on the computer where the game was created.
+
+What is on you display
+----------------------
+
+When the game is running, you see a right panel and a bottom panel. On bottom
+panel you can see amounts of materials: gold, wood, coal; as well as your
+used/maximu amount of food and energy.
+
+Right panels shows a minimap or radar, which is an overview of the whole map.
+If a unit is selected, information about the units are shown under the radar.
+In the middle part of the right panel there are icons for all actions a unit or
+building can do: stay, move, attack, mine, repair, build.
+
+At the right-bottom corner is an icon indicating which layers are shown. In
+Dark Oberon there can be 3 layers in the map, usually air, ground and
+underground.
+
+Game control
+------------
+
+The game is controled by mouse and optionally with a keyboard.
+
+Controling with mouse is easy. You select unit by left-clicking on it and
+process an action by right-clicking on other unit, building or place on a map.
+To move a unit select it by left-clicking on it and then right-click on the map
+where you want to send it. To send a Peasant to a Gold Mine select it and
+right-click on a Gold Mine.
+
+Selecting a group
+-----------------
+
+To select more units at once, press and hold the left mouse button and drag the
+mouse. A green rectangle will show. All your units under this rectangle will be
+selected. You can add or remove units from selection by left-clicking on a unit
+while holding a CTRL key. You can add more units to selection the same way you
+select more units but before pressing left mouse button you hold the ctrl key.
+
+Remembering selections
+----------------------
+
+You can save and restore selections! Select some units and press CTRL with '1'.
+This will store your selection under key '1'. Whenever you will want to restore
+the selection, press '1' and the saved selection will be restored. Pressing '1'
+twice will not only restore the sellection but also show the units of the
+selection in the center of the screen. The same can be accomplished by pressing
+ALT with '1'.
+
+You can save up to 9 selections under keys '1', '2'... to '9'.
+
+Moving a map
+------------
+
+There are more ways how to move position of the map. It can be moved by moving
+your mouse cursor to the edge of the screen or game window. E.g. when you come
+to right edge of the screen the map will be moved right.
+
+Another posibility how to move the map is by pressing the left mouse button and
+draging the mouse while holding the ALT key.
+
+The map can be moved also with cursor keys UP, RIGHT, DOWN and LEFT.
+
+What about moving the map by clicking into radar or draging? Yes, that is
+possible too.
+
+What is more, you can move the map with center mouse button. While the center
+button is pressed, you are moving the map. But it is in a different way than
+with ALT key and left mouse button. Try it. :-)
+
+Zooming the map
+---------------
+
+You can zoom the map by rolling your mouse wheel (vertical, if you have got
+two), or by keys '+' (zoom in) and '-' (zoom out). The key '=' acts the same
+way as '+' - it's here for those who are lazy to press SHIFT.
+
+One can reset the zoom by pressing '/'.
+
+Creating new building
+---------------------
+
+New buildings are created by a Peasant. Select a Peasant. The build dialog will
+be shown. Choose a building from the list and right-click on the possition on
+the map where you want to build the building. Careful, if you click the left
+mouse button, nothing will happen, because the left button is used for
+selections and the right button is used for actions!
+
+New buildings can be build only on a place on the map where you see (is not in
+warfog). And you need to have enough material for building. If the building can
+not be build and you right-click on the map, a message like "Not enough gold
+for building" will be shown. You can find how much material you need in a
+tooltip - when you hold your mouse cursor over the building item in the right
+panel in the build dialog.
+
+You can build buildings faster when you build them with more Peasants than one.
+Just select more Peasants when you are going to build the building. You can add
+more Peasants to help by sending them repair that building.
+
+Creating new units
+------------------
+
+Units are created in some types of buildings. E.g Barracs can create Footmen.
+If you have got Barracs, select it. In the build dialog (which will be
+preselected when you click on Barracs) select the unit you want build. Barracs
+can build only Footmen, so there will not be many choices. :-) If you want to
+build more units in a row, you can click more than once on the icon of the
+unit. Creation of the second unit will start immediately after the first unit
+will be ready.
+
+You can pause unit creation by left-clicking on actualy created unit in the
+build panel. You can cancel the creation by right-clicking it.
+
+Attacking
+---------
+
+Right click on the unit or building you want to attack. That simple! If you
+want to attack your own unit, select attack action in right panel or press 'A'.
+
+
+More to come... :-)
+
+... in Release 1.0.2

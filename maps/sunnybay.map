@@ -1,0 +1,5537 @@
+#
+#  ===========
+#   Sunny Bay
+#  ===========
+#
+
+name "Sunny Bay"
+author "PeterPP";
+width 200
+height 200
+scheme "plastic"
+
+
+<Players>
+  max_count 3
+  
+  <Start Points>
+    count 5
+    
+    start_point_0 35 35
+    start_point_1 35 170
+    start_point_2 155 15
+    start_point_3 175 115
+    start_point_4 165 190
+  </Start Points>
+  
+  <Races>
+    count 3
+    
+    <Race 0>
+      name "human"
+      
+      <Sets>
+        count 1
+        
+        <Set 0>
+          init_materials_amount 2000 1100 600
+          
+          <Units>
+            count 4
+            unit_0 "peasant" 0 0 1 3 100    unit id, x position, y position, z position, direction, life
+            unit_1 "peasant" 2 0 1 4 100
+            unit_2 "footman" -2 -1 1 7 100
+            unit_3 "footman" 2 2 1 1 100
+          </Units>
+          
+          <Buildings>
+            count 0
+          </Buildings>
+          
+        </Set 0>
+      </Sets>
+    </Race 0>
+    
+    <Race 1>
+      name "human-yellow"
+      
+      <Sets>
+        count 1
+        
+        <Set 0>
+          init_materials_amount 2000 1100 600
+          
+          <Units>
+            count 4
+            unit_0 "peasant" 0 0 1 3 100    unit id, x position, y position, z position, direction, life
+            unit_1 "peasant" 2 0 1 4 100
+            unit_2 "footman" -2 -1 1 7 100
+            unit_3 "footman" 2 2 1 1 100
+          </Units>
+          
+          <Buildings>
+            count 0
+          </Buildings>
+          
+        </Set 0>
+      </Sets>
+    </Race 1>
+    
+    <Race 2>
+      name "human-blue"
+      
+      <Sets>
+        count 1
+        
+        <Set 0>
+          init_materials_amount 2000 1100 600
+          
+          <Units>
+            count 4
+            unit_0 "peasant" 0 0 1 3 100    unit id, x position, y position, z position, direction, life
+            unit_1 "peasant" 2 0 1 4 100
+            unit_2 "footman" -2 -1 1 7 100
+            unit_3 "footman" 2 2 1 1 100
+          </Units>
+          
+          <Buildings>
+            count 0
+          </Buildings>
+          
+        </Set 0>
+      </Sets>
+    </Race 2>
+    
+    <SchemeRace>
+      name "plastic"
+      
+      <Sources>
+        count 477
+        
+        source_0 "goldmine" 18 27 90 55000 source id, x position, y position, life, material balance
+        source_1 "goldmine" 93 13 100 25000
+        source_2 "goldmine" 182 22 93 40000
+        source_3 "goldmine" 143 84 96 32000
+        source_4 "goldmine" 181 108 100 38000
+        source_5 "goldmine" 172 190 98 60000
+        source_6 "goldmine" 28 111 75 18000
+        source_7 "goldmine" 16 165 100 50000
+        
+        source_8 "forest" 1 1 100 500
+        source_9 "forest" 4 1 100 500
+        source_10 "forest" 7 1 100 500
+        source_11 "forest" 10 1 100 500
+        source_12 "forest" 21 2 100 500
+        source_13 "forest" 24 2 100 500
+        source_14 "forest" 27 2 100 500
+        source_15 "forest" 34 1 100 500
+        source_16 "forest" 37 1 100 500
+        source_17 "forest" 40 1 100 500
+        source_18 "forest" 65 2 100 500
+        source_19 "forest" 68 2 100 500
+        source_20 "forest" 71 2 100 500
+        source_21 "forest" 74 2 100 500
+        source_22 "forest" 77 2 100 500
+        source_23 "forest" 80 2 100 500
+        source_24 "forest" 83 2 100 500
+        source_25 "forest" 86 2 100 500
+        source_26 "forest" 89 2 100 500
+        source_27 "forest" 92 2 100 500
+        source_28 "forest" 116 1 100 500
+        source_29 "forest" 119 1 100 500
+        source_30 "forest" 122 1 100 500
+        source_31 "forest" 125 1 100 500
+        source_32 "forest" 128 1 100 500
+        source_33 "forest" 131 1 100 500
+        source_34 "forest" 140 2 100 500
+        source_35 "forest" 143 2 100 500
+        source_36 "forest" 146 2 100 500
+        source_37 "forest" 149 2 100 500
+        source_38 "forest" 152 2 100 500
+        source_39 "forest" 155 2 100 500
+        source_40 "forest" 158 2 100 500
+        source_41 "forest" 161 2 100 500
+        source_42 "forest" 164 2 100 500
+        source_43 "forest" 167 2 100 500
+        source_44 "forest" 170 2 100 500
+        source_45 "forest" 173 2 100 500
+        source_46 "forest" 176 2 100 500
+        source_47 "forest" 179 2 100 500
+        
+        source_48 "forest" 1 4 100 500
+        source_49 "forest" 4 4 100 500
+        source_50 "forest" 7 4 100 500
+        source_51 "forest" 10 4 100 500
+        source_52 "forest" 34 4 100 500
+        source_53 "forest" 37 4 100 500
+        source_54 "forest" 40 4 100 500
+        source_55 "forest" 65 5 100 500
+        source_56 "forest" 68 5 100 500
+        source_57 "forest" 71 5 100 500
+        source_58 "forest" 74 5 100 500
+        source_59 "forest" 77 5 100 500
+        source_60 "forest" 80 5 100 500
+        source_61 "forest" 83 5 100 500
+        source_62 "forest" 86 5 100 500
+        source_63 "forest" 89 5 100 500
+        source_64 "forest" 116 4 100 500
+        source_65 "forest" 119 4 100 500
+        source_66 "forest" 122 4 100 500
+        source_67 "forest" 125 4 100 500
+        source_68 "forest" 128 4 100 500
+        source_69 "forest" 131 4 100 500
+        source_70 "forest" 146 5 100 500
+        source_71 "forest" 149 5 100 500
+        source_72 "forest" 152 5 100 500
+        source_73 "forest" 155 5 100 500
+        source_74 "forest" 158 5 100 500
+        source_75 "forest" 161 5 100 500
+        source_76 "forest" 164 5 100 500
+        source_77 "forest" 167 5 100 500
+        source_78 "forest" 170 5 100 500
+        source_79 "forest" 173 5 100 500
+        source_80 "forest" 176 5 100 500
+        source_81 "forest" 179 5 100 500
+        
+        source_82 "forest" 1 7 100 500
+        source_83 "forest" 4 7 100 500
+        source_84 "forest" 7 7 100 500
+        source_85 "forest" 10 7 100 500
+        source_86 "forest" 13 7 100 500
+        source_87 "forest" 34 7 100 500
+        source_88 "forest" 37 7 100 500
+        source_89 "forest" 65 8 100 500
+        source_90 "forest" 68 8 100 500
+        source_91 "forest" 71 8 100 500
+        source_92 "forest" 74 8 100 500
+        source_93 "forest" 77 8 100 500
+        source_94 "forest" 80 8 100 500
+        source_95 "forest" 83 8 100 500
+        source_96 "forest" 86 8 100 500
+        source_97 "forest" 119 7 100 500
+        source_98 "forest" 122 7 100 500
+        source_99 "forest" 125 7 100 500
+        source_100 "forest" 128 7 100 500
+        source_101 "forest" 131 7 100 500
+        source_102 "forest" 146 8 100 500
+        source_103 "forest" 149 8 100 500
+        source_104 "forest" 152 8 100 500
+        source_105 "forest" 155 8 100 500
+        source_106 "forest" 158 8 100 500
+        source_107 "forest" 161 8 100 500
+        source_108 "forest" 164 8 100 500
+        source_109 "forest" 167 8 100 500
+        source_110 "forest" 170 8 100 500
+        source_111 "forest" 173 8 100 500
+        source_112 "forest" 176 8 100 500
+        
+        source_113 "forest" 1 10 100 500
+        source_114 "forest" 4 10 100 500
+        source_115 "forest" 7 10 100 500
+        source_116 "forest" 10 10 100 500
+        source_117 "forest" 13 10 100 500
+        source_118 "forest" 16 10 100 500
+        source_119 "forest" 19 10 100 500
+        source_120 "forest" 22 10 100 500
+        source_121 "forest" 34 10 100 500
+        source_122 "forest" 68 11 100 500
+        source_123 "forest" 71 11 100 500
+        source_124 "forest" 74 11 100 500
+        source_125 "forest" 77 11 100 500
+        source_126 "forest" 80 11 100 500
+        source_127 "forest" 122 10 100 500
+        source_128 "forest" 125 10 100 500
+        source_129 "forest" 128 10 100 500
+        source_130 "forest" 161 11 100 500
+        source_131 "forest" 164 11 100 500
+        source_132 "forest" 167 11 100 500
+        source_133 "forest" 170 11 100 500
+        source_134 "forest" 173 11 100 500
+        
+        source_135 "forest" 1 13 100 500
+        source_136 "forest" 4 13 100 500
+        source_137 "forest" 7 13 100 500
+        source_138 "forest" 10 13 100 500
+        source_139 "forest" 13 13 100 500
+        source_140 "forest" 16 13 100 500
+        source_141 "forest" 19 13 100 500
+        source_142 "forest" 22 13 100 500
+        source_143 "forest" 25 13 100 500
+        source_144 "forest" 34 13 100 500
+        source_145 "forest" 170 14 100 500
+        source_146 "forest" 173 14 100 500
+        
+        source_147 "forest" 1 16 100 500
+        source_148 "forest" 4 16 100 500
+        source_149 "forest" 7 16 100 500
+        source_150 "forest" 10 16 100 500
+        source_151 "forest" 13 16 100 500
+        source_152 "forest" 16 16 100 500
+        source_153 "forest" 19 16 100 500
+        source_154 "forest" 22 16 100 500
+        source_155 "forest" 25 16 100 500
+        source_156 "forest" 28 16 100 500
+        source_157 "forest" 31 16 100 500
+        
+        source_158 "forest" 1 19 100 500
+        source_159 "forest" 4 19 100 500
+        source_160 "forest" 7 19 100 500
+        source_161 "forest" 10 19 100 500
+        
+        source_162 "forest" 1 22 100 500
+        source_163 "forest" 4 22 100 500
+        
+        source_164 "forest" 1 25 100 500
+        
+        source_165 "forest" 1 28 100 500
+        source_166 "forest" 196 28 100 500
+        
+        source_167 "forest" 1 31 100 500
+        source_168 "forest" 193 31 100 500
+        source_169 "forest" 196 31 100 500
+        
+        source_170 "forest" 193 34 100 500
+        source_171 "forest" 196 34 100 500
+        
+        source_172 "forest" 190 37 100 500
+        source_173 "forest" 193 37 100 500
+        source_174 "forest" 196 37 100 500
+        
+        source_175 "forest" 2 40 100 500
+        source_176 "forest" 5 40 100 500
+        source_177 "forest" 187 40 100 500
+        source_178 "forest" 190 40 100 500
+        source_179 "forest" 193 40 100 500
+        source_180 "forest" 196 40 100 500
+        
+        source_181 "forest" 2 43 100 500
+        source_182 "forest" 5 43 100 500
+        source_183 "forest" 187 43 100 500
+        source_184 "forest" 190 43 100 500
+        source_185 "forest" 193 43 100 500
+        source_186 "forest" 196 43 100 500
+        
+        source_187 "forest" 2 46 100 500
+        source_188 "forest" 190 46 100 500
+        source_189 "forest" 193 46 100 500
+        source_190 "forest" 196 46 100 500
+        
+        source_191 "forest" 193 49 100 500
+        source_192 "forest" 196 49 100 500
+        
+        source_193 "forest" 193 52 100 500
+        source_194 "forest" 196 52 100 500
+        
+        source_195 "forest" 196 55 100 500
+        
+        source_196 "forest" 157 61 100 500
+        source_197 "forest" 160 61 100 500
+        source_198 "forest" 163 61 100 500
+        
+        source_199 "forest" 157 64 100 500
+        source_200 "forest" 160 64 100 500
+        
+        source_201 "forest" 117 67 100 500
+        source_202 "forest" 120 67 100 500
+        source_203 "forest" 123 67 100 500
+        source_204 "forest" 126 67 100 500
+        
+        source_205 "forest" 114 70 100 500
+        source_206 "forest" 117 70 100 500
+        source_207 "forest" 120 70 100 500
+        source_208 "forest" 123 70 100 500
+        source_209 "forest" 126 70 100 500
+        
+        source_210 "forest" 152 72 100 500
+        source_211 "forest" 114 73 100 500
+        source_212 "forest" 117 73 100 500
+        source_213 "forest" 120 73 100 500
+        
+        source_214 "forest" 114 76 100 500
+        source_215 "forest" 117 76 100 500
+        source_216 "forest" 120 76 100 500
+        source_217 "forest" 152 75 100 500
+        source_218 "forest" 155 75 100 500
+        source_219 "forest" 158 75 100 500
+        source_220 "forest" 161 75 100 500
+        source_221 "forest" 164 75 100 500
+        source_222 "forest" 167 75 100 500
+        
+        source_223 "forest" 117 79 100 500
+        source_224 "forest" 120 79 100 500
+        source_225 "forest" 152 78 100 500
+        source_226 "forest" 155 78 100 500
+        source_227 "forest" 158 78 100 500
+        source_228 "forest" 161 78 100 500
+        source_229 "forest" 164 78 100 500
+        
+        source_230 "forest" 155 81 100 500
+        source_231 "forest" 158 81 100 500
+        
+        source_232 "forest" 133 97 100 500
+        source_233 "forest" 136 97 100 500
+        source_234 "forest" 139 97 100 500
+        source_235 "forest" 142 97 100 500
+        source_236 "forest" 145 97 100 500
+        source_237 "forest" 148 97 100 500
+        
+        source_238 "forest" 136 100 100 500
+        source_239 "forest" 139 100 100 500
+        source_240 "forest" 142 100 100 500
+        source_241 "forest" 145 100 100 500
+        source_242 "forest" 148 100 100 500
+        source_243 "forest" 196 100 100 500
+        
+        source_244 "forest" 139 103 100 500
+        source_245 "forest" 142 103 100 500
+        source_246 "forest" 145 103 100 500
+        source_247 "forest" 148 103 100 500
+        source_248 "forest" 154 103 100 500
+        source_249 "forest" 193 103 100 500
+        source_250 "forest" 196 103 100 500
+        
+        source_251 "forest" 154 106 100 500
+        source_252 "forest" 157 106 100 500
+        source_253 "forest" 193 106 100 500
+        source_254 "forest" 196 106 100 500
+        
+        source_255 "forest" 40 109 100 500
+        source_256 "forest" 43 109 100 500
+        source_257 "forest" 46 109 100 500
+        source_258 "forest" 145 109 100 500
+        source_259 "forest" 148 109 100 500
+        source_260 "forest" 151 109 100 500
+        source_261 "forest" 154 109 100 500
+        source_262 "forest" 157 109 100 500
+        source_263 "forest" 190 109 100 500
+        source_264 "forest" 193 109 100 500
+        source_265 "forest" 196 109 100 500
+        
+        source_266 "forest" 37 112 100 500
+        source_267 "forest" 40 112 100 500
+        source_268 "forest" 43 112 100 500
+        source_269 "forest" 46 112 100 500
+        source_270 "forest" 145 112 100 500
+        source_271 "forest" 148 112 100 500
+        source_272 "forest" 151 112 100 500
+        source_273 "forest" 154 112 100 500
+        source_274 "forest" 193 112 100 500
+        source_275 "forest" 196 112 100 500
+        
+        source_276 "forest" 34 115 100 500
+        source_277 "forest" 37 115 100 500
+        source_278 "forest" 40 115 100 500
+        source_279 "forest" 43 115 100 500
+        source_280 "forest" 148 115 100 500
+        source_281 "forest" 151 115 100 500
+        source_282 "forest" 193 115 100 500
+        source_283 "forest" 196 115 100 500
+        
+        source_284 "forest" 31 118 100 500
+        source_285 "forest" 34 118 100 500
+        source_286 "forest" 37 118 100 500
+        source_287 "forest" 151 118 100 500
+        source_288 "forest" 154 118 100 500
+        source_289 "forest" 157 118 100 500
+        source_290 "forest" 190 118 100 500
+        source_291 "forest" 193 118 100 500
+        source_292 "forest" 196 118 100 500
+        
+        
+        source_293 "forest" 25 121 100 500
+        source_294 "forest" 28 121 100 500
+        source_295 "forest" 31 121 100 500
+        source_296 "forest" 34 121 100 500
+        source_297 "forest" 37 121 100 500
+        source_298 "forest" 154 121 100 500
+        source_299 "forest" 187 121 100 500
+        source_300 "forest" 190 121 100 500
+        source_301 "forest" 193 121 100 500
+        source_302 "forest" 196 121 100 500
+        
+        source_303 "forest" 1 124 100 500
+        source_304 "forest" 181 124 100 500
+        source_305 "forest" 184 124 100 500
+        source_306 "forest" 187 124 100 500
+        source_307 "forest" 190 124 100 500
+        source_308 "forest" 193 124 100 500
+        source_309 "forest" 196 124 100 500
+        
+        source_310 "forest" 1 127 100 500
+        source_311 "forest" 46 127 100 500
+        source_312 "forest" 181 127 100 500
+        source_313 "forest" 184 127 100 500
+        source_314 "forest" 187 127 100 500
+        source_315 "forest" 190 127 100 500
+        source_316 "forest" 193 127 100 500
+        source_317 "forest" 196 127 100 500
+        
+        source_318 "forest" 1 130 100 500
+        source_319 "forest" 25 130 100 500
+        source_320 "forest" 28 130 100 500
+        source_321 "forest" 31 130 100 500
+        source_322 "forest" 34 130 100 500
+        source_323 "forest" 37 130 100 500
+        source_324 "forest" 40 130 100 500
+        source_325 "forest" 43 130 100 500
+        source_326 "forest" 46 130 100 500
+        source_327 "forest" 178 130 100 500
+        source_328 "forest" 181 130 100 500
+        source_329 "forest" 184 130 100 500
+        source_330 "forest" 187 130 100 500
+        source_331 "forest" 190 130 100 500
+        source_332 "forest" 193 130 100 500
+        source_333 "forest" 196 130 100 500
+        
+        source_334 "forest" 1 133 100 500
+        source_335 "forest" 4 133 100 500
+        source_336 "forest" 184 133 100 500
+        source_337 "forest" 187 133 100 500
+        source_338 "forest" 190 133 100 500
+        source_339 "forest" 193 133 100 500
+        source_340 "forest" 196 133 100 500
+        
+        source_341 "forest" 1 136 100 500
+        source_342 "forest" 4 136 100 500
+        source_343 "forest" 184 136 100 500
+        source_344 "forest" 187 136 100 500
+        source_345 "forest" 190 136 100 500
+        source_346 "forest" 193 136 100 500
+        source_347 "forest" 196 136 100 500
+        
+        source_348 "forest" 1 139 100 500
+        source_349 "forest" 4 139 100 500
+        source_350 "forest" 7 139 100 500
+        source_351 "forest" 39 139 100 500
+        source_352 "forest" 42 139 100 500
+        source_353 "forest" 45 139 100 500
+        source_354 "forest" 48 139 100 500
+        source_355 "forest" 51 139 100 500
+        source_356 "forest" 187 139 100 500
+        source_357 "forest" 190 139 100 500
+        source_358 "forest" 193 139 100 500
+        source_359 "forest" 196 139 100 500
+        
+        source_360 "forest" 1 142 100 500
+        source_361 "forest" 4 142 100 500
+        source_362 "forest" 7 142 100 500
+        source_363 "forest" 10 142 100 500
+        source_364 "forest" 39 142 100 500
+        source_365 "forest" 42 142 100 500
+        source_366 "forest" 45 142 100 500
+        source_367 "forest" 48 142 100 500
+        source_368 "forest" 193 142 100 500
+        source_369 "forest" 196 142 100 500
+        
+        source_370 "forest" 1 145 100 500
+        source_371 "forest" 4 145 100 500
+        source_372 "forest" 7 145 100 500
+        source_373 "forest" 10 145 100 500
+        source_374 "forest" 33 145 100 500
+        source_375 "forest" 36 145 100 500
+        source_376 "forest" 39 145 100 500
+        source_377 "forest" 42 145 100 500
+        source_378 "forest" 45 145 100 500
+        
+        source_379 "forest" 1 148 100 500
+        source_380 "forest" 4 148 100 500
+        source_381 "forest" 7 148 100 500
+        source_382 "forest" 10 148 100 500
+        source_383 "forest" 36 148 100 500
+        source_384 "forest" 39 148 100 500
+        source_385 "forest" 42 148 100 500
+        source_386 "forest" 45 148 100 500
+        
+        source_387 "forest" 1 151 100 500
+        source_388 "forest" 4 151 100 500
+        source_389 "forest" 39 151 100 500
+        source_390 "forest" 42 151 100 500
+        
+        source_391 "forest" 1 154 100 500
+        source_392 "forest" 4 154 100 500
+        
+        source_393 "forest" 1 157 100 500
+        source_394 "forest" 4 157 100 500
+        source_395 "forest" 161 157 100 500
+        
+        source_396 "forest" 1 160 100 500
+        source_397 "forest" 140 160 100 500
+        source_398 "forest" 143 160 100 500
+        source_399 "forest" 146 160 100 500
+        source_400 "forest" 149 160 100 500
+        source_401 "forest" 152 160 100 500
+        source_402 "forest" 155 160 100 500
+        source_403 "forest" 158 160 100 500
+        source_404 "forest" 161 160 100 500
+        
+        source_405 "forest" 1 163 100 500
+        source_406 "forest" 4 163 100 500
+        source_407 "forest" 140 163 100 500
+        source_408 "forest" 143 163 100 500
+        source_409 "forest" 146 163 100 500
+        source_410 "forest" 149 163 100 500
+        source_411 "forest" 152 163 100 500
+        source_412 "forest" 155 163 100 500
+        source_413 "forest" 158 163 100 500
+        
+        source_414 "forest" 1 166 100 500
+        
+        source_415 "forest" 197 173 100 500
+        
+        source_416 "forest" 2 175 100 500
+        source_417 "forest" 194 176 100 500
+        source_418 "forest" 197 176 100 500
+        
+        source_419 "forest" 2 178 100 500
+        source_420 "forest" 5 178 100 500
+        source_421 "forest" 191 179 100 500
+        source_422 "forest" 194 179 100 500
+        source_423 "forest" 197 179 100 500
+        
+        source_424 "forest" 2 181 100 500
+        source_425 "forest" 185 182 100 500
+        source_426 "forest" 188 182 100 500
+        source_427 "forest" 191 182 100 500
+        source_428 "forest" 194 182 100 500
+        source_429 "forest" 197 182 100 500
+        
+        source_430 "forest" 2 184 100 500
+        source_431 "forest" 191 185 100 500
+        source_432 "forest" 194 185 100 500
+        source_433 "forest" 197 185 100 500
+        
+        source_434 "forest" 188 188 100 500
+        source_435 "forest" 191 188 100 500
+        source_436 "forest" 194 188 100 500
+        source_437 "forest" 197 188 100 500
+        
+        source_438 "forest" 185 191 100 500
+        source_439 "forest" 188 191 100 500
+        source_440 "forest" 191 191 100 500
+        source_441 "forest" 194 191 100 500
+        source_442 "forest" 197 191 100 500
+        
+        source_443 "forest" 138 193 100 500
+        source_444 "forest" 141 193 100 500
+        source_445 "forest" 144 193 100 500
+        source_446 "forest" 147 193 100 500
+        source_447 "forest" 156 194 100 500
+        source_448 "forest" 159 194 100 500
+        source_449 "forest" 162 194 100 500
+        source_450 "forest" 165 194 100 500
+        source_451 "forest" 168 194 100 500
+        source_452 "forest" 177 194 100 500
+        source_453 "forest" 180 194 100 500
+        source_454 "forest" 191 194 100 500
+        source_455 "forest" 194 194 100 500
+        source_456 "forest" 197 194 100 500
+        
+        source_457 "forest" 138 196 100 500
+        source_458 "forest" 141 196 100 500
+        source_459 "forest" 144 196 100 500
+        source_460 "forest" 147 196 100 500
+        source_461 "forest" 156 197 100 500
+        source_462 "forest" 159 197 100 500
+        source_463 "forest" 162 197 100 500
+        source_464 "forest" 165 197 100 500
+        source_465 "forest" 168 197 100 500
+        source_466 "forest" 171 197 100 500
+        source_467 "forest" 174 197 100 500
+        source_468 "forest" 177 197 100 500
+        source_469 "forest" 180 197 100 500
+        source_470 "forest" 191 197 100 500
+        source_471 "forest" 194 197 100 500
+        source_472 "forest" 197 197 100 500
+        
+        source_473 "coal" 185 150 100 10000
+        source_474 "coal" 130 20 100 4000
+        source_475 "coal" 63 39 100 4500
+        source_476 "coal" 77 163 100 4300
+        
+      </Sources>
+      
+      <Units>
+        count 6
+        unit_0 "pig" 53 149 1 2 90
+        unit_1 "pig" 62 8 1 5 100
+        unit_2 "pig" 191 51 1 2 100
+        unit_3 "pig" 132 73 1 7 100
+        unit_4 "pig" 190 106 1 3 100
+        unit_5 "pig" 189 197 1 7 100
+      </Units>
+      
+      <Buildings>
+        count 4
+        
+        building_0 "cottage" 63 2 100     building id, x position, y position, life
+        building_1 "cottage" 53 143 100
+        building_2 "cottage" 55 147 90
+        building_3 "cottage" 192 100 95
+      </Buildings>
+    </SchemeRace>
+    
+  </Races>
+  
+</Players>
+
+
+<Segment 0>
+  <Fragments>
+    count 1600
+    fragment_0 22 0 0
+    fragment_1 20 5 0
+    fragment_2 20 10 0
+    fragment_3 20 15 0
+    fragment_4 20 20 0
+    fragment_5 20 25 0
+    fragment_6 20 30 0
+    fragment_7 20 35 0
+    fragment_8 20 40 0
+    fragment_9 20 45 0
+    fragment_10 20 50 0
+    fragment_11 20 55 0
+    fragment_12 20 60 0
+    fragment_13 20 65 0
+    fragment_14 20 70 0
+    fragment_15 20 75 0
+    fragment_16 20 80 0
+    fragment_17 20 85 0
+    fragment_18 20 90 0
+    fragment_19 20 95 0
+    fragment_20 20 100 0
+    fragment_21 20 105 0
+    fragment_22 20 110 0
+    fragment_23 20 115 0
+    fragment_24 20 120 0
+    fragment_25 20 125 0
+    fragment_26 20 130 0
+    fragment_27 20 135 0
+    fragment_28 20 140 0
+    fragment_29 20 145 0
+    fragment_30 20 150 0
+    fragment_31 20 155 0
+    fragment_32 20 160 0
+    fragment_33 20 165 0
+    fragment_34 20 170 0
+    fragment_35 20 175 0
+    fragment_36 20 180 0
+    fragment_37 20 185 0
+    fragment_38 20 190 0
+    fragment_39 28 195 0
+    fragment_40 21 0 5
+    fragment_41 0 5 5
+    fragment_42 0 10 5
+    fragment_43 0 15 5
+    fragment_44 0 20 5
+    fragment_45 0 25 5
+    fragment_46 0 30 5
+    fragment_47 0 35 5
+    fragment_48 0 40 5
+    fragment_49 0 45 5
+    fragment_50 0 50 5
+    fragment_51 0 55 5
+    fragment_52 0 60 5
+    fragment_53 0 65 5
+    fragment_54 0 70 5
+    fragment_55 0 75 5
+    fragment_56 0 80 5
+    fragment_57 0 85 5
+    fragment_58 0 90 5
+    fragment_59 0 95 5
+    fragment_60 0 100 5
+    fragment_61 0 105 5
+    fragment_62 0 110 5
+    fragment_63 0 115 5
+    fragment_64 0 120 5
+    fragment_65 0 125 5
+    fragment_66 0 130 5
+    fragment_67 0 135 5
+    fragment_68 0 140 5
+    fragment_69 0 145 5
+    fragment_70 0 150 5
+    fragment_71 0 155 5
+    fragment_72 0 160 5
+    fragment_73 0 165 5
+    fragment_74 0 170 5
+    fragment_75 0 175 5
+    fragment_76 0 180 5
+    fragment_77 0 185 5
+    fragment_78 0 190 5
+    fragment_79 1 195 5
+    fragment_80 21 0 10
+    fragment_81 0 5 10
+    fragment_82 0 10 10
+    fragment_83 0 15 10
+    fragment_84 0 20 10
+    fragment_85 0 25 10
+    fragment_86 0 30 10
+    fragment_87 0 35 10
+    fragment_88 0 40 10
+    fragment_89 0 45 10
+    fragment_90 0 50 10
+    fragment_91 0 55 10
+    fragment_92 0 60 10
+    fragment_93 0 65 10
+    fragment_94 0 70 10
+    fragment_95 0 75 10
+    fragment_96 0 80 10
+    fragment_97 0 85 10
+    fragment_98 0 90 10
+    fragment_99 0 95 10
+    fragment_100 0 100 10
+    fragment_101 0 105 10
+    fragment_102 0 110 10
+    fragment_103 0 115 10
+    fragment_104 0 120 10
+    fragment_105 0 125 10
+    fragment_106 0 130 10
+    fragment_107 0 135 10
+    fragment_108 0 140 10
+    fragment_109 0 145 10
+    fragment_110 0 150 10
+    fragment_111 0 155 10
+    fragment_112 0 160 10
+    fragment_113 0 165 10
+    fragment_114 0 170 10
+    fragment_115 0 175 10
+    fragment_116 0 180 10
+    fragment_117 0 185 10
+    fragment_118 0 190 10
+    fragment_119 1 195 10
+    fragment_120 21 0 15
+    fragment_121 0 5 15
+    fragment_122 0 10 15
+    fragment_123 0 15 15
+    fragment_124 0 20 15
+    fragment_125 0 25 15
+    fragment_126 0 30 15
+    fragment_127 0 35 15
+    fragment_128 0 40 15
+    fragment_129 0 45 15
+    fragment_130 0 50 15
+    fragment_131 0 55 15
+    fragment_132 0 60 15
+    fragment_133 0 65 15
+    fragment_134 0 70 15
+    fragment_135 0 75 15
+    fragment_136 0 80 15
+    fragment_137 0 85 15
+    fragment_138 0 90 15
+    fragment_139 0 95 15
+    fragment_140 0 100 15
+    fragment_141 0 105 15
+    fragment_142 0 110 15
+    fragment_143 0 115 15
+    fragment_144 0 120 15
+    fragment_145 0 125 15
+    fragment_146 0 130 15
+    fragment_147 0 135 15
+    fragment_148 0 140 15
+    fragment_149 0 145 15
+    fragment_150 0 150 15
+    fragment_151 0 155 15
+    fragment_152 0 160 15
+    fragment_153 0 165 15
+    fragment_154 0 170 15
+    fragment_155 0 175 15
+    fragment_156 0 180 15
+    fragment_157 0 185 15
+    fragment_158 0 190 15
+    fragment_159 1 195 15
+    fragment_160 21 0 20
+    fragment_161 0 5 20
+    fragment_162 0 10 20
+    fragment_163 0 15 20
+    fragment_164 0 20 20
+    fragment_165 0 25 20
+    fragment_166 0 30 20
+    fragment_167 0 35 20
+    fragment_168 0 40 20
+    fragment_169 0 45 20
+    fragment_170 0 50 20
+    fragment_171 0 55 20
+    fragment_172 0 60 20
+    fragment_173 0 65 20
+    fragment_174 0 70 20
+    fragment_175 0 75 20
+    fragment_176 0 80 20
+    fragment_177 0 85 20
+    fragment_178 0 90 20
+    fragment_179 0 95 20
+    fragment_180 0 100 20
+    fragment_181 0 105 20
+    fragment_182 0 110 20
+    fragment_183 0 115 20
+    fragment_184 0 120 20
+    fragment_185 0 125 20
+    fragment_186 0 130 20
+    fragment_187 0 135 20
+    fragment_188 0 140 20
+    fragment_189 0 145 20
+    fragment_190 0 150 20
+    fragment_191 0 155 20
+    fragment_192 0 160 20
+    fragment_193 0 165 20
+    fragment_194 0 170 20
+    fragment_195 0 175 20
+    fragment_196 0 180 20
+    fragment_197 0 185 20
+    fragment_198 0 190 20
+    fragment_199 1 195 20
+    fragment_200 21 0 25
+    fragment_201 0 5 25
+    fragment_202 0 10 25
+    fragment_203 0 15 25
+    fragment_204 0 20 25
+    fragment_205 0 25 25
+    fragment_206 0 30 25
+    fragment_207 0 35 25
+    fragment_208 0 40 25
+    fragment_209 0 45 25
+    fragment_210 0 50 25
+    fragment_211 0 55 25
+    fragment_212 0 60 25
+    fragment_213 0 65 25
+    fragment_214 0 70 25
+    fragment_215 0 75 25
+    fragment_216 0 80 25
+    fragment_217 0 85 25
+    fragment_218 0 90 25
+    fragment_219 0 95 25
+    fragment_220 0 100 25
+    fragment_221 0 105 25
+    fragment_222 0 110 25
+    fragment_223 0 115 25
+    fragment_224 0 120 25
+    fragment_225 0 125 25
+    fragment_226 0 130 25
+    fragment_227 0 135 25
+    fragment_228 0 140 25
+    fragment_229 0 145 25
+    fragment_230 0 150 25
+    fragment_231 0 155 25
+    fragment_232 0 160 25
+    fragment_233 0 165 25
+    fragment_234 0 170 25
+    fragment_235 0 175 25
+    fragment_236 0 180 25
+    fragment_237 0 185 25
+    fragment_238 0 190 25
+    fragment_239 1 195 25
+    fragment_240 21 0 30
+    fragment_241 0 5 30
+    fragment_242 0 10 30
+    fragment_243 0 15 30
+    fragment_244 0 20 30
+    fragment_245 0 25 30
+    fragment_246 0 30 30
+    fragment_247 0 35 30
+    fragment_248 0 40 30
+    fragment_249 0 45 30
+    fragment_250 0 50 30
+    fragment_251 0 55 30
+    fragment_252 0 60 30
+    fragment_253 0 65 30
+    fragment_254 0 70 30
+    fragment_255 0 75 30
+    fragment_256 0 80 30
+    fragment_257 0 85 30
+    fragment_258 0 90 30
+    fragment_259 0 95 30
+    fragment_260 0 100 30
+    fragment_261 0 105 30
+    fragment_262 0 110 30
+    fragment_263 0 115 30
+    fragment_264 0 120 30
+    fragment_265 0 125 30
+    fragment_266 0 130 30
+    fragment_267 0 135 30
+    fragment_268 0 140 30
+    fragment_269 0 145 30
+    fragment_270 0 150 30
+    fragment_271 0 155 30
+    fragment_272 0 160 30
+    fragment_273 0 165 30
+    fragment_274 0 170 30
+    fragment_275 0 175 30
+    fragment_276 0 180 30
+    fragment_277 0 185 30
+    fragment_278 0 190 30
+    fragment_279 1 195 30
+    fragment_280 21 0 35
+    fragment_281 0 5 35
+    fragment_282 0 10 35
+    fragment_283 0 15 35
+    fragment_284 0 20 35
+    fragment_285 0 25 35
+    fragment_286 0 30 35
+    fragment_287 0 35 35
+    fragment_288 0 40 35
+    fragment_289 0 45 35
+    fragment_290 0 50 35
+    fragment_291 0 55 35
+    fragment_292 0 60 35
+    fragment_293 0 65 35
+    fragment_294 0 70 35
+    fragment_295 0 75 35
+    fragment_296 8 80 35
+    fragment_297 10 85 35
+    fragment_298 10 90 35
+    fragment_299 10 95 35
+    fragment_300 18 100 35
+    fragment_301 0 105 35
+    fragment_302 0 110 35
+    fragment_303 0 115 35
+    fragment_304 0 120 35
+    fragment_305 0 125 35
+    fragment_306 0 130 35
+    fragment_307 0 135 35
+    fragment_308 0 140 35
+    fragment_309 0 145 35
+    fragment_310 0 150 35
+    fragment_311 0 155 35
+    fragment_312 0 160 35
+    fragment_313 0 165 35
+    fragment_314 0 170 35
+    fragment_315 0 175 35
+    fragment_316 0 180 35
+    fragment_317 0 185 35
+    fragment_318 0 190 35
+    fragment_319 1 195 35
+    fragment_320 21 0 40
+    fragment_321 0 5 40
+    fragment_322 0 10 40
+    fragment_323 0 15 40
+    fragment_324 0 20 40
+    fragment_325 0 25 40
+    fragment_326 0 30 40
+    fragment_327 0 35 40
+    fragment_328 0 40 40
+    fragment_329 0 45 40
+    fragment_330 0 50 40
+    fragment_331 0 55 40
+    fragment_332 0 60 40
+    fragment_333 0 65 40
+    fragment_334 0 70 40
+    fragment_335 0 75 40
+    fragment_336 6 80 40
+    fragment_337 3 85 40
+    fragment_338 3 90 40
+    fragment_339 3 95 40
+    fragment_340 16 100 40
+    fragment_341 0 105 40
+    fragment_342 0 110 40
+    fragment_343 0 115 40
+    fragment_344 0 120 40
+    fragment_345 0 125 40
+    fragment_346 0 130 40
+    fragment_347 0 135 40
+    fragment_348 0 140 40
+    fragment_349 0 145 40
+    fragment_350 0 150 40
+    fragment_351 0 155 40
+    fragment_352 0 160 40
+    fragment_353 0 165 40
+    fragment_354 0 170 40
+    fragment_355 0 175 40
+    fragment_356 0 180 40
+    fragment_357 0 185 40
+    fragment_358 0 190 40
+    fragment_359 1 195 40
+    fragment_360 21 0 45
+    fragment_361 0 5 45
+    fragment_362 0 10 45
+    fragment_363 0 15 45
+    fragment_364 0 20 45
+    fragment_365 0 25 45
+    fragment_366 0 30 45
+    fragment_367 0 35 45
+    fragment_368 0 40 45
+    fragment_369 0 45 45
+    fragment_370 0 50 45
+    fragment_371 0 55 45
+    fragment_372 0 60 45
+    fragment_373 0 65 45
+    fragment_374 0 70 45
+    fragment_375 8 75 45
+    fragment_376 11 80 45
+    fragment_377 3 85 45
+    fragment_378 3 90 45
+    fragment_379 3 95 45
+    fragment_380 12 100 45
+    fragment_381 10 105 45
+    fragment_382 10 110 45
+    fragment_383 10 115 45
+    fragment_384 10 120 45
+    fragment_385 18 125 45
+    fragment_386 0 130 45
+    fragment_387 0 135 45
+    fragment_388 0 140 45
+    fragment_389 0 145 45
+    fragment_390 0 150 45
+    fragment_391 0 155 45
+    fragment_392 0 160 45
+    fragment_393 0 165 45
+    fragment_394 0 170 45
+    fragment_395 0 175 45
+    fragment_396 0 180 45
+    fragment_397 0 185 45
+    fragment_398 0 190 45
+    fragment_399 1 195 45
+    fragment_400 21 0 50
+    fragment_401 8 5 50
+    fragment_402 10 10 50
+    fragment_403 18 15 50
+    fragment_404 0 20 50
+    fragment_405 0 25 50
+    fragment_406 0 30 50
+    fragment_407 0 35 50
+    fragment_408 0 40 50
+    fragment_409 0 45 50
+    fragment_410 0 50 50
+    fragment_411 0 55 50
+    fragment_412 0 60 50
+    fragment_413 0 65 50
+    fragment_414 8 70 50
+    fragment_415 11 75 50
+    fragment_416 3 80 50
+    fragment_417 3 85 50
+    fragment_418 3 90 50
+    fragment_419 3 95 50
+    fragment_420 3 100 50
+    fragment_421 3 105 50
+    fragment_422 3 110 50
+    fragment_423 3 115 50
+    fragment_424 3 120 50
+    fragment_425 16 125 50
+    fragment_426 0 130 50
+    fragment_427 0 135 50
+    fragment_428 0 140 50
+    fragment_429 0 145 50
+    fragment_430 0 150 50
+    fragment_431 0 155 50
+    fragment_432 0 160 50
+    fragment_433 0 165 50
+    fragment_434 0 170 50
+    fragment_435 0 175 50
+    fragment_436 0 180 50
+    fragment_437 0 185 50
+    fragment_438 0 190 50
+    fragment_439 1 195 50
+    fragment_440 21 0 55
+    fragment_441 6 5 55
+    fragment_442 3 10 55
+    fragment_443 16 15 55
+    fragment_444 0 20 55
+    fragment_445 0 25 55
+    fragment_446 0 30 55
+    fragment_447 0 35 55
+    fragment_448 0 40 55
+    fragment_449 0 45 55
+    fragment_450 0 50 55
+    fragment_451 8 55 55
+    fragment_452 10 60 55
+    fragment_453 10 65 55
+    fragment_454 11 70 55
+    fragment_455 3 75 55
+    fragment_456 3 80 55
+    fragment_457 3 85 55
+    fragment_458 3 90 55
+    fragment_459 3 95 55
+    fragment_460 3 100 55
+    fragment_461 3 105 55
+    fragment_462 3 110 55
+    fragment_463 3 115 55
+    fragment_464 3 120 55
+    fragment_465 16 125 55
+    fragment_466 0 130 55
+    fragment_467 0 135 55
+    fragment_468 0 140 55
+    fragment_469 0 145 55
+    fragment_470 0 150 55
+    fragment_471 0 155 55
+    fragment_472 0 160 55
+    fragment_473 0 165 55
+    fragment_474 0 170 55
+    fragment_475 0 175 55
+    fragment_476 0 180 55
+    fragment_477 0 185 55
+    fragment_478 0 190 55
+    fragment_479 1 195 55
+    fragment_480 24 0 60
+    fragment_481 11 5 60
+    fragment_482 3 10 60
+    fragment_483 12 15 60
+    fragment_484 10 20 60
+    fragment_485 10 25 60
+    fragment_486 18 30 60
+    fragment_487 0 35 60
+    fragment_488 8 40 60
+    fragment_489 18 45 60
+    fragment_490 0 50 60
+    fragment_491 6 55 60
+    fragment_492 3 60 60
+    fragment_493 3 65 60
+    fragment_494 3 70 60
+    fragment_495 3 75 60
+    fragment_496 3 80 60
+    fragment_497 3 85 60
+    fragment_498 3 90 60
+    fragment_499 3 95 60
+    fragment_500 3 100 60
+    fragment_501 3 105 60
+    fragment_502 15 110 60
+    fragment_503 13 115 60
+    fragment_504 13 120 60
+    fragment_505 19 125 60
+    fragment_506 0 130 60
+    fragment_507 0 135 60
+    fragment_508 0 140 60
+    fragment_509 0 145 60
+    fragment_510 0 150 60
+    fragment_511 0 155 60
+    fragment_512 0 160 60
+    fragment_513 0 165 60
+    fragment_514 0 170 60
+    fragment_515 0 175 60
+    fragment_516 0 180 60
+    fragment_517 0 185 60
+    fragment_518 0 190 60
+    fragment_519 1 195 60
+    fragment_520 23 0 65
+    fragment_521 3 5 65
+    fragment_522 3 10 65
+    fragment_523 3 15 65
+    fragment_524 3 20 65
+    fragment_525 3 25 65
+    fragment_526 12 30 65
+    fragment_527 10 35 65
+    fragment_528 11 40 65
+    fragment_529 16 45 65
+    fragment_530 0 50 65
+    fragment_531 9 55 65
+    fragment_532 14 60 65
+    fragment_533 3 65 65
+    fragment_534 3 70 65
+    fragment_535 3 75 65
+    fragment_536 3 80 65
+    fragment_537 3 85 65
+    fragment_538 3 90 65
+    fragment_539 3 95 65
+    fragment_540 3 100 65
+    fragment_541 15 105 65
+    fragment_542 19 110 65
+    fragment_543 0 115 65
+    fragment_544 0 120 65
+    fragment_545 0 125 65
+    fragment_546 0 130 65
+    fragment_547 0 135 65
+    fragment_548 0 140 65
+    fragment_549 0 145 65
+    fragment_550 0 150 65
+    fragment_551 0 155 65
+    fragment_552 0 160 65
+    fragment_553 0 165 65
+    fragment_554 0 170 65
+    fragment_555 0 175 65
+    fragment_556 0 180 65
+    fragment_557 0 185 65
+    fragment_558 0 190 65
+    fragment_559 1 195 65
+    fragment_560 23 0 70
+    fragment_561 3 5 70
+    fragment_562 3 10 70
+    fragment_563 3 15 70
+    fragment_564 3 20 70
+    fragment_565 3 25 70
+    fragment_566 3 30 70
+    fragment_567 3 35 70
+    fragment_568 3 40 70
+    fragment_569 16 45 70
+    fragment_570 0 50 70
+    fragment_571 0 55 70
+    fragment_572 6 60 70
+    fragment_573 3 65 70
+    fragment_574 3 70 70
+    fragment_575 3 75 70
+    fragment_576 3 80 70
+    fragment_577 3 85 70
+    fragment_578 3 90 70
+    fragment_579 3 95 70
+    fragment_580 3 100 70
+    fragment_581 16 105 70
+    fragment_582 0 110 70
+    fragment_583 0 115 70
+    fragment_584 0 120 70
+    fragment_585 0 125 70
+    fragment_586 0 130 70
+    fragment_587 0 135 70
+    fragment_588 0 140 70
+    fragment_589 0 145 70
+    fragment_590 0 150 70
+    fragment_591 0 155 70
+    fragment_592 0 160 70
+    fragment_593 0 165 70
+    fragment_594 0 170 70
+    fragment_595 0 175 70
+    fragment_596 0 180 70
+    fragment_597 0 185 70
+    fragment_598 0 190 70
+    fragment_599 1 195 70
+    fragment_600 23 0 75
+    fragment_601 3 5 75
+    fragment_602 3 10 75
+    fragment_603 3 15 75
+    fragment_604 3 20 75
+    fragment_605 3 25 75
+    fragment_606 3 30 75
+    fragment_607 3 35 75
+    fragment_608 3 40 75
+    fragment_609 12 45 75
+    fragment_610 18 50 75
+    fragment_611 0 55 75
+    fragment_612 9 60 75
+    fragment_613 14 65 75
+    fragment_614 3 70 75
+    fragment_615 3 75 75
+    fragment_616 3 80 75
+    fragment_617 3 85 75
+    fragment_618 3 90 75
+    fragment_619 3 95 75
+    fragment_620 3 100 75
+    fragment_621 16 105 75
+    fragment_622 0 110 75
+    fragment_623 0 115 75
+    fragment_624 0 120 75
+    fragment_625 0 125 75
+    fragment_626 0 130 75
+    fragment_627 0 135 75
+    fragment_628 0 140 75
+    fragment_629 0 145 75
+    fragment_630 0 150 75
+    fragment_631 0 155 75
+    fragment_632 0 160 75
+    fragment_633 0 165 75
+    fragment_634 0 170 75
+    fragment_635 0 175 75
+    fragment_636 0 180 75
+    fragment_637 0 185 75
+    fragment_638 0 190 75
+    fragment_639 1 195 75
+    fragment_640 23 0 80
+    fragment_641 3 5 80
+    fragment_642 3 10 80
+    fragment_643 3 15 80
+    fragment_644 3 20 80
+    fragment_645 3 25 80
+    fragment_646 3 30 80
+    fragment_647 3 35 80
+    fragment_648 3 40 80
+    fragment_649 15 45 80
+    fragment_650 19 50 80
+    fragment_651 0 55 80
+    fragment_652 0 60 80
+    fragment_653 6 65 80
+    fragment_654 3 70 80
+    fragment_655 3 75 80
+    fragment_656 3 80 80
+    fragment_657 3 85 80
+    fragment_658 3 90 80
+    fragment_659 3 95 80
+    fragment_660 3 100 80
+    fragment_661 16 105 80
+    fragment_662 0 110 80
+    fragment_663 0 115 80
+    fragment_664 0 120 80
+    fragment_665 0 125 80
+    fragment_666 0 130 80
+    fragment_667 0 135 80
+    fragment_668 0 140 80
+    fragment_669 0 145 80
+    fragment_670 0 150 80
+    fragment_671 0 155 80
+    fragment_672 0 160 80
+    fragment_673 0 165 80
+    fragment_674 0 170 80
+    fragment_675 0 175 80
+    fragment_676 0 180 80
+    fragment_677 0 185 80
+    fragment_678 0 190 80
+    fragment_679 1 195 80
+    fragment_680 23 0 85
+    fragment_681 3 5 85
+    fragment_682 3 10 85
+    fragment_683 3 15 85
+    fragment_684 3 20 85
+    fragment_685 3 25 85
+    fragment_686 3 30 85
+    fragment_687 3 35 85
+    fragment_688 15 40 85
+    fragment_689 19 45 85
+    fragment_690 0 50 85
+    fragment_691 0 55 85
+    fragment_692 0 60 85
+    fragment_693 6 65 85
+    fragment_694 3 70 85
+    fragment_695 3 75 85
+    fragment_696 3 80 85
+    fragment_697 3 85 85
+    fragment_698 3 90 85
+    fragment_699 3 95 85
+    fragment_700 3 100 85
+    fragment_701 12 105 85
+    fragment_702 18 110 85
+    fragment_703 0 115 85
+    fragment_704 0 120 85
+    fragment_705 0 125 85
+    fragment_706 0 130 85
+    fragment_707 0 135 85
+    fragment_708 0 140 85
+    fragment_709 0 145 85
+    fragment_710 0 150 85
+    fragment_711 0 155 85
+    fragment_712 0 160 85
+    fragment_713 0 165 85
+    fragment_714 0 170 85
+    fragment_715 0 175 85
+    fragment_716 0 180 85
+    fragment_717 0 185 85
+    fragment_718 0 190 85
+    fragment_719 1 195 85
+    fragment_720 23 0 90
+    fragment_721 3 5 90
+    fragment_722 3 10 90
+    fragment_723 3 15 90
+    fragment_724 3 20 90
+    fragment_725 15 25 90
+    fragment_726 13 30 90
+    fragment_727 13 35 90
+    fragment_728 19 40 90
+    fragment_729 0 45 90
+    fragment_730 0 50 90
+    fragment_731 0 55 90
+    fragment_732 8 60 90
+    fragment_733 11 65 90
+    fragment_734 3 70 90
+    fragment_735 3 75 90
+    fragment_736 3 80 90
+    fragment_737 3 85 90
+    fragment_738 3 90 90
+    fragment_739 3 95 90
+    fragment_740 3 100 90
+    fragment_741 3 105 90
+    fragment_742 16 110 90
+    fragment_743 0 115 90
+    fragment_744 0 120 90
+    fragment_745 0 125 90
+    fragment_746 0 130 90
+    fragment_747 0 135 90
+    fragment_748 0 140 90
+    fragment_749 0 145 90
+    fragment_750 0 150 90
+    fragment_751 0 155 90
+    fragment_752 0 160 90
+    fragment_753 0 165 90
+    fragment_754 0 170 90
+    fragment_755 0 175 90
+    fragment_756 0 180 90
+    fragment_757 0 185 90
+    fragment_758 0 190 90
+    fragment_759 1 195 90
+    fragment_760 23 0 95
+    fragment_761 3 5 95
+    fragment_762 15 10 95
+    fragment_763 13 15 95
+    fragment_764 13 20 95
+    fragment_765 19 25 95
+    fragment_766 0 30 95
+    fragment_767 0 35 95
+    fragment_768 0 40 95
+    fragment_769 0 45 95
+    fragment_770 0 50 95
+    fragment_771 8 55 95
+    fragment_772 11 60 95
+    fragment_773 3 65 95
+    fragment_774 3 70 95
+    fragment_775 3 75 95
+    fragment_776 3 80 95
+    fragment_777 3 85 95
+    fragment_778 3 90 95
+    fragment_779 3 95 95
+    fragment_780 3 100 95
+    fragment_781 3 105 95
+    fragment_782 16 110 95
+    fragment_783 0 115 95
+    fragment_784 0 120 95
+    fragment_785 0 125 95
+    fragment_786 0 130 95
+    fragment_787 0 135 95
+    fragment_788 0 140 95
+    fragment_789 0 145 95
+    fragment_790 0 150 95
+    fragment_791 0 155 95
+    fragment_792 0 160 95
+    fragment_793 0 165 95
+    fragment_794 0 170 95
+    fragment_795 0 175 95
+    fragment_796 0 180 95
+    fragment_797 0 185 95
+    fragment_798 0 190 95
+    fragment_799 1 195 95
+    fragment_800 23 0 100
+    fragment_801 3 5 100
+    fragment_802 16 10 100
+    fragment_803 0 15 100
+    fragment_804 0 20 100
+    fragment_805 0 25 100
+    fragment_806 0 30 100
+    fragment_807 0 35 100
+    fragment_808 0 40 100
+    fragment_809 0 45 100
+    fragment_810 0 50 100
+    fragment_811 9 55 100
+    fragment_812 14 60 100
+    fragment_813 3 65 100
+    fragment_814 3 70 100
+    fragment_815 15 75 100
+    fragment_816 14 80 100
+    fragment_817 3 85 100
+    fragment_818 3 90 100
+    fragment_819 3 95 100
+    fragment_820 3 100 100
+    fragment_821 3 105 100
+    fragment_822 12 110 100
+    fragment_823 10 115 100
+    fragment_824 18 120 100
+    fragment_825 0 125 100
+    fragment_826 0 130 100
+    fragment_827 0 135 100
+    fragment_828 0 140 100
+    fragment_829 0 145 100
+    fragment_830 0 150 100
+    fragment_831 0 155 100
+    fragment_832 0 160 100
+    fragment_833 0 165 100
+    fragment_834 0 170 100
+    fragment_835 0 175 100
+    fragment_836 0 180 100
+    fragment_837 0 185 100
+    fragment_838 0 190 100
+    fragment_839 1 195 100
+    fragment_840 25 0 105
+    fragment_841 13 5 105
+    fragment_842 19 10 105
+    fragment_843 0 15 105
+    fragment_844 0 20 105
+    fragment_845 0 25 105
+    fragment_846 0 30 105
+    fragment_847 0 35 105
+    fragment_848 0 40 105
+    fragment_849 0 45 105
+    fragment_850 0 50 105
+    fragment_851 0 55 105
+    fragment_852 9 60 105
+    fragment_853 13 65 105
+    fragment_854 13 70 105
+    fragment_855 19 75 105
+    fragment_856 9 80 105
+    fragment_857 13 85 105
+    fragment_858 14 90 105
+    fragment_859 3 95 105
+    fragment_860 3 100 105
+    fragment_861 3 105 105
+    fragment_862 3 110 105
+    fragment_863 3 115 105
+    fragment_864 16 120 105
+    fragment_865 0 125 105
+    fragment_866 8 130 105
+    fragment_867 10 135 105
+    fragment_868 18 140 105
+    fragment_869 0 145 105
+    fragment_870 0 150 105
+    fragment_871 0 155 105
+    fragment_872 0 160 105
+    fragment_873 0 165 105
+    fragment_874 0 170 105
+    fragment_875 0 175 105
+    fragment_876 0 180 105
+    fragment_877 0 185 105
+    fragment_878 0 190 105
+    fragment_879 1 195 105
+    fragment_880 21 0 110
+    fragment_881 0 5 110
+    fragment_882 0 10 110
+    fragment_883 0 15 110
+    fragment_884 0 20 110
+    fragment_885 0 25 110
+    fragment_886 0 30 110
+    fragment_887 0 35 110
+    fragment_888 0 40 110
+    fragment_889 0 45 110
+    fragment_890 0 50 110
+    fragment_891 0 55 110
+    fragment_892 0 60 110
+    fragment_893 0 65 110
+    fragment_894 0 70 110
+    fragment_895 0 75 110
+    fragment_896 0 80 110
+    fragment_897 0 85 110
+    fragment_898 9 90 110
+    fragment_899 14 95 110
+    fragment_900 3 100 110
+    fragment_901 3 105 110
+    fragment_902 3 110 110
+    fragment_903 3 115 110
+    fragment_904 12 120 110
+    fragment_905 10 125 110
+    fragment_906 11 130 110
+    fragment_907 3 135 110
+    fragment_908 16 140 110
+    fragment_909 0 145 110
+    fragment_910 0 150 110
+    fragment_911 0 155 110
+    fragment_912 0 160 110
+    fragment_913 0 165 110
+    fragment_914 0 170 110
+    fragment_915 0 175 110
+    fragment_916 0 180 110
+    fragment_917 0 185 110
+    fragment_918 0 190 110
+    fragment_919 1 195 110
+    fragment_920 21 0 115
+    fragment_921 0 5 115
+    fragment_922 0 10 115
+    fragment_923 0 15 115
+    fragment_924 0 20 115
+    fragment_925 0 25 115
+    fragment_926 0 30 115
+    fragment_927 0 35 115
+    fragment_928 0 40 115
+    fragment_929 0 45 115
+    fragment_930 0 50 115
+    fragment_931 0 55 115
+    fragment_932 0 60 115
+    fragment_933 0 65 115
+    fragment_934 0 70 115
+    fragment_935 0 75 115
+    fragment_936 0 80 115
+    fragment_937 0 85 115
+    fragment_938 0 90 115
+    fragment_939 6 95 115
+    fragment_940 3 100 115
+    fragment_941 3 105 115
+    fragment_942 3 110 115
+    fragment_943 3 115 115
+    fragment_944 3 120 115
+    fragment_945 3 125 115
+    fragment_946 3 130 115
+    fragment_947 3 135 115
+    fragment_948 16 140 115
+    fragment_949 0 145 115
+    fragment_950 0 150 115
+    fragment_951 0 155 115
+    fragment_952 0 160 115
+    fragment_953 0 165 115
+    fragment_954 0 170 115
+    fragment_955 0 175 115
+    fragment_956 0 180 115
+    fragment_957 0 185 115
+    fragment_958 0 190 115
+    fragment_959 1 195 115
+    fragment_960 21 0 120
+    fragment_961 0 5 120
+    fragment_962 0 10 120
+    fragment_963 0 15 120
+    fragment_964 0 20 120
+    fragment_965 0 25 120
+    fragment_966 0 30 120
+    fragment_967 0 35 120
+    fragment_968 0 40 120
+    fragment_969 0 45 120
+    fragment_970 0 50 120
+    fragment_971 0 55 120
+    fragment_972 0 60 120
+    fragment_973 0 65 120
+    fragment_974 8 70 120
+    fragment_975 10 75 120
+    fragment_976 10 80 120
+    fragment_977 10 85 120
+    fragment_978 10 90 120
+    fragment_979 11 95 120
+    fragment_980 3 100 120
+    fragment_981 3 105 120
+    fragment_982 3 110 120
+    fragment_983 3 115 120
+    fragment_984 3 120 120
+    fragment_985 3 125 120
+    fragment_986 3 130 120
+    fragment_987 3 135 120
+    fragment_988 16 140 120
+    fragment_989 0 145 120
+    fragment_990 0 150 120
+    fragment_991 0 155 120
+    fragment_992 0 160 120
+    fragment_993 0 165 120
+    fragment_994 0 170 120
+    fragment_995 0 175 120
+    fragment_996 0 180 120
+    fragment_997 0 185 120
+    fragment_998 0 190 120
+    fragment_999 1 195 120
+    fragment_1000 21 0 125
+    fragment_1001 0 5 125
+    fragment_1002 0 10 125
+    fragment_1003 0 15 125
+    fragment_1004 0 20 125
+    fragment_1005 0 25 125
+    fragment_1006 0 30 125
+    fragment_1007 0 35 125
+    fragment_1008 0 40 125
+    fragment_1009 0 45 125
+    fragment_1010 0 50 125
+    fragment_1011 0 55 125
+    fragment_1012 0 60 125
+    fragment_1013 0 65 125
+    fragment_1014 9 70 125
+    fragment_1015 14 75 125
+    fragment_1016 3 80 125
+    fragment_1017 3 85 125
+    fragment_1018 3 90 125
+    fragment_1019 3 95 125
+    fragment_1020 3 100 125
+    fragment_1021 3 105 125
+    fragment_1022 3 110 125
+    fragment_1023 3 115 125
+    fragment_1024 3 120 125
+    fragment_1025 3 125 125
+    fragment_1026 3 130 125
+    fragment_1027 3 135 125
+    fragment_1028 16 140 125
+    fragment_1029 0 145 125
+    fragment_1030 0 150 125
+    fragment_1031 0 155 125
+    fragment_1032 0 160 125
+    fragment_1033 0 165 125
+    fragment_1034 0 170 125
+    fragment_1035 0 175 125
+    fragment_1036 0 180 125
+    fragment_1037 0 185 125
+    fragment_1038 0 190 125
+    fragment_1039 1 195 125
+    fragment_1040 21 0 130
+    fragment_1041 0 5 130
+    fragment_1042 0 10 130
+    fragment_1043 0 15 130
+    fragment_1044 0 20 130
+    fragment_1045 0 25 130
+    fragment_1046 0 30 130
+    fragment_1047 0 35 130
+    fragment_1048 0 40 130
+    fragment_1049 0 45 130
+    fragment_1050 0 50 130
+    fragment_1051 0 55 130
+    fragment_1052 0 60 130
+    fragment_1053 0 65 130
+    fragment_1054 0 70 130
+    fragment_1055 6 75 130
+    fragment_1056 3 80 130
+    fragment_1057 15 85 130
+    fragment_1058 13 90 130
+    fragment_1059 14 95 130
+    fragment_1060 3 100 130
+    fragment_1061 3 105 130
+    fragment_1062 3 110 130
+    fragment_1063 3 115 130
+    fragment_1064 3 120 130
+    fragment_1065 3 125 130
+    fragment_1066 3 130 130
+    fragment_1067 3 135 130
+    fragment_1068 16 140 130
+    fragment_1069 0 145 130
+    fragment_1070 0 150 130
+    fragment_1071 0 155 130
+    fragment_1072 0 160 130
+    fragment_1073 0 165 130
+    fragment_1074 0 170 130
+    fragment_1075 0 175 130
+    fragment_1076 0 180 130
+    fragment_1077 0 185 130
+    fragment_1078 0 190 130
+    fragment_1079 1 195 130
+    fragment_1080 21 0 135
+    fragment_1081 0 5 135
+    fragment_1082 0 10 135
+    fragment_1083 0 15 135
+    fragment_1084 0 20 135
+    fragment_1085 0 25 135
+    fragment_1086 0 30 135
+    fragment_1087 0 35 135
+    fragment_1088 0 40 135
+    fragment_1089 0 45 135
+    fragment_1090 0 50 135
+    fragment_1091 0 55 135
+    fragment_1092 0 60 135
+    fragment_1093 0 65 135
+    fragment_1094 0 70 135
+    fragment_1095 6 75 135
+    fragment_1096 3 80 135
+    fragment_1097 16 85 135
+    fragment_1098 0 90 135
+    fragment_1099 6 95 135
+    fragment_1100 3 100 135
+    fragment_1101 3 105 135
+    fragment_1102 3 110 135
+    fragment_1103 3 115 135
+    fragment_1104 3 120 135
+    fragment_1105 3 125 135
+    fragment_1106 3 130 135
+    fragment_1107 3 135 135
+    fragment_1108 16 140 135
+    fragment_1109 0 145 135
+    fragment_1110 0 150 135
+    fragment_1111 0 155 135
+    fragment_1112 0 160 135
+    fragment_1113 0 165 135
+    fragment_1114 0 170 135
+    fragment_1115 0 175 135
+    fragment_1116 0 180 135
+    fragment_1117 0 185 135
+    fragment_1118 0 190 135
+    fragment_1119 1 195 135
+    fragment_1120 21 0 140
+    fragment_1121 0 5 140
+    fragment_1122 0 10 140
+    fragment_1123 0 15 140
+    fragment_1124 0 20 140
+    fragment_1125 0 25 140
+    fragment_1126 0 30 140
+    fragment_1127 0 35 140
+    fragment_1128 0 40 140
+    fragment_1129 0 45 140
+    fragment_1130 0 50 140
+    fragment_1131 0 55 140
+    fragment_1132 0 60 140
+    fragment_1133 0 65 140
+    fragment_1134 0 70 140
+    fragment_1135 9 75 140
+    fragment_1136 13 80 140
+    fragment_1137 19 85 140
+    fragment_1138 0 90 140
+    fragment_1139 9 95 140
+    fragment_1140 14 100 140
+    fragment_1141 3 105 140
+    fragment_1142 3 110 140
+    fragment_1143 3 115 140
+    fragment_1144 3 120 140
+    fragment_1145 3 125 140
+    fragment_1146 3 130 140
+    fragment_1147 15 135 140
+    fragment_1148 19 140 140
+    fragment_1149 0 145 140
+    fragment_1150 0 150 140
+    fragment_1151 0 155 140
+    fragment_1152 0 160 140
+    fragment_1153 0 165 140
+    fragment_1154 0 170 140
+    fragment_1155 0 175 140
+    fragment_1156 0 180 140
+    fragment_1157 0 185 140
+    fragment_1158 0 190 140
+    fragment_1159 1 195 140
+    fragment_1160 21 0 145
+    fragment_1161 0 5 145
+    fragment_1162 0 10 145
+    fragment_1163 0 15 145
+    fragment_1164 0 20 145
+    fragment_1165 0 25 145
+    fragment_1166 0 30 145
+    fragment_1167 0 35 145
+    fragment_1168 0 40 145
+    fragment_1169 0 45 145
+    fragment_1170 0 50 145
+    fragment_1171 0 55 145
+    fragment_1172 0 60 145
+    fragment_1173 0 65 145
+    fragment_1174 0 70 145
+    fragment_1175 0 75 145
+    fragment_1176 0 80 145
+    fragment_1177 0 85 145
+    fragment_1178 0 90 145
+    fragment_1179 0 95 145
+    fragment_1180 9 100 145
+    fragment_1181 14 105 145
+    fragment_1182 3 110 145
+    fragment_1183 3 115 145
+    fragment_1184 3 120 145
+    fragment_1185 3 125 145
+    fragment_1186 3 130 145
+    fragment_1187 16 135 145
+    fragment_1188 0 140 145
+    fragment_1189 0 145 145
+    fragment_1190 0 150 145
+    fragment_1191 0 155 145
+    fragment_1192 0 160 145
+    fragment_1193 0 165 145
+    fragment_1194 0 170 145
+    fragment_1195 0 175 145
+    fragment_1196 0 180 145
+    fragment_1197 0 185 145
+    fragment_1198 0 190 145
+    fragment_1199 1 195 145
+    fragment_1200 21 0 150
+    fragment_1201 0 5 150
+    fragment_1202 0 10 150
+    fragment_1203 0 15 150
+    fragment_1204 0 20 150
+    fragment_1205 0 25 150
+    fragment_1206 0 30 150
+    fragment_1207 0 35 150
+    fragment_1208 0 40 150
+    fragment_1209 0 45 150
+    fragment_1210 0 50 150
+    fragment_1211 0 55 150
+    fragment_1212 0 60 150
+    fragment_1213 0 65 150
+    fragment_1214 0 70 150
+    fragment_1215 0 75 150
+    fragment_1216 0 80 150
+    fragment_1217 0 85 150
+    fragment_1218 0 90 150
+    fragment_1219 0 95 150
+    fragment_1220 0 100 150
+    fragment_1221 6 105 150
+    fragment_1222 3 110 150
+    fragment_1223 3 115 150
+    fragment_1224 3 120 150
+    fragment_1225 3 125 150
+    fragment_1226 3 130 150
+    fragment_1227 16 135 150
+    fragment_1228 0 140 150
+    fragment_1229 0 145 150
+    fragment_1230 0 150 150
+    fragment_1231 0 155 150
+    fragment_1232 0 160 150
+    fragment_1233 0 165 150
+    fragment_1234 0 170 150
+    fragment_1235 0 175 150
+    fragment_1236 0 180 150
+    fragment_1237 0 185 150
+    fragment_1238 0 190 150
+    fragment_1239 1 195 150
+    fragment_1240 21 0 155
+    fragment_1241 0 5 155
+    fragment_1242 0 10 155
+    fragment_1243 0 15 155
+    fragment_1244 0 20 155
+    fragment_1245 0 25 155
+    fragment_1246 0 30 155
+    fragment_1247 0 35 155
+    fragment_1248 0 40 155
+    fragment_1249 0 45 155
+    fragment_1250 0 50 155
+    fragment_1251 0 55 155
+    fragment_1252 0 60 155
+    fragment_1253 0 65 155
+    fragment_1254 0 70 155
+    fragment_1255 0 75 155
+    fragment_1256 0 80 155
+    fragment_1257 0 85 155
+    fragment_1258 0 90 155
+    fragment_1259 0 95 155
+    fragment_1260 0 100 155
+    fragment_1261 6 105 155
+    fragment_1262 3 110 155
+    fragment_1263 3 115 155
+    fragment_1264 3 120 155
+    fragment_1265 3 125 155
+    fragment_1266 15 130 155
+    fragment_1267 19 135 155
+    fragment_1268 0 140 155
+    fragment_1269 0 145 155
+    fragment_1270 0 150 155
+    fragment_1271 0 155 155
+    fragment_1272 0 160 155
+    fragment_1273 0 165 155
+    fragment_1274 0 170 155
+    fragment_1275 0 175 155
+    fragment_1276 0 180 155
+    fragment_1277 0 185 155
+    fragment_1278 0 190 155
+    fragment_1279 1 195 155
+    fragment_1280 21 0 160
+    fragment_1281 0 5 160
+    fragment_1282 0 10 160
+    fragment_1283 0 15 160
+    fragment_1284 0 20 160
+    fragment_1285 0 25 160
+    fragment_1286 0 30 160
+    fragment_1287 0 35 160
+    fragment_1288 0 40 160
+    fragment_1289 0 45 160
+    fragment_1290 0 50 160
+    fragment_1291 0 55 160
+    fragment_1292 0 60 160
+    fragment_1293 0 65 160
+    fragment_1294 0 70 160
+    fragment_1295 0 75 160
+    fragment_1296 0 80 160
+    fragment_1297 0 85 160
+    fragment_1298 0 90 160
+    fragment_1299 0 95 160
+    fragment_1300 0 100 160
+    fragment_1301 9 105 160
+    fragment_1302 14 110 160
+    fragment_1303 3 115 160
+    fragment_1304 3 120 160
+    fragment_1305 3 125 160
+    fragment_1306 16 130 160
+    fragment_1307 0 135 160
+    fragment_1308 0 140 160
+    fragment_1309 0 145 160
+    fragment_1310 0 150 160
+    fragment_1311 0 155 160
+    fragment_1312 0 160 160
+    fragment_1313 0 165 160
+    fragment_1314 0 170 160
+    fragment_1315 0 175 160
+    fragment_1316 0 180 160
+    fragment_1317 0 185 160
+    fragment_1318 0 190 160
+    fragment_1319 1 195 160
+    fragment_1320 21 0 165
+    fragment_1321 0 5 165
+    fragment_1322 0 10 165
+    fragment_1323 0 15 165
+    fragment_1324 0 20 165
+    fragment_1325 0 25 165
+    fragment_1326 0 30 165
+    fragment_1327 0 35 165
+    fragment_1328 0 40 165
+    fragment_1329 0 45 165
+    fragment_1330 0 50 165
+    fragment_1331 0 55 165
+    fragment_1332 0 60 165
+    fragment_1333 0 65 165
+    fragment_1334 0 70 165
+    fragment_1335 0 75 165
+    fragment_1336 0 80 165
+    fragment_1337 0 85 165
+    fragment_1338 0 90 165
+    fragment_1339 0 95 165
+    fragment_1340 0 100 165
+    fragment_1341 0 105 165
+    fragment_1342 9 110 165
+    fragment_1343 13 115 165
+    fragment_1344 13 120 165
+    fragment_1345 13 125 165
+    fragment_1346 19 130 165
+    fragment_1347 0 135 165
+    fragment_1348 0 140 165
+    fragment_1349 0 145 165
+    fragment_1350 0 150 165
+    fragment_1351 0 155 165
+    fragment_1352 0 160 165
+    fragment_1353 0 165 165
+    fragment_1354 0 170 165
+    fragment_1355 0 175 165
+    fragment_1356 0 180 165
+    fragment_1357 0 185 165
+    fragment_1358 0 190 165
+    fragment_1359 1 195 165
+    fragment_1360 21 0 170
+    fragment_1361 0 5 170
+    fragment_1362 0 10 170
+    fragment_1363 0 15 170
+    fragment_1364 0 20 170
+    fragment_1365 0 25 170
+    fragment_1366 0 30 170
+    fragment_1367 0 35 170
+    fragment_1368 0 40 170
+    fragment_1369 0 45 170
+    fragment_1370 0 50 170
+    fragment_1371 0 55 170
+    fragment_1372 0 60 170
+    fragment_1373 0 65 170
+    fragment_1374 8 70 170
+    fragment_1375 10 75 170
+    fragment_1376 10 80 170
+    fragment_1377 18 85 170
+    fragment_1378 0 90 170
+    fragment_1379 0 95 170
+    fragment_1380 0 100 170
+    fragment_1381 0 105 170
+    fragment_1382 0 110 170
+    fragment_1383 0 115 170
+    fragment_1384 0 120 170
+    fragment_1385 0 125 170
+    fragment_1386 0 130 170
+    fragment_1387 0 135 170
+    fragment_1388 0 140 170
+    fragment_1389 0 145 170
+    fragment_1390 0 150 170
+    fragment_1391 0 155 170
+    fragment_1392 0 160 170
+    fragment_1393 0 165 170
+    fragment_1394 0 170 170
+    fragment_1395 0 175 170
+    fragment_1396 0 180 170
+    fragment_1397 0 185 170
+    fragment_1398 0 190 170
+    fragment_1399 1 195 170
+    fragment_1400 21 0 175
+    fragment_1401 0 5 175
+    fragment_1402 0 10 175
+    fragment_1403 0 15 175
+    fragment_1404 0 20 175
+    fragment_1405 0 25 175
+    fragment_1406 0 30 175
+    fragment_1407 0 35 175
+    fragment_1408 0 40 175
+    fragment_1409 0 45 175
+    fragment_1410 0 50 175
+    fragment_1411 0 55 175
+    fragment_1412 0 60 175
+    fragment_1413 0 65 175
+    fragment_1414 6 70 175
+    fragment_1415 3 75 175
+    fragment_1416 3 80 175
+    fragment_1417 12 85 175
+    fragment_1418 10 90 175
+    fragment_1419 10 95 175
+    fragment_1420 10 100 175
+    fragment_1421 10 105 175
+    fragment_1422 10 110 175
+    fragment_1423 18 115 175
+    fragment_1424 0 120 175
+    fragment_1425 0 125 175
+    fragment_1426 0 130 175
+    fragment_1427 0 135 175
+    fragment_1428 0 140 175
+    fragment_1429 0 145 175
+    fragment_1430 0 150 175
+    fragment_1431 0 155 175
+    fragment_1432 0 160 175
+    fragment_1433 0 165 175
+    fragment_1434 0 170 175
+    fragment_1435 0 175 175
+    fragment_1436 0 180 175
+    fragment_1437 0 185 175
+    fragment_1438 0 190 175
+    fragment_1439 1 195 175
+    fragment_1440 21 0 180
+    fragment_1441 0 5 180
+    fragment_1442 0 10 180
+    fragment_1443 0 15 180
+    fragment_1444 0 20 180
+    fragment_1445 0 25 180
+    fragment_1446 0 30 180
+    fragment_1447 0 35 180
+    fragment_1448 0 40 180
+    fragment_1449 0 45 180
+    fragment_1450 0 50 180
+    fragment_1451 0 55 180
+    fragment_1452 0 60 180
+    fragment_1453 8 65 180
+    fragment_1454 11 70 180
+    fragment_1455 3 75 180
+    fragment_1456 3 80 180
+    fragment_1457 3 85 180
+    fragment_1458 3 90 180
+    fragment_1459 3 95 180
+    fragment_1460 3 100 180
+    fragment_1461 3 105 180
+    fragment_1462 3 110 180
+    fragment_1463 12 115 180
+    fragment_1464 10 120 180
+    fragment_1465 10 125 180
+    fragment_1466 10 130 180
+    fragment_1467 18 135 180
+    fragment_1468 0 140 180
+    fragment_1469 0 145 180
+    fragment_1470 0 150 180
+    fragment_1471 0 155 180
+    fragment_1472 0 160 180
+    fragment_1473 0 165 180
+    fragment_1474 0 170 180
+    fragment_1475 0 175 180
+    fragment_1476 0 180 180
+    fragment_1477 0 185 180
+    fragment_1478 0 190 180
+    fragment_1479 1 195 180
+    fragment_1480 21 0 185
+    fragment_1481 0 5 185
+    fragment_1482 0 10 185
+    fragment_1483 0 15 185
+    fragment_1484 0 20 185
+    fragment_1485 0 25 185
+    fragment_1486 0 30 185
+    fragment_1487 0 35 185
+    fragment_1488 0 40 185
+    fragment_1489 0 45 185
+    fragment_1490 8 50 185
+    fragment_1491 10 55 185
+    fragment_1492 10 60 185
+    fragment_1493 11 65 185
+    fragment_1494 3 70 185
+    fragment_1495 3 75 185
+    fragment_1496 3 80 185
+    fragment_1497 3 85 185
+    fragment_1498 3 90 185
+    fragment_1499 3 95 185
+    fragment_1500 3 100 185
+    fragment_1501 3 105 185
+    fragment_1502 3 110 185
+    fragment_1503 3 115 185
+    fragment_1504 3 120 185
+    fragment_1505 3 125 185
+    fragment_1506 3 130 185
+    fragment_1507 16 135 185
+    fragment_1508 0 140 185
+    fragment_1509 0 145 185
+    fragment_1510 0 150 185
+    fragment_1511 0 155 185
+    fragment_1512 0 160 185
+    fragment_1513 0 165 185
+    fragment_1514 0 170 185
+    fragment_1515 0 175 185
+    fragment_1516 0 180 185
+    fragment_1517 0 185 185
+    fragment_1518 0 190 185
+    fragment_1519 1 195 185
+    fragment_1520 21 0 190
+    fragment_1521 0 5 190
+    fragment_1522 0 10 190
+    fragment_1523 0 15 190
+    fragment_1524 0 20 190
+    fragment_1525 0 25 190
+    fragment_1526 0 30 190
+    fragment_1527 0 35 190
+    fragment_1528 0 40 190
+    fragment_1529 8 45 190
+    fragment_1530 11 50 190
+    fragment_1531 3 55 190
+    fragment_1532 3 60 190
+    fragment_1533 3 65 190
+    fragment_1534 3 70 190
+    fragment_1535 3 75 190
+    fragment_1536 3 80 190
+    fragment_1537 3 85 190
+    fragment_1538 3 90 190
+    fragment_1539 3 95 190
+    fragment_1540 3 100 190
+    fragment_1541 3 105 190
+    fragment_1542 3 110 190
+    fragment_1543 3 115 190
+    fragment_1544 3 120 190
+    fragment_1545 3 125 190
+    fragment_1546 3 130 190
+    fragment_1547 16 135 190
+    fragment_1548 0 140 190
+    fragment_1549 0 145 190
+    fragment_1550 0 150 190
+    fragment_1551 0 155 190
+    fragment_1552 0 160 190
+    fragment_1553 0 165 190
+    fragment_1554 0 170 190
+    fragment_1555 0 175 190
+    fragment_1556 0 180 190
+    fragment_1557 0 185 190
+    fragment_1558 0 190 190
+    fragment_1559 1 195 190
+    fragment_1560 27 0 195
+    fragment_1561 2 5 195
+    fragment_1562 2 10 195
+    fragment_1563 2 15 195
+    fragment_1564 2 20 195
+    fragment_1565 2 25 195
+    fragment_1566 2 30 195
+    fragment_1567 2 35 195
+    fragment_1568 2 40 195
+    fragment_1569 7 45 195
+    fragment_1570 5 50 195
+    fragment_1571 5 55 195
+    fragment_1572 5 60 195
+    fragment_1573 5 65 195
+    fragment_1574 5 70 195
+    fragment_1575 5 75 195
+    fragment_1576 5 80 195
+    fragment_1577 5 85 195
+    fragment_1578 5 90 195
+    fragment_1579 5 95 195
+    fragment_1580 5 100 195
+    fragment_1581 5 105 195
+    fragment_1582 5 110 195
+    fragment_1583 5 115 195
+    fragment_1584 5 120 195
+    fragment_1585 5 125 195
+    fragment_1586 5 130 195
+    fragment_1587 17 135 195
+    fragment_1588 2 140 195
+    fragment_1589 2 145 195
+    fragment_1590 2 150 195
+    fragment_1591 2 155 195
+    fragment_1592 2 160 195
+    fragment_1593 2 165 195
+    fragment_1594 2 170 195
+    fragment_1595 2 175 195
+    fragment_1596 2 180 195
+    fragment_1597 2 185 195
+    fragment_1598 2 190 195
+    fragment_1599 26 195 195
+  </Fragments>
+  
+  <Layers>
+    count 0
+  </Layers>
+  
+  <Objects>
+    count 0
+  </Objects>
+</Segment 0>
+
+
+<Segment 1>
+  <Fragments>
+    count 1600
+    fragment_0 14 0 0
+    fragment_1 12 5 0
+    fragment_2 12 10 0
+    fragment_3 17 15 0
+    fragment_4 13 20 0
+    fragment_5 13 25 0
+    fragment_6 71 30 0
+    fragment_7 12 35 0
+    fragment_8 12 40 0
+    fragment_9 12 45 0
+    fragment_10 12 50 0
+    fragment_11 17 55 0
+    fragment_12 13 60 0
+    fragment_13 13 65 0
+    fragment_14 13 70 0
+    fragment_15 13 75 0
+    fragment_16 13 80 0
+    fragment_17 13 85 0
+    fragment_18 13 90 0
+    fragment_19 13 95 0
+    fragment_20 71 100 0
+    fragment_21 12 105 0
+    fragment_22 12 110 0
+    fragment_23 12 115 0
+    fragment_24 12 120 0
+    fragment_25 12 125 0
+    fragment_26 12 130 0
+    fragment_27 17 135 0
+    fragment_28 13 140 0
+    fragment_29 13 145 0
+    fragment_30 13 150 0
+    fragment_31 13 155 0
+    fragment_32 13 160 0
+    fragment_33 13 165 0
+    fragment_34 13 170 0
+    fragment_35 13 175 0
+    fragment_36 13 180 0
+    fragment_37 13 185 0
+    fragment_38 13 190 0
+    fragment_39 16 195 0
+    fragment_40 9 0 5
+    fragment_41 0 5 5
+    fragment_42 0 10 5
+    fragment_43 6 15 5
+    fragment_44 7 20 5
+    fragment_45 22 25 5
+    fragment_46 5 30 5
+    fragment_47 0 35 5
+    fragment_48 0 40 5
+    fragment_49 0 45 5
+    fragment_50 2 50 5
+    fragment_51 21 55 5
+    fragment_52 0 60 5
+    fragment_53 0 65 5
+    fragment_54 0 70 5
+    fragment_55 0 75 5
+    fragment_56 0 80 5
+    fragment_57 0 85 5
+    fragment_58 0 90 5
+    fragment_59 0 95 5
+    fragment_60 72 100 5
+    fragment_61 4 105 5
+    fragment_62 0 110 5
+    fragment_63 0 115 5
+    fragment_64 0 120 5
+    fragment_65 0 125 5
+    fragment_66 0 130 5
+    fragment_67 6 135 5
+    fragment_68 22 140 5
+    fragment_69 0 145 5
+    fragment_70 0 150 5
+    fragment_71 0 155 5
+    fragment_72 0 160 5
+    fragment_73 0 165 5
+    fragment_74 0 170 5
+    fragment_75 0 175 5
+    fragment_76 0 180 5
+    fragment_77 0 185 5
+    fragment_78 0 190 5
+    fragment_79 0 195 5
+    fragment_80 9 0 10
+    fragment_81 0 5 10
+    fragment_82 0 10 10
+    fragment_83 0 15 10
+    fragment_84 0 20 10
+    fragment_85 6 25 10
+    fragment_86 8 30 10
+    fragment_87 0 35 10
+    fragment_88 0 40 10
+    fragment_89 0 45 10
+    fragment_90 25 50 10
+    fragment_91 0 55 10
+    fragment_92 0 60 10
+    fragment_93 0 65 10
+    fragment_94 0 70 10
+    fragment_95 0 75 10
+    fragment_96 0 80 10
+    fragment_97 0 85 10
+    fragment_98 0 90 10
+    fragment_99 0 95 10
+    fragment_100 0 100 10
+    fragment_101 76 105 10
+    fragment_102 0 110 10
+    fragment_103 0 115 10
+    fragment_104 0 120 10
+    fragment_105 0 125 10
+    fragment_106 0 130 10
+    fragment_107 0 135 10
+    fragment_108 25 140 10
+    fragment_109 0 145 10
+    fragment_110 0 150 10
+    fragment_111 0 155 10
+    fragment_112 0 160 10
+    fragment_113 0 165 10
+    fragment_114 0 170 10
+    fragment_115 0 175 10
+    fragment_116 0 180 10
+    fragment_117 0 185 10
+    fragment_118 0 190 10
+    fragment_119 0 195 10
+    fragment_120 9 0 15
+    fragment_121 0 5 15
+    fragment_122 0 10 15
+    fragment_123 0 15 15
+    fragment_124 0 20 15
+    fragment_125 0 25 15
+    fragment_126 0 30 15
+    fragment_127 0 35 15
+    fragment_128 0 40 15
+    fragment_129 0 45 15
+    fragment_130 26 50 15
+    fragment_131 0 55 15
+    fragment_132 0 60 15
+    fragment_133 0 65 15
+    fragment_134 0 70 15
+    fragment_135 0 75 15
+    fragment_136 0 80 15
+    fragment_137 0 85 15
+    fragment_138 0 90 15
+    fragment_139 0 95 15
+    fragment_140 0 100 15
+    fragment_141 77 105 15
+    fragment_142 0 110 15
+    fragment_143 0 115 15
+    fragment_144 0 120 15
+    fragment_145 0 125 15
+    fragment_146 0 130 15
+    fragment_147 0 135 15
+    fragment_148 26 140 15
+    fragment_149 0 145 15
+    fragment_150 0 150 15
+    fragment_151 0 155 15
+    fragment_152 0 160 15
+    fragment_153 0 165 15
+    fragment_154 0 170 15
+    fragment_155 0 175 15
+    fragment_156 0 180 15
+    fragment_157 0 185 15
+    fragment_158 0 190 15
+    fragment_159 0 195 15
+    fragment_160 9 0 20
+    fragment_161 0 5 20
+    fragment_162 0 10 20
+    fragment_163 0 15 20
+    fragment_164 0 20 20
+    fragment_165 0 25 20
+    fragment_166 0 30 20
+    fragment_167 0 35 20
+    fragment_168 0 40 20
+    fragment_169 0 45 20
+    fragment_170 6 50 20
+    fragment_171 7 55 20
+    fragment_172 7 60 20
+    fragment_173 22 65 20
+    fragment_174 0 70 20
+    fragment_175 73 75 20
+    fragment_176 7 80 20
+    fragment_177 22 85 20
+    fragment_178 0 90 20
+    fragment_179 0 95 20
+    fragment_180 73 100 20
+    fragment_181 8 105 20
+    fragment_182 0 110 20
+    fragment_183 0 115 20
+    fragment_184 0 120 20
+    fragment_185 0 125 20
+    fragment_186 0 130 20
+    fragment_187 0 135 20
+    fragment_188 6 140 20
+    fragment_189 7 145 20
+    fragment_190 7 150 20
+    fragment_191 22 155 20
+    fragment_192 0 160 20
+    fragment_193 0 165 20
+    fragment_194 0 170 20
+    fragment_195 0 175 20
+    fragment_196 0 180 20
+    fragment_197 0 185 20
+    fragment_198 0 190 20
+    fragment_199 0 195 20
+    fragment_200 9 0 25
+    fragment_201 0 5 25
+    fragment_202 0 10 25
+    fragment_203 0 15 25
+    fragment_204 0 20 25
+    fragment_205 0 25 25
+    fragment_206 0 30 25
+    fragment_207 0 35 25
+    fragment_208 0 40 25
+    fragment_209 0 45 25
+    fragment_210 0 50 25
+    fragment_211 0 55 25
+    fragment_212 0 60 25
+    fragment_213 6 65 25
+    fragment_214 7 70 25
+    fragment_215 8 75 25
+    fragment_216 0 80 25
+    fragment_217 6 85 25
+    fragment_218 7 90 25
+    fragment_219 7 95 25
+    fragment_220 8 100 25
+    fragment_221 0 105 25
+    fragment_222 0 110 25
+    fragment_223 0 115 25
+    fragment_224 0 120 25
+    fragment_225 0 125 25
+    fragment_226 0 130 25
+    fragment_227 0 135 25
+    fragment_228 0 140 25
+    fragment_229 0 145 25
+    fragment_230 0 150 25
+    fragment_231 3 155 25
+    fragment_232 0 160 25
+    fragment_233 0 165 25
+    fragment_234 0 170 25
+    fragment_235 0 175 25
+    fragment_236 0 180 25
+    fragment_237 0 185 25
+    fragment_238 0 190 25
+    fragment_239 0 195 25
+    fragment_240 9 0 30
+    fragment_241 0 5 30
+    fragment_242 0 10 30
+    fragment_243 0 15 30
+    fragment_244 0 20 30
+    fragment_245 0 25 30
+    fragment_246 0 30 30
+    fragment_247 0 35 30
+    fragment_248 0 40 30
+    fragment_249 0 45 30
+    fragment_250 0 50 30
+    fragment_251 0 55 30
+    fragment_252 0 60 30
+    fragment_253 0 65 30
+    fragment_254 0 70 30
+    fragment_255 0 75 30
+    fragment_256 0 80 30
+    fragment_257 0 85 30
+    fragment_258 0 90 30
+    fragment_259 0 95 30
+    fragment_260 0 100 30
+    fragment_261 0 105 30
+    fragment_262 0 110 30
+    fragment_263 0 115 30
+    fragment_264 0 120 30
+    fragment_265 0 125 30
+    fragment_266 0 130 30
+    fragment_267 0 135 30
+    fragment_268 0 140 30
+    fragment_269 0 145 30
+    fragment_270 0 150 30
+    fragment_271 6 155 30
+    fragment_272 22 160 30
+    fragment_273 0 165 30
+    fragment_274 0 170 30
+    fragment_275 0 175 30
+    fragment_276 0 180 30
+    fragment_277 0 185 30
+    fragment_278 0 190 30
+    fragment_279 0 195 30
+    fragment_280 11 0 35
+    fragment_281 1 5 35
+    fragment_282 4 10 35
+    fragment_283 0 15 35
+    fragment_284 0 20 35
+    fragment_285 0 25 35
+    fragment_286 0 30 35
+    fragment_287 0 35 35
+    fragment_288 0 40 35
+    fragment_289 0 45 35
+    fragment_290 0 50 35
+    fragment_291 0 55 35
+    fragment_292 0 60 35
+    fragment_293 0 65 35
+    fragment_294 0 70 35
+    fragment_295 0 75 35
+    fragment_296 35 80 35
+    fragment_297 30 85 35
+    fragment_298 30 90 35
+    fragment_299 30 95 35
+    fragment_300 34 100 35
+    fragment_301 0 105 35
+    fragment_302 0 110 35
+    fragment_303 0 115 35
+    fragment_304 0 120 35
+    fragment_305 0 125 35
+    fragment_306 0 130 35
+    fragment_307 0 135 35
+    fragment_308 0 140 35
+    fragment_309 0 145 35
+    fragment_310 0 150 35
+    fragment_311 0 155 35
+    fragment_312 3 160 35
+    fragment_313 0 165 35
+    fragment_314 0 170 35
+    fragment_315 0 175 35
+    fragment_316 0 180 35
+    fragment_317 0 185 35
+    fragment_318 0 190 35
+    fragment_319 0 195 35
+    fragment_320 10 0 40
+    fragment_321 0 5 40
+    fragment_322 72 10 40
+    fragment_323 24 15 40
+    fragment_324 23 20 40
+    fragment_325 1 25 40
+    fragment_326 4 30 40
+    fragment_327 0 35 40
+    fragment_328 0 40 40
+    fragment_329 0 45 40
+    fragment_330 0 50 40
+    fragment_331 0 55 40
+    fragment_332 0 60 40
+    fragment_333 0 65 40
+    fragment_334 0 70 40
+    fragment_335 0 75 40
+    fragment_336 32 80 40
+    fragment_337 29 85 40
+    fragment_338 29 90 40
+    fragment_339 29 95 40
+    fragment_340 31 100 40
+    fragment_341 0 105 40
+    fragment_342 0 110 40
+    fragment_343 0 115 40
+    fragment_344 0 120 40
+    fragment_345 0 125 40
+    fragment_346 0 130 40
+    fragment_347 0 135 40
+    fragment_348 0 140 40
+    fragment_349 0 145 40
+    fragment_350 0 150 40
+    fragment_351 2 155 40
+    fragment_352 21 160 40
+    fragment_353 0 165 40
+    fragment_354 0 170 40
+    fragment_355 0 175 40
+    fragment_356 0 180 40
+    fragment_357 0 185 40
+    fragment_358 0 190 40
+    fragment_359 0 195 40
+    fragment_360 10 0 45
+    fragment_361 0 5 45
+    fragment_362 0 10 45
+    fragment_363 0 15 45
+    fragment_364 0 20 45
+    fragment_365 0 25 45
+    fragment_366 72 30 45
+    fragment_367 1 35 45
+    fragment_368 4 40 45
+    fragment_369 0 45 45
+    fragment_370 0 50 45
+    fragment_371 0 55 45
+    fragment_372 0 60 45
+    fragment_373 0 65 45
+    fragment_374 0 70 45
+    fragment_375 35 75 45
+    fragment_376 37 80 45
+    fragment_377 29 85 45
+    fragment_378 29 90 45
+    fragment_379 29 95 45
+    fragment_380 38 100 45
+    fragment_381 30 105 45
+    fragment_382 30 110 45
+    fragment_383 30 115 45
+    fragment_384 30 120 45
+    fragment_385 34 125 45
+    fragment_386 0 130 45
+    fragment_387 0 135 45
+    fragment_388 0 140 45
+    fragment_389 0 145 45
+    fragment_390 0 150 45
+    fragment_391 3 155 45
+    fragment_392 0 160 45
+    fragment_393 73 165 45
+    fragment_394 78 170 45
+    fragment_395 79 175 45
+    fragment_396 22 180 45
+    fragment_397 0 185 45
+    fragment_398 0 190 45
+    fragment_399 0 195 45
+    fragment_400 42 0 50
+    fragment_401 54 5 50
+    fragment_402 45 10 50
+    fragment_403 52 15 50
+    fragment_404 0 20 50
+    fragment_405 0 25 50
+    fragment_406 0 30 50
+    fragment_407 0 35 50
+    fragment_408 76 40 50
+    fragment_409 0 45 50
+    fragment_410 0 50 50
+    fragment_411 0 55 50
+    fragment_412 0 60 50
+    fragment_413 0 65 50
+    fragment_414 35 70 50
+    fragment_415 37 75 50
+    fragment_416 29 80 50
+    fragment_417 29 85 50
+    fragment_418 29 90 50
+    fragment_419 29 95 50
+    fragment_420 29 100 50
+    fragment_421 29 105 50
+    fragment_422 29 110 50
+    fragment_423 29 115 50
+    fragment_424 29 120 50
+    fragment_425 31 125 50
+    fragment_426 0 130 50
+    fragment_427 0 135 50
+    fragment_428 0 140 50
+    fragment_429 0 145 50
+    fragment_430 0 150 50
+    fragment_431 6 155 50
+    fragment_432 7 160 50
+    fragment_433 8 165 50
+    fragment_434 0 170 50
+    fragment_435 0 175 50
+    fragment_436 3 180 50
+    fragment_437 0 185 50
+    fragment_438 0 190 50
+    fragment_439 0 195 50
+    fragment_440 9 0 55
+    fragment_441 32 5 55
+    fragment_442 29 10 55
+    fragment_443 51 15 55
+    fragment_444 0 20 55
+    fragment_445 0 25 55
+    fragment_446 0 30 55
+    fragment_447 0 35 55
+    fragment_448 77 40 55
+    fragment_449 0 45 55
+    fragment_450 0 50 55
+    fragment_451 35 55 55
+    fragment_452 30 60 55
+    fragment_453 30 65 55
+    fragment_454 37 70 55
+    fragment_455 29 75 55
+    fragment_456 29 80 55
+    fragment_457 29 85 55
+    fragment_458 29 90 55
+    fragment_459 29 95 55
+    fragment_460 29 100 55
+    fragment_461 29 105 55
+    fragment_462 29 110 55
+    fragment_463 29 115 55
+    fragment_464 29 120 55
+    fragment_465 31 125 55
+    fragment_466 0 130 55
+    fragment_467 0 135 55
+    fragment_468 0 140 55
+    fragment_469 0 145 55
+    fragment_470 0 150 55
+    fragment_471 0 155 55
+    fragment_472 0 160 55
+    fragment_473 0 165 55
+    fragment_474 0 170 55
+    fragment_475 0 175 55
+    fragment_476 6 180 55
+    fragment_477 7 185 55
+    fragment_478 22 190 55
+    fragment_479 0 195 55
+    fragment_480 69 0 60
+    fragment_481 37 5 60
+    fragment_482 29 10 60
+    fragment_483 47 15 60
+    fragment_484 45 20 60
+    fragment_485 45 25 60
+    fragment_486 52 30 60
+    fragment_487 0 35 60
+    fragment_488 58 40 60
+    fragment_489 34 45 60
+    fragment_490 0 50 60
+    fragment_491 32 55 60
+    fragment_492 29 60 60
+    fragment_493 29 65 60
+    fragment_494 29 70 60
+    fragment_495 29 75 60
+    fragment_496 29 80 60
+    fragment_497 29 85 60
+    fragment_498 29 90 60
+    fragment_499 29 95 60
+    fragment_500 29 100 60
+    fragment_501 29 105 60
+    fragment_502 40 110 60
+    fragment_503 33 115 60
+    fragment_504 33 120 60
+    fragment_505 41 125 60
+    fragment_506 0 130 60
+    fragment_507 0 135 60
+    fragment_508 0 140 60
+    fragment_509 0 145 60
+    fragment_510 0 150 60
+    fragment_511 0 155 60
+    fragment_512 0 160 60
+    fragment_513 0 165 60
+    fragment_514 0 170 60
+    fragment_515 0 175 60
+    fragment_516 0 180 60
+    fragment_517 0 185 60
+    fragment_518 6 190 60
+    fragment_519 20 195 60
+    fragment_520 66 0 65
+    fragment_521 29 5 65
+    fragment_522 29 10 65
+    fragment_523 29 15 65
+    fragment_524 29 20 65
+    fragment_525 29 25 65
+    fragment_526 47 30 65
+    fragment_527 45 35 65
+    fragment_528 46 40 65
+    fragment_529 31 45 65
+    fragment_530 0 50 65
+    fragment_531 36 55 65
+    fragment_532 39 60 65
+    fragment_533 29 65 65
+    fragment_534 29 70 65
+    fragment_535 29 75 65
+    fragment_536 29 80 65
+    fragment_537 29 85 65
+    fragment_538 29 90 65
+    fragment_539 29 95 65
+    fragment_540 29 100 65
+    fragment_541 40 105 65
+    fragment_542 41 110 65
+    fragment_543 0 115 65
+    fragment_544 0 120 65
+    fragment_545 0 125 65
+    fragment_546 0 130 65
+    fragment_547 2 135 65
+    fragment_548 24 140 65
+    fragment_549 23 145 65
+    fragment_550 1 150 65
+    fragment_551 4 155 65
+    fragment_552 0 160 65
+    fragment_553 0 165 65
+    fragment_554 0 170 65
+    fragment_555 0 175 65
+    fragment_556 0 180 65
+    fragment_557 0 185 65
+    fragment_558 0 190 65
+    fragment_559 19 195 65
+    fragment_560 66 0 70
+    fragment_561 29 5 70
+    fragment_562 29 10 70
+    fragment_563 29 15 70
+    fragment_564 29 20 70
+    fragment_565 29 25 70
+    fragment_566 29 30 70
+    fragment_567 29 35 70
+    fragment_568 29 40 70
+    fragment_569 31 45 70
+    fragment_570 0 50 70
+    fragment_571 0 55 70
+    fragment_572 32 60 70
+    fragment_573 29 65 70
+    fragment_574 29 70 70
+    fragment_575 29 75 70
+    fragment_576 29 80 70
+    fragment_577 29 85 70
+    fragment_578 29 90 70
+    fragment_579 29 95 70
+    fragment_580 29 100 70
+    fragment_581 31 105 70
+    fragment_582 0 110 70
+    fragment_583 0 115 70
+    fragment_584 0 120 70
+    fragment_585 0 125 70
+    fragment_586 0 130 70
+    fragment_587 3 135 70
+    fragment_588 0 140 70
+    fragment_589 0 145 70
+    fragment_590 0 150 70
+    fragment_591 72 155 70
+    fragment_592 1 160 70
+    fragment_593 1 165 70
+    fragment_594 4 170 70
+    fragment_595 0 175 70
+    fragment_596 0 180 70
+    fragment_597 0 185 70
+    fragment_598 2 190 70
+    fragment_599 18 195 70
+    fragment_600 66 0 75
+    fragment_601 29 5 75
+    fragment_602 29 10 75
+    fragment_603 29 15 75
+    fragment_604 29 20 75
+    fragment_605 29 25 75
+    fragment_606 29 30 75
+    fragment_607 29 35 75
+    fragment_608 29 40 75
+    fragment_609 38 45 75
+    fragment_610 34 50 75
+    fragment_611 0 55 75
+    fragment_612 36 60 75
+    fragment_613 39 65 75
+    fragment_614 29 70 75
+    fragment_615 29 75 75
+    fragment_616 29 80 75
+    fragment_617 29 85 75
+    fragment_618 29 90 75
+    fragment_619 29 95 75
+    fragment_620 29 100 75
+    fragment_621 31 105 75
+    fragment_622 0 110 75
+    fragment_623 0 115 75
+    fragment_624 0 120 75
+    fragment_625 2 125 75
+    fragment_626 1 130 75
+    fragment_627 21 135 75
+    fragment_628 0 140 75
+    fragment_629 0 145 75
+    fragment_630 0 150 75
+    fragment_631 0 155 75
+    fragment_632 0 160 75
+    fragment_633 0 165 75
+    fragment_634 72 170 75
+    fragment_635 24 175 75
+    fragment_636 23 180 75
+    fragment_637 1 185 75
+    fragment_638 21 190 75
+    fragment_639 0 195 75
+    fragment_640 66 0 80
+    fragment_641 29 5 80
+    fragment_642 29 10 80
+    fragment_643 29 15 80
+    fragment_644 29 20 80
+    fragment_645 29 25 80
+    fragment_646 29 30 80
+    fragment_647 29 35 80
+    fragment_648 29 40 80
+    fragment_649 40 45 80
+    fragment_650 41 50 80
+    fragment_651 0 55 80
+    fragment_652 0 60 80
+    fragment_653 32 65 80
+    fragment_654 29 70 80
+    fragment_655 29 75 80
+    fragment_656 29 80 80
+    fragment_657 29 85 80
+    fragment_658 29 90 80
+    fragment_659 29 95 80
+    fragment_660 29 100 80
+    fragment_661 31 105 80
+    fragment_662 0 110 80
+    fragment_663 0 115 80
+    fragment_664 0 120 80
+    fragment_665 3 125 80
+    fragment_666 0 130 80
+    fragment_667 0 135 80
+    fragment_668 0 140 80
+    fragment_669 0 145 80
+    fragment_670 0 150 80
+    fragment_671 0 155 80
+    fragment_672 0 160 80
+    fragment_673 0 165 80
+    fragment_674 0 170 80
+    fragment_675 0 175 80
+    fragment_676 0 180 80
+    fragment_677 0 185 80
+    fragment_678 0 190 80
+    fragment_679 0 195 80
+    fragment_680 66 0 85
+    fragment_681 29 5 85
+    fragment_682 29 10 85
+    fragment_683 29 15 85
+    fragment_684 29 20 85
+    fragment_685 29 25 85
+    fragment_686 29 30 85
+    fragment_687 29 35 85
+    fragment_688 40 40 85
+    fragment_689 41 45 85
+    fragment_690 0 50 85
+    fragment_691 0 55 85
+    fragment_692 0 60 85
+    fragment_693 32 65 85
+    fragment_694 29 70 85
+    fragment_695 29 75 85
+    fragment_696 29 80 85
+    fragment_697 29 85 85
+    fragment_698 29 90 85
+    fragment_699 29 95 85
+    fragment_700 29 100 85
+    fragment_701 38 105 85
+    fragment_702 34 110 85
+    fragment_703 0 115 85
+    fragment_704 2 120 85
+    fragment_705 21 125 85
+    fragment_706 0 130 85
+    fragment_707 0 135 85
+    fragment_708 0 140 85
+    fragment_709 0 145 85
+    fragment_710 0 150 85
+    fragment_711 0 155 85
+    fragment_712 0 160 85
+    fragment_713 73 165 85
+    fragment_714 7 170 85
+    fragment_715 7 175 85
+    fragment_716 7 180 85
+    fragment_717 7 185 85
+    fragment_718 22 190 85
+    fragment_719 0 195 85
+    fragment_720 66 0 90
+    fragment_721 29 5 90
+    fragment_722 29 10 90
+    fragment_723 29 15 90
+    fragment_724 29 20 90
+    fragment_725 40 25 90
+    fragment_726 33 30 90
+    fragment_727 33 35 90
+    fragment_728 41 40 90
+    fragment_729 0 45 90
+    fragment_730 0 50 90
+    fragment_731 0 55 90
+    fragment_732 35 60 90
+    fragment_733 37 65 90
+    fragment_734 29 70 90
+    fragment_735 29 75 90
+    fragment_736 29 80 90
+    fragment_737 29 85 90
+    fragment_738 29 90 90
+    fragment_739 29 95 90
+    fragment_740 29 100 90
+    fragment_741 29 105 90
+    fragment_742 31 110 90
+    fragment_743 0 115 90
+    fragment_744 25 120 90
+    fragment_745 0 125 90
+    fragment_746 0 130 90
+    fragment_747 0 135 90
+    fragment_748 0 140 90
+    fragment_749 0 145 90
+    fragment_750 0 150 90
+    fragment_751 0 155 90
+    fragment_752 0 160 90
+    fragment_753 5 165 90
+    fragment_754 0 170 90
+    fragment_755 0 175 90
+    fragment_756 0 180 90
+    fragment_757 0 185 90
+    fragment_758 3 190 90
+    fragment_759 0 195 90
+    fragment_760 66 0 95
+    fragment_761 29 5 95
+    fragment_762 40 10 95
+    fragment_763 33 15 95
+    fragment_764 33 20 95
+    fragment_765 41 25 95
+    fragment_766 0 30 95
+    fragment_767 0 35 95
+    fragment_768 0 40 95
+    fragment_769 0 45 95
+    fragment_770 0 50 95
+    fragment_771 35 55 95
+    fragment_772 37 60 95
+    fragment_773 29 65 95
+    fragment_774 29 70 95
+    fragment_775 29 75 95
+    fragment_776 29 80 95
+    fragment_777 29 85 95
+    fragment_778 29 90 95
+    fragment_779 29 95 95
+    fragment_780 29 100 95
+    fragment_781 29 105 95
+    fragment_782 31 110 95
+    fragment_783 0 115 95
+    fragment_784 26 120 95
+    fragment_785 0 125 95
+    fragment_786 0 130 95
+    fragment_787 0 135 95
+    fragment_788 0 140 95
+    fragment_789 0 145 95
+    fragment_790 73 150 95
+    fragment_791 78 155 95
+    fragment_792 79 160 95
+    fragment_793 8 165 95
+    fragment_794 0 170 95
+    fragment_795 0 175 95
+    fragment_796 0 180 95
+    fragment_797 0 185 95
+    fragment_798 6 190 95
+    fragment_799 20 195 95
+    fragment_800 66 0 100
+    fragment_801 29 5 100
+    fragment_802 31 10 100
+    fragment_803 0 15 100
+    fragment_804 0 20 100
+    fragment_805 0 25 100
+    fragment_806 0 30 100
+    fragment_807 0 35 100
+    fragment_808 0 40 100
+    fragment_809 0 45 100
+    fragment_810 0 50 100
+    fragment_811 36 55 100
+    fragment_812 39 60 100
+    fragment_813 29 65 100
+    fragment_814 29 70 100
+    fragment_815 50 75 100
+    fragment_816 49 80 100
+    fragment_817 29 85 100
+    fragment_818 29 90 100
+    fragment_819 29 95 100
+    fragment_820 29 100 100
+    fragment_821 29 105 100
+    fragment_822 38 110 100
+    fragment_823 30 115 100
+    fragment_824 61 120 100
+    fragment_825 0 125 100
+    fragment_826 0 130 100
+    fragment_827 0 135 100
+    fragment_828 0 140 100
+    fragment_829 0 145 100
+    fragment_830 5 150 100
+    fragment_831 0 155 100
+    fragment_832 0 160 100
+    fragment_833 0 165 100
+    fragment_834 0 170 100
+    fragment_835 0 175 100
+    fragment_836 0 180 100
+    fragment_837 0 185 100
+    fragment_838 0 190 100
+    fragment_839 19 195 100
+    fragment_840 70 0 105
+    fragment_841 33 5 105
+    fragment_842 41 10 105
+    fragment_843 0 15 105
+    fragment_844 0 20 105
+    fragment_845 0 25 105
+    fragment_846 0 30 105
+    fragment_847 0 35 105
+    fragment_848 0 40 105
+    fragment_849 0 45 105
+    fragment_850 0 50 105
+    fragment_851 2 55 105
+    fragment_852 56 60 105
+    fragment_853 48 65 105
+    fragment_854 48 70 105
+    fragment_855 53 75 105
+    fragment_856 74 80 105
+    fragment_857 48 85 105
+    fragment_858 49 90 105
+    fragment_859 29 95 105
+    fragment_860 29 100 105
+    fragment_861 29 105 105
+    fragment_862 29 110 105
+    fragment_863 29 115 105
+    fragment_864 51 120 105
+    fragment_865 0 125 105
+    fragment_866 75 130 105
+    fragment_867 45 135 105
+    fragment_868 55 140 105
+    fragment_869 7 145 105
+    fragment_870 8 150 105
+    fragment_871 0 155 105
+    fragment_872 0 160 105
+    fragment_873 0 165 105
+    fragment_874 0 170 105
+    fragment_875 0 175 105
+    fragment_876 0 180 105
+    fragment_877 0 185 105
+    fragment_878 0 190 105
+    fragment_879 19 195 105
+    fragment_880 9 0 110
+    fragment_881 0 5 110
+    fragment_882 0 10 110
+    fragment_883 0 15 110
+    fragment_884 0 20 110
+    fragment_885 0 25 110
+    fragment_886 0 30 110
+    fragment_887 0 35 110
+    fragment_888 0 40 110
+    fragment_889 0 45 110
+    fragment_890 0 50 110
+    fragment_891 25 55 110
+    fragment_892 0 60 110
+    fragment_893 0 65 110
+    fragment_894 0 70 110
+    fragment_895 0 75 110
+    fragment_896 0 80 110
+    fragment_897 0 85 110
+    fragment_898 74 90 110
+    fragment_899 49 95 110
+    fragment_900 29 100 110
+    fragment_901 29 105 110
+    fragment_902 29 110 110
+    fragment_903 29 115 110
+    fragment_904 47 120 110
+    fragment_905 45 125 110
+    fragment_906 46 130 110
+    fragment_907 29 135 110
+    fragment_908 31 140 110
+    fragment_909 0 145 110
+    fragment_910 0 150 110
+    fragment_911 0 155 110
+    fragment_912 0 160 110
+    fragment_913 0 165 110
+    fragment_914 0 170 110
+    fragment_915 0 175 110
+    fragment_916 0 180 110
+    fragment_917 0 185 110
+    fragment_918 0 190 110
+    fragment_919 19 195 110
+    fragment_920 9 0 115
+    fragment_921 0 5 115
+    fragment_922 0 10 115
+    fragment_923 0 15 115
+    fragment_924 0 20 115
+    fragment_925 0 25 115
+    fragment_926 0 30 115
+    fragment_927 0 35 115
+    fragment_928 0 40 115
+    fragment_929 0 45 115
+    fragment_930 0 50 115
+    fragment_931 26 55 115
+    fragment_932 0 60 115
+    fragment_933 0 65 115
+    fragment_934 0 70 115
+    fragment_935 0 75 115
+    fragment_936 0 80 115
+    fragment_937 0 85 115
+    fragment_938 0 90 115
+    fragment_939 44 95 115
+    fragment_940 29 100 115
+    fragment_941 29 105 115
+    fragment_942 29 110 115
+    fragment_943 29 115 115
+    fragment_944 29 120 115
+    fragment_945 29 125 115
+    fragment_946 29 130 115
+    fragment_947 29 135 115
+    fragment_948 31 140 115
+    fragment_949 0 145 115
+    fragment_950 0 150 115
+    fragment_951 0 155 115
+    fragment_952 0 160 115
+    fragment_953 0 165 115
+    fragment_954 0 170 115
+    fragment_955 0 175 115
+    fragment_956 0 180 115
+    fragment_957 0 185 115
+    fragment_958 0 190 115
+    fragment_959 19 195 115
+    fragment_960 9 0 120
+    fragment_961 0 5 120
+    fragment_962 0 10 120
+    fragment_963 0 15 120
+    fragment_964 0 20 120
+    fragment_965 0 25 120
+    fragment_966 0 30 120
+    fragment_967 0 35 120
+    fragment_968 2 40 120
+    fragment_969 1 45 120
+    fragment_970 1 50 120
+    fragment_971 21 55 120
+    fragment_972 0 60 120
+    fragment_973 0 65 120
+    fragment_974 75 70 120
+    fragment_975 45 75 120
+    fragment_976 45 80 120
+    fragment_977 45 85 120
+    fragment_978 45 90 120
+    fragment_979 46 95 120
+    fragment_980 29 100 120
+    fragment_981 29 105 120
+    fragment_982 29 110 120
+    fragment_983 29 115 120
+    fragment_984 29 120 120
+    fragment_985 29 125 120
+    fragment_986 29 130 120
+    fragment_987 29 135 120
+    fragment_988 31 140 120
+    fragment_989 0 145 120
+    fragment_990 0 150 120
+    fragment_991 0 155 120
+    fragment_992 0 160 120
+    fragment_993 0 165 120
+    fragment_994 0 170 120
+    fragment_995 0 175 120
+    fragment_996 0 180 120
+    fragment_997 0 185 120
+    fragment_998 0 190 120
+    fragment_999 19 195 120
+    fragment_1000 9 0 125
+    fragment_1001 0 5 125
+    fragment_1002 2 10 125
+    fragment_1003 1 15 125
+    fragment_1004 1 20 125
+    fragment_1005 1 25 125
+    fragment_1006 1 30 125
+    fragment_1007 1 35 125
+    fragment_1008 21 40 125
+    fragment_1009 0 45 125
+    fragment_1010 0 50 125
+    fragment_1011 0 55 125
+    fragment_1012 0 60 125
+    fragment_1013 0 65 125
+    fragment_1014 59 70 125
+    fragment_1015 39 75 125
+    fragment_1016 29 80 125
+    fragment_1017 29 85 125
+    fragment_1018 29 90 125
+    fragment_1019 29 95 125
+    fragment_1020 29 100 125
+    fragment_1021 29 105 125
+    fragment_1022 29 110 125
+    fragment_1023 29 115 125
+    fragment_1024 29 120 125
+    fragment_1025 29 125 125
+    fragment_1026 29 130 125
+    fragment_1027 29 135 125
+    fragment_1028 31 140 125
+    fragment_1029 0 145 125
+    fragment_1030 0 150 125
+    fragment_1031 0 155 125
+    fragment_1032 0 160 125
+    fragment_1033 0 165 125
+    fragment_1034 0 170 125
+    fragment_1035 0 175 125
+    fragment_1036 0 180 125
+    fragment_1037 0 185 125
+    fragment_1038 0 190 125
+    fragment_1039 19 195 125
+    fragment_1040 9 0 130
+    fragment_1041 0 5 130
+    fragment_1042 3 10 130
+    fragment_1043 0 15 130
+    fragment_1044 0 20 130
+    fragment_1045 0 25 130
+    fragment_1046 0 30 130
+    fragment_1047 0 35 130
+    fragment_1048 0 40 130
+    fragment_1049 0 45 130
+    fragment_1050 0 50 130
+    fragment_1051 0 55 130
+    fragment_1052 0 60 130
+    fragment_1053 0 65 130
+    fragment_1054 76 70 130
+    fragment_1055 32 75 130
+    fragment_1056 29 80 130
+    fragment_1057 50 85 130
+    fragment_1058 48 90 130
+    fragment_1059 49 95 130
+    fragment_1060 29 100 130
+    fragment_1061 29 105 130
+    fragment_1062 29 110 130
+    fragment_1063 29 115 130
+    fragment_1064 29 120 130
+    fragment_1065 29 125 130
+    fragment_1066 29 130 130
+    fragment_1067 29 135 130
+    fragment_1068 31 140 130
+    fragment_1069 0 145 130
+    fragment_1070 0 150 130
+    fragment_1071 0 155 130
+    fragment_1072 0 160 130
+    fragment_1073 0 165 130
+    fragment_1074 0 170 130
+    fragment_1075 0 175 130
+    fragment_1076 0 180 130
+    fragment_1077 0 185 130
+    fragment_1078 0 190 130
+    fragment_1079 19 195 130
+    fragment_1080 9 0 135
+    fragment_1081 0 5 135
+    fragment_1082 6 10 135
+    fragment_1083 78 15 135
+    fragment_1084 79 20 135
+    fragment_1085 22 25 135
+    fragment_1086 0 30 135
+    fragment_1087 73 35 135
+    fragment_1088 7 40 135
+    fragment_1089 7 45 135
+    fragment_1090 7 50 135
+    fragment_1091 22 55 135
+    fragment_1092 0 60 135
+    fragment_1093 0 65 135
+    fragment_1094 77 70 135
+    fragment_1095 32 75 135
+    fragment_1096 29 80 135
+    fragment_1097 51 85 135
+    fragment_1098 0 90 135
+    fragment_1099 44 95 135
+    fragment_1100 29 100 135
+    fragment_1101 29 105 135
+    fragment_1102 29 110 135
+    fragment_1103 29 115 135
+    fragment_1104 29 120 135
+    fragment_1105 29 125 135
+    fragment_1106 29 130 135
+    fragment_1107 29 135 135
+    fragment_1108 31 140 135
+    fragment_1109 0 145 135
+    fragment_1110 0 150 135
+    fragment_1111 0 155 135
+    fragment_1112 0 160 135
+    fragment_1113 0 165 135
+    fragment_1114 0 170 135
+    fragment_1115 0 175 135
+    fragment_1116 0 180 135
+    fragment_1117 0 185 135
+    fragment_1118 0 190 135
+    fragment_1119 19 195 135
+    fragment_1120 9 0 140
+    fragment_1121 0 5 140
+    fragment_1122 0 10 140
+    fragment_1123 0 15 140
+    fragment_1124 0 20 140
+    fragment_1125 6 25 140
+    fragment_1126 7 30 140
+    fragment_1127 8 35 140
+    fragment_1128 0 40 140
+    fragment_1129 0 45 140
+    fragment_1130 0 50 140
+    fragment_1131 3 55 140
+    fragment_1132 0 60 140
+    fragment_1133 0 65 140
+    fragment_1134 72 70 140
+    fragment_1135 56 75 140
+    fragment_1136 48 80 140
+    fragment_1137 53 85 140
+    fragment_1138 0 90 140
+    fragment_1139 74 95 140
+    fragment_1140 49 100 140
+    fragment_1141 29 105 140
+    fragment_1142 29 110 140
+    fragment_1143 29 115 140
+    fragment_1144 29 120 140
+    fragment_1145 29 125 140
+    fragment_1146 29 130 140
+    fragment_1147 40 135 140
+    fragment_1148 41 140 140
+    fragment_1149 0 145 140
+    fragment_1150 0 150 140
+    fragment_1151 0 155 140
+    fragment_1152 0 160 140
+    fragment_1153 0 165 140
+    fragment_1154 0 170 140
+    fragment_1155 0 175 140
+    fragment_1156 0 180 140
+    fragment_1157 0 185 140
+    fragment_1158 0 190 140
+    fragment_1159 19 195 140
+    fragment_1160 9 0 145
+    fragment_1161 0 5 145
+    fragment_1162 0 10 145
+    fragment_1163 0 15 145
+    fragment_1164 0 20 145
+    fragment_1165 0 25 145
+    fragment_1166 0 30 145
+    fragment_1167 0 35 145
+    fragment_1168 0 40 145
+    fragment_1169 0 45 145
+    fragment_1170 0 50 145
+    fragment_1171 6 55 145
+    fragment_1172 22 60 145
+    fragment_1173 0 65 145
+    fragment_1174 0 70 145
+    fragment_1175 0 75 145
+    fragment_1176 0 80 145
+    fragment_1177 0 85 145
+    fragment_1178 0 90 145
+    fragment_1179 0 95 145
+    fragment_1180 74 100 145
+    fragment_1181 49 105 145
+    fragment_1182 29 110 145
+    fragment_1183 29 115 145
+    fragment_1184 29 120 145
+    fragment_1185 29 125 145
+    fragment_1186 29 130 145
+    fragment_1187 31 135 145
+    fragment_1188 0 140 145
+    fragment_1189 0 145 145
+    fragment_1190 0 150 145
+    fragment_1191 2 155 145
+    fragment_1192 1 160 145
+    fragment_1193 1 165 145
+    fragment_1194 4 170 145
+    fragment_1195 0 175 145
+    fragment_1196 0 180 145
+    fragment_1197 0 185 145
+    fragment_1198 0 190 145
+    fragment_1199 19 195 145
+    fragment_1200 9 0 150
+    fragment_1201 0 5 150
+    fragment_1202 0 10 150
+    fragment_1203 0 15 150
+    fragment_1204 0 20 150
+    fragment_1205 0 25 150
+    fragment_1206 0 30 150
+    fragment_1207 0 35 150
+    fragment_1208 0 40 150
+    fragment_1209 0 45 150
+    fragment_1210 0 50 150
+    fragment_1211 0 55 150
+    fragment_1212 6 60 150
+    fragment_1213 78 65 150
+    fragment_1214 79 70 150
+    fragment_1215 7 75 150
+    fragment_1216 22 80 150
+    fragment_1217 0 85 150
+    fragment_1218 0 90 150
+    fragment_1219 0 95 150
+    fragment_1220 0 100 150
+    fragment_1221 44 105 150
+    fragment_1222 29 110 150
+    fragment_1223 29 115 150
+    fragment_1224 29 120 150
+    fragment_1225 29 125 150
+    fragment_1226 29 130 150
+    fragment_1227 31 135 150
+    fragment_1228 0 140 150
+    fragment_1229 0 145 150
+    fragment_1230 0 150 150
+    fragment_1231 3 155 150
+    fragment_1232 0 160 150
+    fragment_1233 0 165 150
+    fragment_1234 5 170 150
+    fragment_1235 0 175 150
+    fragment_1236 0 180 150
+    fragment_1237 0 185 150
+    fragment_1238 0 190 150
+    fragment_1239 19 195 150
+    fragment_1240 9 0 155
+    fragment_1241 0 5 155
+    fragment_1242 0 10 155
+    fragment_1243 0 15 155
+    fragment_1244 0 20 155
+    fragment_1245 0 25 155
+    fragment_1246 0 30 155
+    fragment_1247 0 35 155
+    fragment_1248 0 40 155
+    fragment_1249 0 45 155
+    fragment_1250 0 50 155
+    fragment_1251 0 55 155
+    fragment_1252 0 60 155
+    fragment_1253 0 65 155
+    fragment_1254 0 70 155
+    fragment_1255 0 75 155
+    fragment_1256 3 80 155
+    fragment_1257 0 85 155
+    fragment_1258 0 90 155
+    fragment_1259 0 95 155
+    fragment_1260 0 100 155
+    fragment_1261 44 105 155
+    fragment_1262 29 110 155
+    fragment_1263 29 115 155
+    fragment_1264 29 120 155
+    fragment_1265 29 125 155
+    fragment_1266 50 130 155
+    fragment_1267 57 135 155
+    fragment_1268 1 140 155
+    fragment_1269 1 145 155
+    fragment_1270 1 150 155
+    fragment_1271 21 155 155
+    fragment_1272 0 160 155
+    fragment_1273 0 165 155
+    fragment_1274 72 170 155
+    fragment_1275 1 175 155
+    fragment_1276 4 180 155
+    fragment_1277 0 185 155
+    fragment_1278 0 190 155
+    fragment_1279 19 195 155
+    fragment_1280 9 0 160
+    fragment_1281 0 5 160
+    fragment_1282 0 10 160
+    fragment_1283 0 15 160
+    fragment_1284 0 20 160
+    fragment_1285 0 25 160
+    fragment_1286 0 30 160
+    fragment_1287 0 35 160
+    fragment_1288 0 40 160
+    fragment_1289 0 45 160
+    fragment_1290 0 50 160
+    fragment_1291 0 55 160
+    fragment_1292 0 60 160
+    fragment_1293 0 65 160
+    fragment_1294 0 70 160
+    fragment_1295 0 75 160
+    fragment_1296 6 80 160
+    fragment_1297 22 85 160
+    fragment_1298 0 90 160
+    fragment_1299 0 95 160
+    fragment_1300 0 100 160
+    fragment_1301 74 105 160
+    fragment_1302 49 110 160
+    fragment_1303 29 115 160
+    fragment_1304 29 120 160
+    fragment_1305 29 125 160
+    fragment_1306 51 130 160
+    fragment_1307 0 135 160
+    fragment_1308 0 140 160
+    fragment_1309 0 145 160
+    fragment_1310 0 150 160
+    fragment_1311 0 155 160
+    fragment_1312 0 160 160
+    fragment_1313 0 165 160
+    fragment_1314 0 170 160
+    fragment_1315 0 175 160
+    fragment_1316 5 180 160
+    fragment_1317 0 185 160
+    fragment_1318 0 190 160
+    fragment_1319 19 195 160
+    fragment_1320 9 0 165
+    fragment_1321 0 5 165
+    fragment_1322 0 10 165
+    fragment_1323 0 15 165
+    fragment_1324 0 20 165
+    fragment_1325 0 25 165
+    fragment_1326 0 30 165
+    fragment_1327 0 35 165
+    fragment_1328 0 40 165
+    fragment_1329 0 45 165
+    fragment_1330 0 50 165
+    fragment_1331 0 55 165
+    fragment_1332 0 60 165
+    fragment_1333 0 65 165
+    fragment_1334 0 70 165
+    fragment_1335 0 75 165
+    fragment_1336 0 80 165
+    fragment_1337 3 85 165
+    fragment_1338 0 90 165
+    fragment_1339 0 95 165
+    fragment_1340 0 100 165
+    fragment_1341 0 105 165
+    fragment_1342 74 110 165
+    fragment_1343 48 115 165
+    fragment_1344 48 120 165
+    fragment_1345 48 125 165
+    fragment_1346 53 130 165
+    fragment_1347 0 135 165
+    fragment_1348 0 140 165
+    fragment_1349 0 145 165
+    fragment_1350 0 150 165
+    fragment_1351 0 155 165
+    fragment_1352 0 160 165
+    fragment_1353 0 165 165
+    fragment_1354 0 170 165
+    fragment_1355 0 175 165
+    fragment_1356 72 180 165
+    fragment_1357 24 185 165
+    fragment_1358 23 190 165
+    fragment_1359 18 195 165
+    fragment_1360 11 0 170
+    fragment_1361 1 5 170
+    fragment_1362 4 10 170
+    fragment_1363 0 15 170
+    fragment_1364 0 20 170
+    fragment_1365 0 25 170
+    fragment_1366 0 30 170
+    fragment_1367 0 35 170
+    fragment_1368 0 40 170
+    fragment_1369 0 45 170
+    fragment_1370 0 50 170
+    fragment_1371 0 55 170
+    fragment_1372 0 60 170
+    fragment_1373 0 65 170
+    fragment_1374 35 70 170
+    fragment_1375 30 75 170
+    fragment_1376 30 80 170
+    fragment_1377 61 85 170
+    fragment_1378 0 90 170
+    fragment_1379 0 95 170
+    fragment_1380 0 100 170
+    fragment_1381 0 105 170
+    fragment_1382 0 110 170
+    fragment_1383 0 115 170
+    fragment_1384 0 120 170
+    fragment_1385 0 125 170
+    fragment_1386 0 130 170
+    fragment_1387 0 135 170
+    fragment_1388 73 140 170
+    fragment_1389 7 145 170
+    fragment_1390 7 150 170
+    fragment_1391 7 155 170
+    fragment_1392 22 160 170
+    fragment_1393 0 165 170
+    fragment_1394 0 170 170
+    fragment_1395 0 175 170
+    fragment_1396 0 180 170
+    fragment_1397 0 185 170
+    fragment_1398 0 190 170
+    fragment_1399 0 195 170
+    fragment_1400 10 0 175
+    fragment_1401 0 5 175
+    fragment_1402 5 10 175
+    fragment_1403 0 15 175
+    fragment_1404 0 20 175
+    fragment_1405 0 25 175
+    fragment_1406 0 30 175
+    fragment_1407 0 35 175
+    fragment_1408 0 40 175
+    fragment_1409 0 45 175
+    fragment_1410 0 50 175
+    fragment_1411 0 55 175
+    fragment_1412 0 60 175
+    fragment_1413 0 65 175
+    fragment_1414 32 70 175
+    fragment_1415 29 75 175
+    fragment_1416 29 80 175
+    fragment_1417 47 85 175
+    fragment_1418 45 90 175
+    fragment_1419 45 95 175
+    fragment_1420 45 100 175
+    fragment_1421 45 105 175
+    fragment_1422 45 110 175
+    fragment_1423 52 115 175
+    fragment_1424 0 120 175
+    fragment_1425 0 125 175
+    fragment_1426 0 130 175
+    fragment_1427 0 135 175
+    fragment_1428 5 140 175
+    fragment_1429 0 145 175
+    fragment_1430 0 150 175
+    fragment_1431 0 155 175
+    fragment_1432 3 160 175
+    fragment_1433 0 165 175
+    fragment_1434 0 170 175
+    fragment_1435 0 175 175
+    fragment_1436 0 180 175
+    fragment_1437 0 185 175
+    fragment_1438 0 190 175
+    fragment_1439 0 195 175
+    fragment_1440 10 0 180
+    fragment_1441 0 5 180
+    fragment_1442 5 10 180
+    fragment_1443 0 15 180
+    fragment_1444 0 20 180
+    fragment_1445 0 25 180
+    fragment_1446 2 30 180
+    fragment_1447 1 35 180
+    fragment_1448 1 40 180
+    fragment_1449 1 45 180
+    fragment_1450 4 50 180
+    fragment_1451 0 55 180
+    fragment_1452 0 60 180
+    fragment_1453 35 65 180
+    fragment_1454 37 70 180
+    fragment_1455 29 75 180
+    fragment_1456 29 80 180
+    fragment_1457 29 85 180
+    fragment_1458 29 90 180
+    fragment_1459 29 95 180
+    fragment_1460 29 100 180
+    fragment_1461 29 105 180
+    fragment_1462 29 110 180
+    fragment_1463 47 115 180
+    fragment_1464 45 120 180
+    fragment_1465 45 125 180
+    fragment_1466 45 130 180
+    fragment_1467 55 135 180
+    fragment_1468 8 140 180
+    fragment_1469 0 145 180
+    fragment_1470 2 150 180
+    fragment_1471 1 155 180
+    fragment_1472 21 160 180
+    fragment_1473 0 165 180
+    fragment_1474 0 170 180
+    fragment_1475 0 175 180
+    fragment_1476 0 180 180
+    fragment_1477 0 185 180
+    fragment_1478 0 190 180
+    fragment_1479 0 195 180
+    fragment_1480 10 0 185
+    fragment_1481 0 5 185
+    fragment_1482 72 10 185
+    fragment_1483 1 15 185
+    fragment_1484 24 20 185
+    fragment_1485 23 25 185
+    fragment_1486 21 30 185
+    fragment_1487 0 35 185
+    fragment_1488 0 40 185
+    fragment_1489 0 45 185
+    fragment_1490 58 50 185
+    fragment_1491 30 55 185
+    fragment_1492 30 60 185
+    fragment_1493 37 65 185
+    fragment_1494 29 70 185
+    fragment_1495 29 75 185
+    fragment_1496 29 80 185
+    fragment_1497 29 85 185
+    fragment_1498 29 90 185
+    fragment_1499 29 95 185
+    fragment_1500 29 100 185
+    fragment_1501 29 105 185
+    fragment_1502 29 110 185
+    fragment_1503 29 115 185
+    fragment_1504 29 120 185
+    fragment_1505 29 125 185
+    fragment_1506 29 130 185
+    fragment_1507 31 135 185
+    fragment_1508 0 140 185
+    fragment_1509 0 145 185
+    fragment_1510 25 150 185
+    fragment_1511 0 155 185
+    fragment_1512 0 160 185
+    fragment_1513 0 165 185
+    fragment_1514 0 170 185
+    fragment_1515 0 175 185
+    fragment_1516 0 180 185
+    fragment_1517 0 185 185
+    fragment_1518 0 190 185
+    fragment_1519 0 195 185
+    fragment_1520 10 0 190
+    fragment_1521 0 5 190
+    fragment_1522 0 10 190
+    fragment_1523 0 15 190
+    fragment_1524 0 20 190
+    fragment_1525 0 25 190
+    fragment_1526 0 30 190
+    fragment_1527 0 35 190
+    fragment_1528 73 40 190
+    fragment_1529 54 45 190
+    fragment_1530 46 50 190
+    fragment_1531 29 55 190
+    fragment_1532 29 60 190
+    fragment_1533 29 65 190
+    fragment_1534 29 70 190
+    fragment_1535 29 75 190
+    fragment_1536 29 80 190
+    fragment_1537 29 85 190
+    fragment_1538 29 90 190
+    fragment_1539 29 95 190
+    fragment_1540 29 100 190
+    fragment_1541 29 105 190
+    fragment_1542 29 110 190
+    fragment_1543 29 115 190
+    fragment_1544 29 120 190
+    fragment_1545 29 125 190
+    fragment_1546 29 130 190
+    fragment_1547 31 135 190
+    fragment_1548 0 140 190
+    fragment_1549 0 145 190
+    fragment_1550 26 150 190
+    fragment_1551 0 155 190
+    fragment_1552 0 160 190
+    fragment_1553 0 165 190
+    fragment_1554 0 170 190
+    fragment_1555 0 175 190
+    fragment_1556 0 180 190
+    fragment_1557 0 185 190
+    fragment_1558 0 190 190
+    fragment_1559 0 195 190
+    fragment_1560 15 0 195
+    fragment_1561 0 5 195
+    fragment_1562 0 10 195
+    fragment_1563 0 15 195
+    fragment_1564 0 20 195
+    fragment_1565 0 25 195
+    fragment_1566 0 30 195
+    fragment_1567 0 35 195
+    fragment_1568 28 40 195
+    fragment_1569 67 45 195
+    fragment_1570 63 50 195
+    fragment_1571 63 55 195
+    fragment_1572 63 60 195
+    fragment_1573 63 65 195
+    fragment_1574 63 70 195
+    fragment_1575 63 75 195
+    fragment_1576 63 80 195
+    fragment_1577 63 85 195
+    fragment_1578 63 90 195
+    fragment_1579 63 95 195
+    fragment_1580 63 100 195
+    fragment_1581 63 105 195
+    fragment_1582 63 110 195
+    fragment_1583 63 115 195
+    fragment_1584 63 120 195
+    fragment_1585 63 125 195
+    fragment_1586 63 130 195
+    fragment_1587 68 135 195
+    fragment_1588 62 140 195
+    fragment_1589 62 145 195
+    fragment_1590 27 150 195
+    fragment_1591 0 155 195
+    fragment_1592 0 160 195
+    fragment_1593 0 165 195
+    fragment_1594 0 170 195
+    fragment_1595 0 175 195
+    fragment_1596 0 180 195
+    fragment_1597 0 185 195
+    fragment_1598 0 190 195
+    fragment_1599 0 195 195
+  </Fragments>
+  
+  <Layers>
+    count 0
+    layer_0 0 25 0   layer id, x position, y position
+    layer_1 0 25 5   layer id, x position, y position
+    layer_2 0 25 10   layer id, x position, y position
+    layer_3 0 25 15   layer id, x position, y position
+  </Layers>
+  
+  <Objects>
+    count 13
+    object_0 1 30 8    object_id, x position, y position
+    object_1 1 54 4
+    object_2 1 64 23
+    object_3 1 5 60
+    object_4 1 159 39
+    object_5 1 197 66
+    object_6 1 113 101
+    object_7 1 60 175
+    object_8 0 120 40
+    object_9 0 122 163
+    object_10 3 125 161
+    object_11 3 120 50
+    object_12 2 77 138
+  </Objects>
+</Segment 1>
+
+<Segment 2>
+  <Fragments>
+    count 1600
+    fragment_0 0 0 0
+    fragment_1 0 5 0
+    fragment_2 0 10 0
+    fragment_3 0 15 0
+    fragment_4 0 20 0
+    fragment_5 0 25 0
+    fragment_6 0 30 0
+    fragment_7 0 35 0
+    fragment_8 0 40 0
+    fragment_9 0 45 0
+    fragment_10 0 50 0
+    fragment_11 0 55 0
+    fragment_12 0 60 0
+    fragment_13 0 65 0
+    fragment_14 0 70 0
+    fragment_15 0 75 0
+    fragment_16 0 80 0
+    fragment_17 0 85 0
+    fragment_18 0 90 0
+    fragment_19 0 95 0
+    fragment_20 0 100 0
+    fragment_21 0 105 0
+    fragment_22 0 110 0
+    fragment_23 0 115 0
+    fragment_24 0 120 0
+    fragment_25 0 125 0
+    fragment_26 0 130 0
+    fragment_27 0 135 0
+    fragment_28 0 140 0
+    fragment_29 0 145 0
+    fragment_30 0 150 0
+    fragment_31 0 155 0
+    fragment_32 0 160 0
+    fragment_33 0 165 0
+    fragment_34 0 170 0
+    fragment_35 0 175 0
+    fragment_36 0 180 0
+    fragment_37 0 185 0
+    fragment_38 0 190 0
+    fragment_39 0 195 0
+    fragment_40 0 0 5
+    fragment_41 0 5 5
+    fragment_42 0 10 5
+    fragment_43 0 15 5
+    fragment_44 0 20 5
+    fragment_45 0 25 5
+    fragment_46 0 30 5
+    fragment_47 0 35 5
+    fragment_48 0 40 5
+    fragment_49 0 45 5
+    fragment_50 0 50 5
+    fragment_51 0 55 5
+    fragment_52 0 60 5
+    fragment_53 0 65 5
+    fragment_54 0 70 5
+    fragment_55 0 75 5
+    fragment_56 0 80 5
+    fragment_57 0 85 5
+    fragment_58 0 90 5
+    fragment_59 0 95 5
+    fragment_60 0 100 5
+    fragment_61 0 105 5
+    fragment_62 0 110 5
+    fragment_63 0 115 5
+    fragment_64 0 120 5
+    fragment_65 0 125 5
+    fragment_66 0 130 5
+    fragment_67 0 135 5
+    fragment_68 0 140 5
+    fragment_69 0 145 5
+    fragment_70 0 150 5
+    fragment_71 0 155 5
+    fragment_72 0 160 5
+    fragment_73 0 165 5
+    fragment_74 0 170 5
+    fragment_75 0 175 5
+    fragment_76 0 180 5
+    fragment_77 0 185 5
+    fragment_78 0 190 5
+    fragment_79 0 195 5
+    fragment_80 0 0 10
+    fragment_81 0 5 10
+    fragment_82 0 10 10
+    fragment_83 0 15 10
+    fragment_84 0 20 10
+    fragment_85 0 25 10
+    fragment_86 0 30 10
+    fragment_87 0 35 10
+    fragment_88 0 40 10
+    fragment_89 0 45 10
+    fragment_90 0 50 10
+    fragment_91 0 55 10
+    fragment_92 0 60 10
+    fragment_93 0 65 10
+    fragment_94 0 70 10
+    fragment_95 0 75 10
+    fragment_96 0 80 10
+    fragment_97 0 85 10
+    fragment_98 0 90 10
+    fragment_99 0 95 10
+    fragment_100 0 100 10
+    fragment_101 0 105 10
+    fragment_102 0 110 10
+    fragment_103 0 115 10
+    fragment_104 0 120 10
+    fragment_105 0 125 10
+    fragment_106 0 130 10
+    fragment_107 0 135 10
+    fragment_108 0 140 10
+    fragment_109 0 145 10
+    fragment_110 0 150 10
+    fragment_111 0 155 10
+    fragment_112 0 160 10
+    fragment_113 0 165 10
+    fragment_114 0 170 10
+    fragment_115 0 175 10
+    fragment_116 0 180 10
+    fragment_117 0 185 10
+    fragment_118 0 190 10
+    fragment_119 0 195 10
+    fragment_120 0 0 15
+    fragment_121 0 5 15
+    fragment_122 0 10 15
+    fragment_123 0 15 15
+    fragment_124 0 20 15
+    fragment_125 0 25 15
+    fragment_126 0 30 15
+    fragment_127 0 35 15
+    fragment_128 0 40 15
+    fragment_129 0 45 15
+    fragment_130 0 50 15
+    fragment_131 0 55 15
+    fragment_132 0 60 15
+    fragment_133 0 65 15
+    fragment_134 0 70 15
+    fragment_135 0 75 15
+    fragment_136 0 80 15
+    fragment_137 0 85 15
+    fragment_138 0 90 15
+    fragment_139 0 95 15
+    fragment_140 0 100 15
+    fragment_141 0 105 15
+    fragment_142 0 110 15
+    fragment_143 0 115 15
+    fragment_144 0 120 15
+    fragment_145 0 125 15
+    fragment_146 0 130 15
+    fragment_147 0 135 15
+    fragment_148 0 140 15
+    fragment_149 0 145 15
+    fragment_150 0 150 15
+    fragment_151 0 155 15
+    fragment_152 0 160 15
+    fragment_153 0 165 15
+    fragment_154 0 170 15
+    fragment_155 0 175 15
+    fragment_156 0 180 15
+    fragment_157 0 185 15
+    fragment_158 0 190 15
+    fragment_159 0 195 15
+    fragment_160 0 0 20
+    fragment_161 0 5 20
+    fragment_162 0 10 20
+    fragment_163 0 15 20
+    fragment_164 0 20 20
+    fragment_165 0 25 20
+    fragment_166 0 30 20
+    fragment_167 0 35 20
+    fragment_168 0 40 20
+    fragment_169 0 45 20
+    fragment_170 0 50 20
+    fragment_171 0 55 20
+    fragment_172 0 60 20
+    fragment_173 0 65 20
+    fragment_174 0 70 20
+    fragment_175 0 75 20
+    fragment_176 0 80 20
+    fragment_177 0 85 20
+    fragment_178 0 90 20
+    fragment_179 0 95 20
+    fragment_180 0 100 20
+    fragment_181 0 105 20
+    fragment_182 0 110 20
+    fragment_183 0 115 20
+    fragment_184 0 120 20
+    fragment_185 0 125 20
+    fragment_186 0 130 20
+    fragment_187 0 135 20
+    fragment_188 0 140 20
+    fragment_189 0 145 20
+    fragment_190 0 150 20
+    fragment_191 0 155 20
+    fragment_192 0 160 20
+    fragment_193 0 165 20
+    fragment_194 0 170 20
+    fragment_195 0 175 20
+    fragment_196 0 180 20
+    fragment_197 0 185 20
+    fragment_198 0 190 20
+    fragment_199 0 195 20
+    fragment_200 0 0 25
+    fragment_201 0 5 25
+    fragment_202 0 10 25
+    fragment_203 0 15 25
+    fragment_204 0 20 25
+    fragment_205 0 25 25
+    fragment_206 0 30 25
+    fragment_207 0 35 25
+    fragment_208 0 40 25
+    fragment_209 0 45 25
+    fragment_210 0 50 25
+    fragment_211 0 55 25
+    fragment_212 0 60 25
+    fragment_213 0 65 25
+    fragment_214 0 70 25
+    fragment_215 0 75 25
+    fragment_216 0 80 25
+    fragment_217 0 85 25
+    fragment_218 0 90 25
+    fragment_219 0 95 25
+    fragment_220 0 100 25
+    fragment_221 0 105 25
+    fragment_222 0 110 25
+    fragment_223 0 115 25
+    fragment_224 0 120 25
+    fragment_225 0 125 25
+    fragment_226 0 130 25
+    fragment_227 0 135 25
+    fragment_228 0 140 25
+    fragment_229 0 145 25
+    fragment_230 0 150 25
+    fragment_231 0 155 25
+    fragment_232 0 160 25
+    fragment_233 0 165 25
+    fragment_234 0 170 25
+    fragment_235 0 175 25
+    fragment_236 0 180 25
+    fragment_237 0 185 25
+    fragment_238 0 190 25
+    fragment_239 0 195 25
+    fragment_240 0 0 30
+    fragment_241 0 5 30
+    fragment_242 0 10 30
+    fragment_243 0 15 30
+    fragment_244 0 20 30
+    fragment_245 0 25 30
+    fragment_246 0 30 30
+    fragment_247 0 35 30
+    fragment_248 0 40 30
+    fragment_249 0 45 30
+    fragment_250 0 50 30
+    fragment_251 0 55 30
+    fragment_252 0 60 30
+    fragment_253 0 65 30
+    fragment_254 0 70 30
+    fragment_255 0 75 30
+    fragment_256 0 80 30
+    fragment_257 0 85 30
+    fragment_258 0 90 30
+    fragment_259 0 95 30
+    fragment_260 0 100 30
+    fragment_261 0 105 30
+    fragment_262 0 110 30
+    fragment_263 0 115 30
+    fragment_264 0 120 30
+    fragment_265 0 125 30
+    fragment_266 0 130 30
+    fragment_267 0 135 30
+    fragment_268 0 140 30
+    fragment_269 0 145 30
+    fragment_270 0 150 30
+    fragment_271 0 155 30
+    fragment_272 0 160 30
+    fragment_273 0 165 30
+    fragment_274 0 170 30
+    fragment_275 0 175 30
+    fragment_276 0 180 30
+    fragment_277 0 185 30
+    fragment_278 0 190 30
+    fragment_279 0 195 30
+    fragment_280 0 0 35
+    fragment_281 0 5 35
+    fragment_282 0 10 35
+    fragment_283 0 15 35
+    fragment_284 0 20 35
+    fragment_285 0 25 35
+    fragment_286 0 30 35
+    fragment_287 0 35 35
+    fragment_288 0 40 35
+    fragment_289 0 45 35
+    fragment_290 0 50 35
+    fragment_291 0 55 35
+    fragment_292 0 60 35
+    fragment_293 0 65 35
+    fragment_294 0 70 35
+    fragment_295 0 75 35
+    fragment_296 0 80 35
+    fragment_297 0 85 35
+    fragment_298 0 90 35
+    fragment_299 0 95 35
+    fragment_300 0 100 35
+    fragment_301 0 105 35
+    fragment_302 0 110 35
+    fragment_303 0 115 35
+    fragment_304 0 120 35
+    fragment_305 0 125 35
+    fragment_306 0 130 35
+    fragment_307 0 135 35
+    fragment_308 0 140 35
+    fragment_309 0 145 35
+    fragment_310 0 150 35
+    fragment_311 0 155 35
+    fragment_312 0 160 35
+    fragment_313 0 165 35
+    fragment_314 0 170 35
+    fragment_315 0 175 35
+    fragment_316 0 180 35
+    fragment_317 0 185 35
+    fragment_318 0 190 35
+    fragment_319 0 195 35
+    fragment_320 0 0 40
+    fragment_321 0 5 40
+    fragment_322 0 10 40
+    fragment_323 0 15 40
+    fragment_324 0 20 40
+    fragment_325 0 25 40
+    fragment_326 0 30 40
+    fragment_327 0 35 40
+    fragment_328 0 40 40
+    fragment_329 0 45 40
+    fragment_330 0 50 40
+    fragment_331 0 55 40
+    fragment_332 0 60 40
+    fragment_333 0 65 40
+    fragment_334 0 70 40
+    fragment_335 0 75 40
+    fragment_336 0 80 40
+    fragment_337 0 85 40
+    fragment_338 0 90 40
+    fragment_339 0 95 40
+    fragment_340 0 100 40
+    fragment_341 0 105 40
+    fragment_342 0 110 40
+    fragment_343 0 115 40
+    fragment_344 0 120 40
+    fragment_345 0 125 40
+    fragment_346 0 130 40
+    fragment_347 0 135 40
+    fragment_348 0 140 40
+    fragment_349 0 145 40
+    fragment_350 0 150 40
+    fragment_351 0 155 40
+    fragment_352 0 160 40
+    fragment_353 0 165 40
+    fragment_354 0 170 40
+    fragment_355 0 175 40
+    fragment_356 0 180 40
+    fragment_357 0 185 40
+    fragment_358 0 190 40
+    fragment_359 0 195 40
+    fragment_360 0 0 45
+    fragment_361 0 5 45
+    fragment_362 0 10 45
+    fragment_363 0 15 45
+    fragment_364 0 20 45
+    fragment_365 0 25 45
+    fragment_366 0 30 45
+    fragment_367 0 35 45
+    fragment_368 0 40 45
+    fragment_369 0 45 45
+    fragment_370 0 50 45
+    fragment_371 0 55 45
+    fragment_372 0 60 45
+    fragment_373 0 65 45
+    fragment_374 0 70 45
+    fragment_375 0 75 45
+    fragment_376 0 80 45
+    fragment_377 0 85 45
+    fragment_378 0 90 45
+    fragment_379 0 95 45
+    fragment_380 0 100 45
+    fragment_381 0 105 45
+    fragment_382 0 110 45
+    fragment_383 0 115 45
+    fragment_384 0 120 45
+    fragment_385 0 125 45
+    fragment_386 0 130 45
+    fragment_387 0 135 45
+    fragment_388 0 140 45
+    fragment_389 0 145 45
+    fragment_390 0 150 45
+    fragment_391 0 155 45
+    fragment_392 0 160 45
+    fragment_393 0 165 45
+    fragment_394 0 170 45
+    fragment_395 0 175 45
+    fragment_396 0 180 45
+    fragment_397 0 185 45
+    fragment_398 0 190 45
+    fragment_399 0 195 45
+    fragment_400 0 0 50
+    fragment_401 0 5 50
+    fragment_402 0 10 50
+    fragment_403 0 15 50
+    fragment_404 0 20 50
+    fragment_405 0 25 50
+    fragment_406 0 30 50
+    fragment_407 0 35 50
+    fragment_408 0 40 50
+    fragment_409 0 45 50
+    fragment_410 0 50 50
+    fragment_411 0 55 50
+    fragment_412 0 60 50
+    fragment_413 0 65 50
+    fragment_414 0 70 50
+    fragment_415 0 75 50
+    fragment_416 0 80 50
+    fragment_417 0 85 50
+    fragment_418 0 90 50
+    fragment_419 0 95 50
+    fragment_420 0 100 50
+    fragment_421 0 105 50
+    fragment_422 0 110 50
+    fragment_423 0 115 50
+    fragment_424 0 120 50
+    fragment_425 0 125 50
+    fragment_426 0 130 50
+    fragment_427 0 135 50
+    fragment_428 0 140 50
+    fragment_429 0 145 50
+    fragment_430 0 150 50
+    fragment_431 0 155 50
+    fragment_432 0 160 50
+    fragment_433 0 165 50
+    fragment_434 0 170 50
+    fragment_435 0 175 50
+    fragment_436 0 180 50
+    fragment_437 0 185 50
+    fragment_438 0 190 50
+    fragment_439 0 195 50
+    fragment_440 0 0 55
+    fragment_441 0 5 55
+    fragment_442 0 10 55
+    fragment_443 0 15 55
+    fragment_444 0 20 55
+    fragment_445 0 25 55
+    fragment_446 0 30 55
+    fragment_447 0 35 55
+    fragment_448 0 40 55
+    fragment_449 0 45 55
+    fragment_450 0 50 55
+    fragment_451 0 55 55
+    fragment_452 0 60 55
+    fragment_453 0 65 55
+    fragment_454 0 70 55
+    fragment_455 0 75 55
+    fragment_456 0 80 55
+    fragment_457 0 85 55
+    fragment_458 0 90 55
+    fragment_459 0 95 55
+    fragment_460 0 100 55
+    fragment_461 0 105 55
+    fragment_462 0 110 55
+    fragment_463 0 115 55
+    fragment_464 0 120 55
+    fragment_465 0 125 55
+    fragment_466 0 130 55
+    fragment_467 0 135 55
+    fragment_468 0 140 55
+    fragment_469 0 145 55
+    fragment_470 0 150 55
+    fragment_471 0 155 55
+    fragment_472 0 160 55
+    fragment_473 0 165 55
+    fragment_474 0 170 55
+    fragment_475 0 175 55
+    fragment_476 0 180 55
+    fragment_477 0 185 55
+    fragment_478 0 190 55
+    fragment_479 0 195 55
+    fragment_480 0 0 60
+    fragment_481 0 5 60
+    fragment_482 0 10 60
+    fragment_483 0 15 60
+    fragment_484 0 20 60
+    fragment_485 0 25 60
+    fragment_486 0 30 60
+    fragment_487 0 35 60
+    fragment_488 0 40 60
+    fragment_489 0 45 60
+    fragment_490 0 50 60
+    fragment_491 0 55 60
+    fragment_492 0 60 60
+    fragment_493 0 65 60
+    fragment_494 0 70 60
+    fragment_495 0 75 60
+    fragment_496 0 80 60
+    fragment_497 0 85 60
+    fragment_498 0 90 60
+    fragment_499 0 95 60
+    fragment_500 0 100 60
+    fragment_501 0 105 60
+    fragment_502 0 110 60
+    fragment_503 0 115 60
+    fragment_504 0 120 60
+    fragment_505 0 125 60
+    fragment_506 0 130 60
+    fragment_507 0 135 60
+    fragment_508 0 140 60
+    fragment_509 0 145 60
+    fragment_510 0 150 60
+    fragment_511 0 155 60
+    fragment_512 0 160 60
+    fragment_513 0 165 60
+    fragment_514 0 170 60
+    fragment_515 0 175 60
+    fragment_516 0 180 60
+    fragment_517 0 185 60
+    fragment_518 0 190 60
+    fragment_519 0 195 60
+    fragment_520 0 0 65
+    fragment_521 0 5 65
+    fragment_522 0 10 65
+    fragment_523 0 15 65
+    fragment_524 0 20 65
+    fragment_525 0 25 65
+    fragment_526 0 30 65
+    fragment_527 0 35 65
+    fragment_528 0 40 65
+    fragment_529 0 45 65
+    fragment_530 0 50 65
+    fragment_531 0 55 65
+    fragment_532 0 60 65
+    fragment_533 0 65 65
+    fragment_534 0 70 65
+    fragment_535 0 75 65
+    fragment_536 0 80 65
+    fragment_537 0 85 65
+    fragment_538 0 90 65
+    fragment_539 0 95 65
+    fragment_540 0 100 65
+    fragment_541 0 105 65
+    fragment_542 0 110 65
+    fragment_543 0 115 65
+    fragment_544 0 120 65
+    fragment_545 0 125 65
+    fragment_546 0 130 65
+    fragment_547 0 135 65
+    fragment_548 0 140 65
+    fragment_549 0 145 65
+    fragment_550 0 150 65
+    fragment_551 0 155 65
+    fragment_552 0 160 65
+    fragment_553 0 165 65
+    fragment_554 0 170 65
+    fragment_555 0 175 65
+    fragment_556 0 180 65
+    fragment_557 0 185 65
+    fragment_558 0 190 65
+    fragment_559 0 195 65
+    fragment_560 0 0 70
+    fragment_561 0 5 70
+    fragment_562 0 10 70
+    fragment_563 0 15 70
+    fragment_564 0 20 70
+    fragment_565 0 25 70
+    fragment_566 0 30 70
+    fragment_567 0 35 70
+    fragment_568 0 40 70
+    fragment_569 0 45 70
+    fragment_570 0 50 70
+    fragment_571 0 55 70
+    fragment_572 0 60 70
+    fragment_573 0 65 70
+    fragment_574 0 70 70
+    fragment_575 0 75 70
+    fragment_576 0 80 70
+    fragment_577 0 85 70
+    fragment_578 0 90 70
+    fragment_579 0 95 70
+    fragment_580 0 100 70
+    fragment_581 0 105 70
+    fragment_582 0 110 70
+    fragment_583 0 115 70
+    fragment_584 0 120 70
+    fragment_585 0 125 70
+    fragment_586 0 130 70
+    fragment_587 0 135 70
+    fragment_588 0 140 70
+    fragment_589 0 145 70
+    fragment_590 0 150 70
+    fragment_591 0 155 70
+    fragment_592 0 160 70
+    fragment_593 0 165 70
+    fragment_594 0 170 70
+    fragment_595 0 175 70
+    fragment_596 0 180 70
+    fragment_597 0 185 70
+    fragment_598 0 190 70
+    fragment_599 0 195 70
+    fragment_600 0 0 75
+    fragment_601 0 5 75
+    fragment_602 0 10 75
+    fragment_603 0 15 75
+    fragment_604 0 20 75
+    fragment_605 0 25 75
+    fragment_606 0 30 75
+    fragment_607 0 35 75
+    fragment_608 0 40 75
+    fragment_609 0 45 75
+    fragment_610 0 50 75
+    fragment_611 0 55 75
+    fragment_612 0 60 75
+    fragment_613 0 65 75
+    fragment_614 0 70 75
+    fragment_615 0 75 75
+    fragment_616 0 80 75
+    fragment_617 0 85 75
+    fragment_618 0 90 75
+    fragment_619 0 95 75
+    fragment_620 0 100 75
+    fragment_621 0 105 75
+    fragment_622 0 110 75
+    fragment_623 0 115 75
+    fragment_624 0 120 75
+    fragment_625 0 125 75
+    fragment_626 0 130 75
+    fragment_627 0 135 75
+    fragment_628 0 140 75
+    fragment_629 0 145 75
+    fragment_630 0 150 75
+    fragment_631 0 155 75
+    fragment_632 0 160 75
+    fragment_633 0 165 75
+    fragment_634 0 170 75
+    fragment_635 0 175 75
+    fragment_636 0 180 75
+    fragment_637 0 185 75
+    fragment_638 0 190 75
+    fragment_639 0 195 75
+    fragment_640 0 0 80
+    fragment_641 0 5 80
+    fragment_642 0 10 80
+    fragment_643 0 15 80
+    fragment_644 0 20 80
+    fragment_645 0 25 80
+    fragment_646 0 30 80
+    fragment_647 0 35 80
+    fragment_648 0 40 80
+    fragment_649 0 45 80
+    fragment_650 0 50 80
+    fragment_651 0 55 80
+    fragment_652 0 60 80
+    fragment_653 0 65 80
+    fragment_654 0 70 80
+    fragment_655 0 75 80
+    fragment_656 0 80 80
+    fragment_657 0 85 80
+    fragment_658 0 90 80
+    fragment_659 0 95 80
+    fragment_660 0 100 80
+    fragment_661 0 105 80
+    fragment_662 0 110 80
+    fragment_663 0 115 80
+    fragment_664 0 120 80
+    fragment_665 0 125 80
+    fragment_666 0 130 80
+    fragment_667 0 135 80
+    fragment_668 0 140 80
+    fragment_669 0 145 80
+    fragment_670 0 150 80
+    fragment_671 0 155 80
+    fragment_672 0 160 80
+    fragment_673 0 165 80
+    fragment_674 0 170 80
+    fragment_675 0 175 80
+    fragment_676 0 180 80
+    fragment_677 0 185 80
+    fragment_678 0 190 80
+    fragment_679 0 195 80
+    fragment_680 0 0 85
+    fragment_681 0 5 85
+    fragment_682 0 10 85
+    fragment_683 0 15 85
+    fragment_684 0 20 85
+    fragment_685 0 25 85
+    fragment_686 0 30 85
+    fragment_687 0 35 85
+    fragment_688 0 40 85
+    fragment_689 0 45 85
+    fragment_690 0 50 85
+    fragment_691 0 55 85
+    fragment_692 0 60 85
+    fragment_693 0 65 85
+    fragment_694 0 70 85
+    fragment_695 0 75 85
+    fragment_696 0 80 85
+    fragment_697 0 85 85
+    fragment_698 0 90 85
+    fragment_699 0 95 85
+    fragment_700 0 100 85
+    fragment_701 0 105 85
+    fragment_702 0 110 85
+    fragment_703 0 115 85
+    fragment_704 0 120 85
+    fragment_705 0 125 85
+    fragment_706 0 130 85
+    fragment_707 0 135 85
+    fragment_708 0 140 85
+    fragment_709 0 145 85
+    fragment_710 0 150 85
+    fragment_711 0 155 85
+    fragment_712 0 160 85
+    fragment_713 0 165 85
+    fragment_714 0 170 85
+    fragment_715 0 175 85
+    fragment_716 0 180 85
+    fragment_717 0 185 85
+    fragment_718 0 190 85
+    fragment_719 0 195 85
+    fragment_720 0 0 90
+    fragment_721 0 5 90
+    fragment_722 0 10 90
+    fragment_723 0 15 90
+    fragment_724 0 20 90
+    fragment_725 0 25 90
+    fragment_726 0 30 90
+    fragment_727 0 35 90
+    fragment_728 0 40 90
+    fragment_729 0 45 90
+    fragment_730 0 50 90
+    fragment_731 0 55 90
+    fragment_732 0 60 90
+    fragment_733 0 65 90
+    fragment_734 0 70 90
+    fragment_735 0 75 90
+    fragment_736 0 80 90
+    fragment_737 0 85 90
+    fragment_738 0 90 90
+    fragment_739 0 95 90
+    fragment_740 0 100 90
+    fragment_741 0 105 90
+    fragment_742 0 110 90
+    fragment_743 0 115 90
+    fragment_744 0 120 90
+    fragment_745 0 125 90
+    fragment_746 0 130 90
+    fragment_747 0 135 90
+    fragment_748 0 140 90
+    fragment_749 0 145 90
+    fragment_750 0 150 90
+    fragment_751 0 155 90
+    fragment_752 0 160 90
+    fragment_753 0 165 90
+    fragment_754 0 170 90
+    fragment_755 0 175 90
+    fragment_756 0 180 90
+    fragment_757 0 185 90
+    fragment_758 0 190 90
+    fragment_759 0 195 90
+    fragment_760 0 0 95
+    fragment_761 0 5 95
+    fragment_762 0 10 95
+    fragment_763 0 15 95
+    fragment_764 0 20 95
+    fragment_765 0 25 95
+    fragment_766 0 30 95
+    fragment_767 0 35 95
+    fragment_768 0 40 95
+    fragment_769 0 45 95
+    fragment_770 0 50 95
+    fragment_771 0 55 95
+    fragment_772 0 60 95
+    fragment_773 0 65 95
+    fragment_774 0 70 95
+    fragment_775 0 75 95
+    fragment_776 0 80 95
+    fragment_777 0 85 95
+    fragment_778 0 90 95
+    fragment_779 0 95 95
+    fragment_780 0 100 95
+    fragment_781 0 105 95
+    fragment_782 0 110 95
+    fragment_783 0 115 95
+    fragment_784 0 120 95
+    fragment_785 0 125 95
+    fragment_786 0 130 95
+    fragment_787 0 135 95
+    fragment_788 0 140 95
+    fragment_789 0 145 95
+    fragment_790 0 150 95
+    fragment_791 0 155 95
+    fragment_792 0 160 95
+    fragment_793 0 165 95
+    fragment_794 0 170 95
+    fragment_795 0 175 95
+    fragment_796 0 180 95
+    fragment_797 0 185 95
+    fragment_798 0 190 95
+    fragment_799 0 195 95
+    fragment_800 0 0 100
+    fragment_801 0 5 100
+    fragment_802 0 10 100
+    fragment_803 0 15 100
+    fragment_804 0 20 100
+    fragment_805 0 25 100
+    fragment_806 0 30 100
+    fragment_807 0 35 100
+    fragment_808 0 40 100
+    fragment_809 0 45 100
+    fragment_810 0 50 100
+    fragment_811 0 55 100
+    fragment_812 0 60 100
+    fragment_813 0 65 100
+    fragment_814 0 70 100
+    fragment_815 0 75 100
+    fragment_816 0 80 100
+    fragment_817 0 85 100
+    fragment_818 0 90 100
+    fragment_819 0 95 100
+    fragment_820 0 100 100
+    fragment_821 0 105 100
+    fragment_822 0 110 100
+    fragment_823 0 115 100
+    fragment_824 0 120 100
+    fragment_825 0 125 100
+    fragment_826 0 130 100
+    fragment_827 0 135 100
+    fragment_828 0 140 100
+    fragment_829 0 145 100
+    fragment_830 0 150 100
+    fragment_831 0 155 100
+    fragment_832 0 160 100
+    fragment_833 0 165 100
+    fragment_834 0 170 100
+    fragment_835 0 175 100
+    fragment_836 0 180 100
+    fragment_837 0 185 100
+    fragment_838 0 190 100
+    fragment_839 0 195 100
+    fragment_840 0 0 105
+    fragment_841 0 5 105
+    fragment_842 0 10 105
+    fragment_843 0 15 105
+    fragment_844 0 20 105
+    fragment_845 0 25 105
+    fragment_846 0 30 105
+    fragment_847 0 35 105
+    fragment_848 0 40 105
+    fragment_849 0 45 105
+    fragment_850 0 50 105
+    fragment_851 0 55 105
+    fragment_852 0 60 105
+    fragment_853 0 65 105
+    fragment_854 0 70 105
+    fragment_855 0 75 105
+    fragment_856 0 80 105
+    fragment_857 0 85 105
+    fragment_858 0 90 105
+    fragment_859 0 95 105
+    fragment_860 0 100 105
+    fragment_861 0 105 105
+    fragment_862 0 110 105
+    fragment_863 0 115 105
+    fragment_864 0 120 105
+    fragment_865 0 125 105
+    fragment_866 0 130 105
+    fragment_867 0 135 105
+    fragment_868 0 140 105
+    fragment_869 0 145 105
+    fragment_870 0 150 105
+    fragment_871 0 155 105
+    fragment_872 0 160 105
+    fragment_873 0 165 105
+    fragment_874 0 170 105
+    fragment_875 0 175 105
+    fragment_876 0 180 105
+    fragment_877 0 185 105
+    fragment_878 0 190 105
+    fragment_879 0 195 105
+    fragment_880 0 0 110
+    fragment_881 0 5 110
+    fragment_882 0 10 110
+    fragment_883 0 15 110
+    fragment_884 0 20 110
+    fragment_885 0 25 110
+    fragment_886 0 30 110
+    fragment_887 0 35 110
+    fragment_888 0 40 110
+    fragment_889 0 45 110
+    fragment_890 0 50 110
+    fragment_891 0 55 110
+    fragment_892 0 60 110
+    fragment_893 0 65 110
+    fragment_894 0 70 110
+    fragment_895 0 75 110
+    fragment_896 0 80 110
+    fragment_897 0 85 110
+    fragment_898 0 90 110
+    fragment_899 0 95 110
+    fragment_900 0 100 110
+    fragment_901 0 105 110
+    fragment_902 0 110 110
+    fragment_903 0 115 110
+    fragment_904 0 120 110
+    fragment_905 0 125 110
+    fragment_906 0 130 110
+    fragment_907 0 135 110
+    fragment_908 0 140 110
+    fragment_909 0 145 110
+    fragment_910 0 150 110
+    fragment_911 0 155 110
+    fragment_912 0 160 110
+    fragment_913 0 165 110
+    fragment_914 0 170 110
+    fragment_915 0 175 110
+    fragment_916 0 180 110
+    fragment_917 0 185 110
+    fragment_918 0 190 110
+    fragment_919 0 195 110
+    fragment_920 0 0 115
+    fragment_921 0 5 115
+    fragment_922 0 10 115
+    fragment_923 0 15 115
+    fragment_924 0 20 115
+    fragment_925 0 25 115
+    fragment_926 0 30 115
+    fragment_927 0 35 115
+    fragment_928 0 40 115
+    fragment_929 0 45 115
+    fragment_930 0 50 115
+    fragment_931 0 55 115
+    fragment_932 0 60 115
+    fragment_933 0 65 115
+    fragment_934 0 70 115
+    fragment_935 0 75 115
+    fragment_936 0 80 115
+    fragment_937 0 85 115
+    fragment_938 0 90 115
+    fragment_939 0 95 115
+    fragment_940 0 100 115
+    fragment_941 0 105 115
+    fragment_942 0 110 115
+    fragment_943 0 115 115
+    fragment_944 0 120 115
+    fragment_945 0 125 115
+    fragment_946 0 130 115
+    fragment_947 0 135 115
+    fragment_948 0 140 115
+    fragment_949 0 145 115
+    fragment_950 0 150 115
+    fragment_951 0 155 115
+    fragment_952 0 160 115
+    fragment_953 0 165 115
+    fragment_954 0 170 115
+    fragment_955 0 175 115
+    fragment_956 0 180 115
+    fragment_957 0 185 115
+    fragment_958 0 190 115
+    fragment_959 0 195 115
+    fragment_960 0 0 120
+    fragment_961 0 5 120
+    fragment_962 0 10 120
+    fragment_963 0 15 120
+    fragment_964 0 20 120
+    fragment_965 0 25 120
+    fragment_966 0 30 120
+    fragment_967 0 35 120
+    fragment_968 0 40 120
+    fragment_969 0 45 120
+    fragment_970 0 50 120
+    fragment_971 0 55 120
+    fragment_972 0 60 120
+    fragment_973 0 65 120
+    fragment_974 0 70 120
+    fragment_975 0 75 120
+    fragment_976 0 80 120
+    fragment_977 0 85 120
+    fragment_978 0 90 120
+    fragment_979 0 95 120
+    fragment_980 0 100 120
+    fragment_981 0 105 120
+    fragment_982 0 110 120
+    fragment_983 0 115 120
+    fragment_984 0 120 120
+    fragment_985 0 125 120
+    fragment_986 0 130 120
+    fragment_987 0 135 120
+    fragment_988 0 140 120
+    fragment_989 0 145 120
+    fragment_990 0 150 120
+    fragment_991 0 155 120
+    fragment_992 0 160 120
+    fragment_993 0 165 120
+    fragment_994 0 170 120
+    fragment_995 0 175 120
+    fragment_996 0 180 120
+    fragment_997 0 185 120
+    fragment_998 0 190 120
+    fragment_999 0 195 120
+    fragment_1000 0 0 125
+    fragment_1001 0 5 125
+    fragment_1002 0 10 125
+    fragment_1003 0 15 125
+    fragment_1004 0 20 125
+    fragment_1005 0 25 125
+    fragment_1006 0 30 125
+    fragment_1007 0 35 125
+    fragment_1008 0 40 125
+    fragment_1009 0 45 125
+    fragment_1010 0 50 125
+    fragment_1011 0 55 125
+    fragment_1012 0 60 125
+    fragment_1013 0 65 125
+    fragment_1014 0 70 125
+    fragment_1015 0 75 125
+    fragment_1016 0 80 125
+    fragment_1017 0 85 125
+    fragment_1018 0 90 125
+    fragment_1019 0 95 125
+    fragment_1020 0 100 125
+    fragment_1021 0 105 125
+    fragment_1022 0 110 125
+    fragment_1023 0 115 125
+    fragment_1024 0 120 125
+    fragment_1025 0 125 125
+    fragment_1026 0 130 125
+    fragment_1027 0 135 125
+    fragment_1028 0 140 125
+    fragment_1029 0 145 125
+    fragment_1030 0 150 125
+    fragment_1031 0 155 125
+    fragment_1032 0 160 125
+    fragment_1033 0 165 125
+    fragment_1034 0 170 125
+    fragment_1035 0 175 125
+    fragment_1036 0 180 125
+    fragment_1037 0 185 125
+    fragment_1038 0 190 125
+    fragment_1039 0 195 125
+    fragment_1040 0 0 130
+    fragment_1041 0 5 130
+    fragment_1042 0 10 130
+    fragment_1043 0 15 130
+    fragment_1044 0 20 130
+    fragment_1045 0 25 130
+    fragment_1046 0 30 130
+    fragment_1047 0 35 130
+    fragment_1048 0 40 130
+    fragment_1049 0 45 130
+    fragment_1050 0 50 130
+    fragment_1051 0 55 130
+    fragment_1052 0 60 130
+    fragment_1053 0 65 130
+    fragment_1054 0 70 130
+    fragment_1055 0 75 130
+    fragment_1056 0 80 130
+    fragment_1057 0 85 130
+    fragment_1058 0 90 130
+    fragment_1059 0 95 130
+    fragment_1060 0 100 130
+    fragment_1061 0 105 130
+    fragment_1062 0 110 130
+    fragment_1063 0 115 130
+    fragment_1064 0 120 130
+    fragment_1065 0 125 130
+    fragment_1066 0 130 130
+    fragment_1067 0 135 130
+    fragment_1068 0 140 130
+    fragment_1069 0 145 130
+    fragment_1070 0 150 130
+    fragment_1071 0 155 130
+    fragment_1072 0 160 130
+    fragment_1073 0 165 130
+    fragment_1074 0 170 130
+    fragment_1075 0 175 130
+    fragment_1076 0 180 130
+    fragment_1077 0 185 130
+    fragment_1078 0 190 130
+    fragment_1079 0 195 130
+    fragment_1080 0 0 135
+    fragment_1081 0 5 135
+    fragment_1082 0 10 135
+    fragment_1083 0 15 135
+    fragment_1084 0 20 135
+    fragment_1085 0 25 135
+    fragment_1086 0 30 135
+    fragment_1087 0 35 135
+    fragment_1088 0 40 135
+    fragment_1089 0 45 135
+    fragment_1090 0 50 135
+    fragment_1091 0 55 135
+    fragment_1092 0 60 135
+    fragment_1093 0 65 135
+    fragment_1094 0 70 135
+    fragment_1095 0 75 135
+    fragment_1096 0 80 135
+    fragment_1097 0 85 135
+    fragment_1098 0 90 135
+    fragment_1099 0 95 135
+    fragment_1100 0 100 135
+    fragment_1101 0 105 135
+    fragment_1102 0 110 135
+    fragment_1103 0 115 135
+    fragment_1104 0 120 135
+    fragment_1105 0 125 135
+    fragment_1106 0 130 135
+    fragment_1107 0 135 135
+    fragment_1108 0 140 135
+    fragment_1109 0 145 135
+    fragment_1110 0 150 135
+    fragment_1111 0 155 135
+    fragment_1112 0 160 135
+    fragment_1113 0 165 135
+    fragment_1114 0 170 135
+    fragment_1115 0 175 135
+    fragment_1116 0 180 135
+    fragment_1117 0 185 135
+    fragment_1118 0 190 135
+    fragment_1119 0 195 135
+    fragment_1120 0 0 140
+    fragment_1121 0 5 140
+    fragment_1122 0 10 140
+    fragment_1123 0 15 140
+    fragment_1124 0 20 140
+    fragment_1125 0 25 140
+    fragment_1126 0 30 140
+    fragment_1127 0 35 140
+    fragment_1128 0 40 140
+    fragment_1129 0 45 140
+    fragment_1130 0 50 140
+    fragment_1131 0 55 140
+    fragment_1132 0 60 140
+    fragment_1133 0 65 140
+    fragment_1134 0 70 140
+    fragment_1135 0 75 140
+    fragment_1136 0 80 140
+    fragment_1137 0 85 140
+    fragment_1138 0 90 140
+    fragment_1139 0 95 140
+    fragment_1140 0 100 140
+    fragment_1141 0 105 140
+    fragment_1142 0 110 140
+    fragment_1143 0 115 140
+    fragment_1144 0 120 140
+    fragment_1145 0 125 140
+    fragment_1146 0 130 140
+    fragment_1147 0 135 140
+    fragment_1148 0 140 140
+    fragment_1149 0 145 140
+    fragment_1150 0 150 140
+    fragment_1151 0 155 140
+    fragment_1152 0 160 140
+    fragment_1153 0 165 140
+    fragment_1154 0 170 140
+    fragment_1155 0 175 140
+    fragment_1156 0 180 140
+    fragment_1157 0 185 140
+    fragment_1158 0 190 140
+    fragment_1159 0 195 140
+    fragment_1160 0 0 145
+    fragment_1161 0 5 145
+    fragment_1162 0 10 145
+    fragment_1163 0 15 145
+    fragment_1164 0 20 145
+    fragment_1165 0 25 145
+    fragment_1166 0 30 145
+    fragment_1167 0 35 145
+    fragment_1168 0 40 145
+    fragment_1169 0 45 145
+    fragment_1170 0 50 145
+    fragment_1171 0 55 145
+    fragment_1172 0 60 145
+    fragment_1173 0 65 145
+    fragment_1174 0 70 145
+    fragment_1175 0 75 145
+    fragment_1176 0 80 145
+    fragment_1177 0 85 145
+    fragment_1178 0 90 145
+    fragment_1179 0 95 145
+    fragment_1180 0 100 145
+    fragment_1181 0 105 145
+    fragment_1182 0 110 145
+    fragment_1183 0 115 145
+    fragment_1184 0 120 145
+    fragment_1185 0 125 145
+    fragment_1186 0 130 145
+    fragment_1187 0 135 145
+    fragment_1188 0 140 145
+    fragment_1189 0 145 145
+    fragment_1190 0 150 145
+    fragment_1191 0 155 145
+    fragment_1192 0 160 145
+    fragment_1193 0 165 145
+    fragment_1194 0 170 145
+    fragment_1195 0 175 145
+    fragment_1196 0 180 145
+    fragment_1197 0 185 145
+    fragment_1198 0 190 145
+    fragment_1199 0 195 145
+    fragment_1200 0 0 150
+    fragment_1201 0 5 150
+    fragment_1202 0 10 150
+    fragment_1203 0 15 150
+    fragment_1204 0 20 150
+    fragment_1205 0 25 150
+    fragment_1206 0 30 150
+    fragment_1207 0 35 150
+    fragment_1208 0 40 150
+    fragment_1209 0 45 150
+    fragment_1210 0 50 150
+    fragment_1211 0 55 150
+    fragment_1212 0 60 150
+    fragment_1213 0 65 150
+    fragment_1214 0 70 150
+    fragment_1215 0 75 150
+    fragment_1216 0 80 150
+    fragment_1217 0 85 150
+    fragment_1218 0 90 150
+    fragment_1219 0 95 150
+    fragment_1220 0 100 150
+    fragment_1221 0 105 150
+    fragment_1222 0 110 150
+    fragment_1223 0 115 150
+    fragment_1224 0 120 150
+    fragment_1225 0 125 150
+    fragment_1226 0 130 150
+    fragment_1227 0 135 150
+    fragment_1228 0 140 150
+    fragment_1229 0 145 150
+    fragment_1230 0 150 150
+    fragment_1231 0 155 150
+    fragment_1232 0 160 150
+    fragment_1233 0 165 150
+    fragment_1234 0 170 150
+    fragment_1235 0 175 150
+    fragment_1236 0 180 150
+    fragment_1237 0 185 150
+    fragment_1238 0 190 150
+    fragment_1239 0 195 150
+    fragment_1240 0 0 155
+    fragment_1241 0 5 155
+    fragment_1242 0 10 155
+    fragment_1243 0 15 155
+    fragment_1244 0 20 155
+    fragment_1245 0 25 155
+    fragment_1246 0 30 155
+    fragment_1247 0 35 155
+    fragment_1248 0 40 155
+    fragment_1249 0 45 155
+    fragment_1250 0 50 155
+    fragment_1251 0 55 155
+    fragment_1252 0 60 155
+    fragment_1253 0 65 155
+    fragment_1254 0 70 155
+    fragment_1255 0 75 155
+    fragment_1256 0 80 155
+    fragment_1257 0 85 155
+    fragment_1258 0 90 155
+    fragment_1259 0 95 155
+    fragment_1260 0 100 155
+    fragment_1261 0 105 155
+    fragment_1262 0 110 155
+    fragment_1263 0 115 155
+    fragment_1264 0 120 155
+    fragment_1265 0 125 155
+    fragment_1266 0 130 155
+    fragment_1267 0 135 155
+    fragment_1268 0 140 155
+    fragment_1269 0 145 155
+    fragment_1270 0 150 155
+    fragment_1271 0 155 155
+    fragment_1272 0 160 155
+    fragment_1273 0 165 155
+    fragment_1274 0 170 155
+    fragment_1275 0 175 155
+    fragment_1276 0 180 155
+    fragment_1277 0 185 155
+    fragment_1278 0 190 155
+    fragment_1279 0 195 155
+    fragment_1280 0 0 160
+    fragment_1281 0 5 160
+    fragment_1282 0 10 160
+    fragment_1283 0 15 160
+    fragment_1284 0 20 160
+    fragment_1285 0 25 160
+    fragment_1286 0 30 160
+    fragment_1287 0 35 160
+    fragment_1288 0 40 160
+    fragment_1289 0 45 160
+    fragment_1290 0 50 160
+    fragment_1291 0 55 160
+    fragment_1292 0 60 160
+    fragment_1293 0 65 160
+    fragment_1294 0 70 160
+    fragment_1295 0 75 160
+    fragment_1296 0 80 160
+    fragment_1297 0 85 160
+    fragment_1298 0 90 160
+    fragment_1299 0 95 160
+    fragment_1300 0 100 160
+    fragment_1301 0 105 160
+    fragment_1302 0 110 160
+    fragment_1303 0 115 160
+    fragment_1304 0 120 160
+    fragment_1305 0 125 160
+    fragment_1306 0 130 160
+    fragment_1307 0 135 160
+    fragment_1308 0 140 160
+    fragment_1309 0 145 160
+    fragment_1310 0 150 160
+    fragment_1311 0 155 160
+    fragment_1312 0 160 160
+    fragment_1313 0 165 160
+    fragment_1314 0 170 160
+    fragment_1315 0 175 160
+    fragment_1316 0 180 160
+    fragment_1317 0 185 160
+    fragment_1318 0 190 160
+    fragment_1319 0 195 160
+    fragment_1320 0 0 165
+    fragment_1321 0 5 165
+    fragment_1322 0 10 165
+    fragment_1323 0 15 165
+    fragment_1324 0 20 165
+    fragment_1325 0 25 165
+    fragment_1326 0 30 165
+    fragment_1327 0 35 165
+    fragment_1328 0 40 165
+    fragment_1329 0 45 165
+    fragment_1330 0 50 165
+    fragment_1331 0 55 165
+    fragment_1332 0 60 165
+    fragment_1333 0 65 165
+    fragment_1334 0 70 165
+    fragment_1335 0 75 165
+    fragment_1336 0 80 165
+    fragment_1337 0 85 165
+    fragment_1338 0 90 165
+    fragment_1339 0 95 165
+    fragment_1340 0 100 165
+    fragment_1341 0 105 165
+    fragment_1342 0 110 165
+    fragment_1343 0 115 165
+    fragment_1344 0 120 165
+    fragment_1345 0 125 165
+    fragment_1346 0 130 165
+    fragment_1347 0 135 165
+    fragment_1348 0 140 165
+    fragment_1349 0 145 165
+    fragment_1350 0 150 165
+    fragment_1351 0 155 165
+    fragment_1352 0 160 165
+    fragment_1353 0 165 165
+    fragment_1354 0 170 165
+    fragment_1355 0 175 165
+    fragment_1356 0 180 165
+    fragment_1357 0 185 165
+    fragment_1358 0 190 165
+    fragment_1359 0 195 165
+    fragment_1360 0 0 170
+    fragment_1361 0 5 170
+    fragment_1362 0 10 170
+    fragment_1363 0 15 170
+    fragment_1364 0 20 170
+    fragment_1365 0 25 170
+    fragment_1366 0 30 170
+    fragment_1367 0 35 170
+    fragment_1368 0 40 170
+    fragment_1369 0 45 170
+    fragment_1370 0 50 170
+    fragment_1371 0 55 170
+    fragment_1372 0 60 170
+    fragment_1373 0 65 170
+    fragment_1374 0 70 170
+    fragment_1375 0 75 170
+    fragment_1376 0 80 170
+    fragment_1377 0 85 170
+    fragment_1378 0 90 170
+    fragment_1379 0 95 170
+    fragment_1380 0 100 170
+    fragment_1381 0 105 170
+    fragment_1382 0 110 170
+    fragment_1383 0 115 170
+    fragment_1384 0 120 170
+    fragment_1385 0 125 170
+    fragment_1386 0 130 170
+    fragment_1387 0 135 170
+    fragment_1388 0 140 170
+    fragment_1389 0 145 170
+    fragment_1390 0 150 170
+    fragment_1391 0 155 170
+    fragment_1392 0 160 170
+    fragment_1393 0 165 170
+    fragment_1394 0 170 170
+    fragment_1395 0 175 170
+    fragment_1396 0 180 170
+    fragment_1397 0 185 170
+    fragment_1398 0 190 170
+    fragment_1399 0 195 170
+    fragment_1400 0 0 175
+    fragment_1401 0 5 175
+    fragment_1402 0 10 175
+    fragment_1403 0 15 175
+    fragment_1404 0 20 175
+    fragment_1405 0 25 175
+    fragment_1406 0 30 175
+    fragment_1407 0 35 175
+    fragment_1408 0 40 175
+    fragment_1409 0 45 175
+    fragment_1410 0 50 175
+    fragment_1411 0 55 175
+    fragment_1412 0 60 175
+    fragment_1413 0 65 175
+    fragment_1414 0 70 175
+    fragment_1415 0 75 175
+    fragment_1416 0 80 175
+    fragment_1417 0 85 175
+    fragment_1418 0 90 175
+    fragment_1419 0 95 175
+    fragment_1420 0 100 175
+    fragment_1421 0 105 175
+    fragment_1422 0 110 175
+    fragment_1423 0 115 175
+    fragment_1424 0 120 175
+    fragment_1425 0 125 175
+    fragment_1426 0 130 175
+    fragment_1427 0 135 175
+    fragment_1428 0 140 175
+    fragment_1429 0 145 175
+    fragment_1430 0 150 175
+    fragment_1431 0 155 175
+    fragment_1432 0 160 175
+    fragment_1433 0 165 175
+    fragment_1434 0 170 175
+    fragment_1435 0 175 175
+    fragment_1436 0 180 175
+    fragment_1437 0 185 175
+    fragment_1438 0 190 175
+    fragment_1439 0 195 175
+    fragment_1440 0 0 180
+    fragment_1441 0 5 180
+    fragment_1442 0 10 180
+    fragment_1443 0 15 180
+    fragment_1444 0 20 180
+    fragment_1445 0 25 180
+    fragment_1446 0 30 180
+    fragment_1447 0 35 180
+    fragment_1448 0 40 180
+    fragment_1449 0 45 180
+    fragment_1450 0 50 180
+    fragment_1451 0 55 180
+    fragment_1452 0 60 180
+    fragment_1453 0 65 180
+    fragment_1454 0 70 180
+    fragment_1455 0 75 180
+    fragment_1456 0 80 180
+    fragment_1457 0 85 180
+    fragment_1458 0 90 180
+    fragment_1459 0 95 180
+    fragment_1460 0 100 180
+    fragment_1461 0 105 180
+    fragment_1462 0 110 180
+    fragment_1463 0 115 180
+    fragment_1464 0 120 180
+    fragment_1465 0 125 180
+    fragment_1466 0 130 180
+    fragment_1467 0 135 180
+    fragment_1468 0 140 180
+    fragment_1469 0 145 180
+    fragment_1470 0 150 180
+    fragment_1471 0 155 180
+    fragment_1472 0 160 180
+    fragment_1473 0 165 180
+    fragment_1474 0 170 180
+    fragment_1475 0 175 180
+    fragment_1476 0 180 180
+    fragment_1477 0 185 180
+    fragment_1478 0 190 180
+    fragment_1479 0 195 180
+    fragment_1480 0 0 185
+    fragment_1481 0 5 185
+    fragment_1482 0 10 185
+    fragment_1483 0 15 185
+    fragment_1484 0 20 185
+    fragment_1485 0 25 185
+    fragment_1486 0 30 185
+    fragment_1487 0 35 185
+    fragment_1488 0 40 185
+    fragment_1489 0 45 185
+    fragment_1490 0 50 185
+    fragment_1491 0 55 185
+    fragment_1492 0 60 185
+    fragment_1493 0 65 185
+    fragment_1494 0 70 185
+    fragment_1495 0 75 185
+    fragment_1496 0 80 185
+    fragment_1497 0 85 185
+    fragment_1498 0 90 185
+    fragment_1499 0 95 185
+    fragment_1500 0 100 185
+    fragment_1501 0 105 185
+    fragment_1502 0 110 185
+    fragment_1503 0 115 185
+    fragment_1504 0 120 185
+    fragment_1505 0 125 185
+    fragment_1506 0 130 185
+    fragment_1507 0 135 185
+    fragment_1508 0 140 185
+    fragment_1509 0 145 185
+    fragment_1510 0 150 185
+    fragment_1511 0 155 185
+    fragment_1512 0 160 185
+    fragment_1513 0 165 185
+    fragment_1514 0 170 185
+    fragment_1515 0 175 185
+    fragment_1516 0 180 185
+    fragment_1517 0 185 185
+    fragment_1518 0 190 185
+    fragment_1519 0 195 185
+    fragment_1520 0 0 190
+    fragment_1521 0 5 190
+    fragment_1522 0 10 190
+    fragment_1523 0 15 190
+    fragment_1524 0 20 190
+    fragment_1525 0 25 190
+    fragment_1526 0 30 190
+    fragment_1527 0 35 190
+    fragment_1528 0 40 190
+    fragment_1529 0 45 190
+    fragment_1530 0 50 190
+    fragment_1531 0 55 190
+    fragment_1532 0 60 190
+    fragment_1533 0 65 190
+    fragment_1534 0 70 190
+    fragment_1535 0 75 190
+    fragment_1536 0 80 190
+    fragment_1537 0 85 190
+    fragment_1538 0 90 190
+    fragment_1539 0 95 190
+    fragment_1540 0 100 190
+    fragment_1541 0 105 190
+    fragment_1542 0 110 190
+    fragment_1543 0 115 190
+    fragment_1544 0 120 190
+    fragment_1545 0 125 190
+    fragment_1546 0 130 190
+    fragment_1547 0 135 190
+    fragment_1548 0 140 190
+    fragment_1549 0 145 190
+    fragment_1550 0 150 190
+    fragment_1551 0 155 190
+    fragment_1552 0 160 190
+    fragment_1553 0 165 190
+    fragment_1554 0 170 190
+    fragment_1555 0 175 190
+    fragment_1556 0 180 190
+    fragment_1557 0 185 190
+    fragment_1558 0 190 190
+    fragment_1559 0 195 190
+    fragment_1560 0 0 195
+    fragment_1561 0 5 195
+    fragment_1562 0 10 195
+    fragment_1563 0 15 195
+    fragment_1564 0 20 195
+    fragment_1565 0 25 195
+    fragment_1566 0 30 195
+    fragment_1567 0 35 195
+    fragment_1568 0 40 195
+    fragment_1569 0 45 195
+    fragment_1570 0 50 195
+    fragment_1571 0 55 195
+    fragment_1572 0 60 195
+    fragment_1573 0 65 195
+    fragment_1574 0 70 195
+    fragment_1575 0 75 195
+    fragment_1576 0 80 195
+    fragment_1577 0 85 195
+    fragment_1578 0 90 195
+    fragment_1579 0 95 195
+    fragment_1580 0 100 195
+    fragment_1581 0 105 195
+    fragment_1582 0 110 195
+    fragment_1583 0 115 195
+    fragment_1584 0 120 195
+    fragment_1585 0 125 195
+    fragment_1586 0 130 195
+    fragment_1587 0 135 195
+    fragment_1588 0 140 195
+    fragment_1589 0 145 195
+    fragment_1590 0 150 195
+    fragment_1591 0 155 195
+    fragment_1592 0 160 195
+    fragment_1593 0 165 195
+    fragment_1594 0 170 195
+    fragment_1595 0 175 195
+    fragment_1596 0 180 195
+    fragment_1597 0 185 195
+    fragment_1598 0 190 195
+    fragment_1599 0 195 195
+  </Fragments>
+  
+  <Layers>
+    count 0
+  </Layers>
+  
+  <Objects>
+    count 0
+  </Objects>
+</Segment 2>
+

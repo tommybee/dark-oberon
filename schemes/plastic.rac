@@ -1,0 +1,273 @@
+#
+#  Dark Oberon - Definition of the Human Race
+#
+
+name "HyperPlayer"
+author "Martin Kosalko"
+schemes "plastic"
+
+
+tg_burning_id none
+
+snd_error none
+snd_placement none
+snd_construction construction
+snd_burning burning
+snd_dead none
+snd_explosion explosion1 explosion2 explosion3 explosion4
+snd_building_selected none
+
+
+#
+#  Units
+#
+
+<Units>
+  count 1
+
+  <Unit 0>
+    id "pig"
+    name "Pig"
+    size 1
+    materials 100 50 0
+    max_life 100
+    max_speed 2 2 2
+    max_rotation_speed 1440 1440 1440
+    selection_height 25
+    burning_position 0 0
+    item_type f
+
+    view 5
+
+    energy 0
+    food 0
+
+    move_terrain_id 10 10 10 20 10 10
+    land_terrain_id 10 10 10 20 10 10
+    min_exist_segment_id 1
+    max_exist_segment_id 1
+    min_max_visible_segment_id 1 2 1 2 1 2
+    land_segment_id 1
+
+    max_hided_units 0
+    can_hide 
+    
+    tg_picture_id pig_picture
+    tg_stay_id pig_stay
+    tg_anchor_id none
+    tg_move_id pig_stay
+    tg_land_id none
+    tg_rotate_id none
+    tg_attack_id pig_stay
+    tg_dying_id none
+    tg_zombie_id pig_zombie
+    tg_projectile_id none
+    tg_burning_id none
+
+    snd_ready none
+    snd_selected pig_sel1 pig_sel2 pig_sel3
+    snd_command none
+    snd_fireon none
+    snd_fireoff none
+    snd_hit pig_sel1 pig_sel2 pig_sel3
+    snd_dead pig_dead
+    snd_burning none
+
+    is_offensive true
+    offensive_aggressivity guarded
+    offensive_accuracy 0.7
+    offensive_flags gun_same_segment gun_notlanding
+    offensive_range 1 1
+    offensive_shot_time 0.3
+    offensive_wait_time 0
+    offensive_feed_time 1.5
+    offensive_scope 1
+    offensive_shotable_seg_min_max 1 1
+
+    gun_power_min_max 5 10
+    gun_shot_speed 100
+
+    defence_armour 2
+    defence_protection 0.1
+
+    features heal_when_stay heal_when_anchor
+
+    heal_time 50.0
+
+  </Unit 0>
+  
+</Units>
+
+
+#
+#  Buildings
+#
+
+<Buildings>
+  count 1
+  
+  <Building 0>
+    id "cottage"
+    name "Cottage"
+    item_type b
+    width 2
+    height 2
+    materials 500 250 100
+    max_life 500
+    view 6
+    selection_height 40
+    burning_position 0 30
+
+    energy 0
+    min_energy 0
+    food 0
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2
+    ancestor none
+
+    max_hided_units 3
+    can_hide "pig"
+    
+    tg_picture_id cottage_picture
+    tg_stay_id cottage_stay
+    tg_build_id none
+    tg_attack_id none
+    tg_dying_id none
+    tg_zombie_id none
+    tg_burning_id soft_burning
+
+    snd_selected none
+    snd_explosion none
+    snd_burning none
+    
+    allowed_materials
+    
+    is_offensive false
+
+    defence_armour 1
+    defence_protection 0
+  </Building 0>
+
+</Buildings>
+
+#
+#  Sources
+#
+
+<Sources>
+  count 3
+  
+  <Source 0>
+    id "goldmine"
+    name "Gold Mine"
+    width 4
+    height 4
+    max_life 2000
+    capacity 60000
+    selection_height 50
+    burning_position -3 8
+
+    max_hided_units 0
+    can_hide 
+    
+    tg_picture_id goldmine_picture
+    tg_stay_id goldmine_stay
+    tg_burning_id soft_burning
+    tg_dying_id none
+    tg_zombie_id none
+
+    snd_selected goldmine_sel
+    snd_explosion none
+    snd_burning none
+    
+    build_terrain_id 10 10
+    exist_segment_id 1
+    
+    defence_armour 25
+    defence_protection 0
+
+    offer_material "gold"
+    time_of_regeneration 0
+    time_of_first_regeneration 0
+    renewable false
+    inside_mining true
+    hideable false
+  </Source 0>
+
+  <Source 1>
+    id "forest"
+    name "Forest"
+    width 3
+    height 3
+    max_life 400
+    capacity 500
+    selection_height 50
+    burning_position 0 40
+
+    max_hided_units 0
+    can_hide 
+    
+    tg_picture_id forest_picture
+    tg_stay_id forest_stay
+    tg_zombie_id none
+    tg_burning_id none
+    tg_dying_id none
+
+    snd_selected forest_sel1 forest_sel2 forest_sel3
+    snd_explosion none
+    snd_burning none
+    
+    build_terrain_id 10 10
+    exist_segment_id 1
+    
+    defence_armour 1
+    defence_protection 20
+
+    offer_material "wood"
+    time_of_regeneration 3
+    time_of_first_regeneration 600
+    renewable true
+    inside_mining false
+    hideable true
+  </Source 1>
+  
+  <Source 2>
+    id "coal"
+    name "Coal"
+    width 4
+    height 4
+    max_life 1500
+    capacity 10000
+    selection_height 30
+    burning_position 0 0
+
+    max_hided_units 0
+    can_hide 
+    
+    tg_picture_id coal_picture
+    tg_stay_id coal_stay
+    tg_burning_id none
+    tg_dying_id none
+    tg_zombie_id none
+
+    snd_selected coal_sel
+    snd_explosion none
+    snd_burning none
+    
+    build_terrain_id 10 10
+    exist_segment_id 0
+    
+    defence_armour 10
+    defence_protection 0
+
+    offer_material "coal"
+    time_of_regeneration 0
+    time_of_first_regeneration 0
+    renewable false
+    inside_mining false
+    hideable true
+  </Source 2>
+
+</Sources>

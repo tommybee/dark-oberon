@@ -1,0 +1,994 @@
+#
+#  ===========
+#   Trial map
+#  ===========
+#
+
+name "Trial map"
+author "PP team :)"
+width 80
+height 80
+scheme "plastic"
+
+
+<Players>
+  max_count 2
+  
+  <Start Points>
+    count 2
+    
+    start_point_0 65 55
+    start_point_1 25 2
+    
+  </Start Points>
+  
+  <Races>
+    count 2
+    
+    <Race 0>
+      name "human"
+      
+      <Sets>
+        count 1
+        
+        <Set 0>
+          init_materials_amount 1500 1000 1000
+          
+          <Units>
+            count 10
+            unit_0 "footman" 9 0 1 0 70    unit id, x position, y position, z position, direction, life
+            unit_1 "footman" 9 3 1 1 70
+            unit_2 "footman" 9 6 1 2 70
+            unit_3 "catapult" 7 9 1 3 50
+            unit_4 "peasant" 3 9 1 0 100
+            unit_5 "peasant" 4 9 1 0 100
+            unit_6 "peasant" 3 10 1 0 100
+            unit_7 "peasant" 4 10 1 0 100
+            unit_8 "airship" 12 6 1 0 100
+            unit_9 "moleman" 12 0 0 0 100
+          </Units>
+          
+          <Buildings>
+            count 7
+            building_0 "townhall" 0 0 80    building id, x position, y position, life
+            building_1 "farm" -3 0 100
+            building_2 "farm" -3 3 80
+            building_3 "farm" -3 6 60
+            building_4 "barracks" -1 12 70
+            building_5 "cannontower" 5 15 100
+            building_6 "shed" 10 10 80
+          </Buildings>
+          
+        </Set 0>
+        
+        <Set 1>
+          init_materials_amount 2500 2000 2000
+          
+          <Units>
+            count 4
+            unit_0 "footman" 9 0 1 0 70    unit id, x position, y position, z position, direction, life
+            unit_1 "catapult" 9 9 1 3 100
+            unit_2 "peasant" 3 9 1 0 100
+            unit_3 "airship" 12 6 1 0 100
+            
+          </Units>
+          
+          <Buildings>
+            count 2
+            building_0 "townhall" 0 0 90    building id, x position, y position, life
+            building_1 "tower" 0 10 50
+          </Buildings>
+          
+        </Set 1>
+      </Sets>
+    </Race 0>
+    
+    <Race 1>
+      name "human-yellow"
+      
+      <Sets>
+        count 1
+        
+        <Set 0>
+          init_materials_amount 1500 1000 1000
+          
+          <Units>
+            count 10
+            unit_0 "footman" 9 0 1 0 70    unit id, x position, y position, z position, direction, life
+            unit_1 "footman" 9 3 1 1 70
+            unit_2 "footman" 9 6 1 2 70
+            unit_3 "catapult" 7 9 1 3 50
+            unit_4 "peasant" 3 9 1 0 100
+            unit_5 "peasant" 4 9 1 0 100
+            unit_6 "peasant" 3 10 1 0 100
+            unit_7 "peasant" 4 10 1 0 100
+            unit_8 "airship" 12 6 1 0 100
+            unit_9 "moleman" 12 0 0 0 100
+            
+          </Units>
+          
+          <Buildings>
+            count 7
+            building_0 "townhall" 0 0 80    building id, x position, y position, life
+            building_1 "farm" -3 0 100
+            building_2 "farm" -3 3 80
+            building_3 "farm" -3 6 60
+            building_4 "barracks" -1 12 70
+            building_5 "cannontower" 5 15 100
+            building_6 "shed" 10 10 80
+          </Buildings>
+          
+        </Set 0>
+      </Sets>
+    </Race 1>
+    
+    
+    <SchemeRace>
+      name "plastic"
+      
+      <Units>
+        count 3
+        
+        unit_0 "pig" 21 38 1 2 90
+        unit_1 "pig" 13 14 1 0 90
+        unit_2 "pig" 60 40 1 6 90
+      </Units>
+      
+      <Sources>
+        count 22
+        
+        source_0 "goldmine" 12 2 75 50000 source id, x position, y position, life, material balance
+        source_1 "goldmine" 50 64 50 50000
+        
+        source_2 "forest" 50 41 100 500
+        source_3 "forest" 53 41 100 500
+        source_4 "forest" 56 41 100 400
+        source_5 "forest" 50 44 100 500
+        source_6 "forest" 53 44 100 500
+        source_7 "forest" 56 44 100 100
+        source_8 "forest" 50 47 100 300
+        source_9 "forest" 53 47 100 100
+        source_10 "forest" 56 47 100 500
+        
+        source_11 "coal" 37 28 100 10000
+        source_12 "coal" 65 33 100 7000
+        
+        source_13 "forest" 1 1 100 500
+        source_14 "forest" 4 1 100 400
+        source_15 "forest" 7 1 100 100
+        source_16 "forest" 1 4 100 450
+        source_17 "forest" 4 4 100 500
+        source_18 "forest" 7 4 100 500
+        source_19 "forest" 1 7 100 300
+        source_20 "forest" 4 7 100 100
+        source_21 "forest" 7 7 100 500
+      </Sources>
+      
+      <Buildings>
+        count 2
+        
+        building_0 "cottage" 48 43 100     building id, x position, y position, life
+        building_1 "cottage" 1 10 100
+      </Buildings>
+    </SchemeRace>
+    
+  </Races>
+  
+</Players>
+
+
+<Segment 0>
+  <Fragments>
+    count 256
+    fragment_0 22 0 0
+    fragment_1 20 5 0
+    fragment_2 20 10 0
+    fragment_3 20 15 0
+    fragment_4 20 20 0
+    fragment_5 20 25 0
+    fragment_6 20 30 0
+    fragment_7 20 35 0
+    fragment_8 20 40 0
+    fragment_9 20 45 0
+    fragment_10 20 50 0
+    fragment_11 20 55 0
+    fragment_12 20 60 0
+    fragment_13 20 65 0
+    fragment_14 20 70 0
+    fragment_15 28 75 0
+    fragment_16 21 0 5
+    fragment_17 0 5 5
+    fragment_18 0 10 5
+    fragment_19 0 15 5
+    fragment_20 0 20 5
+    fragment_21 0 25 5
+    fragment_22 0 30 5
+    fragment_23 0 35 5
+    fragment_24 0 40 5
+    fragment_25 0 45 5
+    fragment_26 0 50 5
+    fragment_27 0 55 5
+    fragment_28 0 60 5
+    fragment_29 0 65 5
+    fragment_30 0 70 5
+    fragment_31 1 75 5
+    fragment_32 21 0 10
+    fragment_33 0 5 10
+    fragment_34 0 10 10
+    fragment_35 0 15 10
+    fragment_36 0 20 10
+    fragment_37 0 25 10
+    fragment_38 0 30 10
+    fragment_39 0 35 10
+    fragment_40 0 40 10
+    fragment_41 0 45 10
+    fragment_42 0 50 10
+    fragment_43 0 55 10
+    fragment_44 0 60 10
+    fragment_45 0 65 10
+    fragment_46 0 70 10
+    fragment_47 1 75 10
+    fragment_48 21 0 15
+    fragment_49 0 5 15
+    fragment_50 0 10 15
+    fragment_51 0 15 15
+    fragment_52 0 20 15
+    fragment_53 0 25 15
+    fragment_54 0 30 15
+    fragment_55 0 35 15
+    fragment_56 0 40 15
+    fragment_57 0 45 15
+    fragment_58 0 50 15
+    fragment_59 0 55 15
+    fragment_60 0 60 15
+    fragment_61 0 65 15
+    fragment_62 0 70 15
+    fragment_63 1 75 15
+    fragment_64 21 0 20
+    fragment_65 0 5 20
+    fragment_66 0 10 20
+    fragment_67 0 15 20
+    fragment_68 0 20 20
+    fragment_69 0 25 20
+    fragment_70 0 30 20
+    fragment_71 0 35 20
+    fragment_72 0 40 20
+    fragment_73 0 45 20
+    fragment_74 0 50 20
+    fragment_75 0 55 20
+    fragment_76 0 60 20
+    fragment_77 0 65 20
+    fragment_78 0 70 20
+    fragment_79 1 75 20
+    fragment_80 21 0 25
+    fragment_81 0 5 25
+    fragment_82 0 10 25
+    fragment_83 0 15 25
+    fragment_84 0 20 25
+    fragment_85 0 25 25
+    fragment_86 0 30 25
+    fragment_87 0 35 25
+    fragment_88 0 40 25
+    fragment_89 0 45 25
+    fragment_90 0 50 25
+    fragment_91 0 55 25
+    fragment_92 0 60 25
+    fragment_93 0 65 25
+    fragment_94 0 70 25
+    fragment_95 1 75 25
+    fragment_96 21 0 30
+    fragment_97 0 5 30
+    fragment_98 0 10 30
+    fragment_99 0 15 30
+    fragment_100 0 20 30
+    fragment_101 0 25 30
+    fragment_102 0 30 30
+    fragment_103 0 35 30
+    fragment_104 0 40 30
+    fragment_105 0 45 30
+    fragment_106 0 50 30
+    fragment_107 0 55 30
+    fragment_108 0 60 30
+    fragment_109 0 65 30
+    fragment_110 0 70 30
+    fragment_111 1 75 30
+    fragment_112 21 0 35
+    fragment_113 0 5 35
+    fragment_114 0 10 35
+    fragment_115 0 15 35
+    fragment_116 0 20 35
+    fragment_117 0 25 35
+    fragment_118 0 30 35
+    fragment_119 0 35 35
+    fragment_120 0 40 35
+    fragment_121 0 45 35
+    fragment_122 0 50 35
+    fragment_123 0 55 35
+    fragment_124 0 60 35
+    fragment_125 0 65 35
+    fragment_126 0 70 35
+    fragment_127 1 75 35
+    fragment_128 21 0 40
+    fragment_129 0 5 40
+    fragment_130 0 10 40
+    fragment_131 0 15 40
+    fragment_132 0 20 40
+    fragment_133 0 25 40
+    fragment_134 0 30 40
+    fragment_135 0 35 40
+    fragment_136 0 40 40
+    fragment_137 0 45 40
+    fragment_138 0 50 40
+    fragment_139 0 55 40
+    fragment_140 0 60 40
+    fragment_141 0 65 40
+    fragment_142 0 70 40
+    fragment_143 1 75 40
+    fragment_144 21 0 45
+    fragment_145 0 5 45
+    fragment_146 0 10 45
+    fragment_147 0 15 45
+    fragment_148 0 20 45
+    fragment_149 0 25 45
+    fragment_150 0 30 45
+    fragment_151 0 35 45
+    fragment_152 0 40 45
+    fragment_153 0 45 45
+    fragment_154 0 50 45
+    fragment_155 0 55 45
+    fragment_156 0 60 45
+    fragment_157 0 65 45
+    fragment_158 0 70 45
+    fragment_159 1 75 45
+    fragment_160 21 0 50
+    fragment_161 0 5 50
+    fragment_162 0 10 50
+    fragment_163 0 15 50
+    fragment_164 0 20 50
+    fragment_165 0 25 50
+    fragment_166 0 30 50
+    fragment_167 0 35 50
+    fragment_168 0 40 50
+    fragment_169 0 45 50
+    fragment_170 0 50 50
+    fragment_171 0 55 50
+    fragment_172 0 60 50
+    fragment_173 0 65 50
+    fragment_174 0 70 50
+    fragment_175 1 75 50
+    fragment_176 21 0 55
+    fragment_177 0 5 55
+    fragment_178 0 10 55
+    fragment_179 0 15 55
+    fragment_180 0 20 55
+    fragment_181 0 25 55
+    fragment_182 0 30 55
+    fragment_183 0 35 55
+    fragment_184 0 40 55
+    fragment_185 0 45 55
+    fragment_186 0 50 55
+    fragment_187 0 55 55
+    fragment_188 0 60 55
+    fragment_189 0 65 55
+    fragment_190 0 70 55
+    fragment_191 1 75 55
+    fragment_192 21 0 60
+    fragment_193 0 5 60
+    fragment_194 0 10 60
+    fragment_195 0 15 60
+    fragment_196 0 20 60
+    fragment_197 0 25 60
+    fragment_198 0 30 60
+    fragment_199 0 35 60
+    fragment_200 0 40 60
+    fragment_201 0 45 60
+    fragment_202 0 50 60
+    fragment_203 0 55 60
+    fragment_204 0 60 60
+    fragment_205 0 65 60
+    fragment_206 0 70 60
+    fragment_207 1 75 60
+    fragment_208 21 0 65
+    fragment_209 0 5 65
+    fragment_210 0 10 65
+    fragment_211 0 15 65
+    fragment_212 0 20 65
+    fragment_213 0 25 65
+    fragment_214 0 30 65
+    fragment_215 0 35 65
+    fragment_216 0 40 65
+    fragment_217 0 45 65
+    fragment_218 0 50 65
+    fragment_219 0 55 65
+    fragment_220 0 60 65
+    fragment_221 0 65 65
+    fragment_222 0 70 65
+    fragment_223 1 75 65
+    fragment_224 21 0 70
+    fragment_225 0 5 70
+    fragment_226 0 10 70
+    fragment_227 0 15 70
+    fragment_228 0 20 70
+    fragment_229 0 25 70
+    fragment_230 0 30 70
+    fragment_231 0 35 70
+    fragment_232 0 40 70
+    fragment_233 0 45 70
+    fragment_234 0 50 70
+    fragment_235 0 55 70
+    fragment_236 0 60 70
+    fragment_237 0 65 70
+    fragment_238 0 70 70
+    fragment_239 1 75 70
+    fragment_240 27 0 75
+    fragment_241 2 5 75
+    fragment_242 2 10 75
+    fragment_243 2 15 75
+    fragment_244 2 20 75
+    fragment_245 2 25 75
+    fragment_246 2 30 75
+    fragment_247 2 35 75
+    fragment_248 2 40 75
+    fragment_249 2 45 75
+    fragment_250 2 50 75
+    fragment_251 2 55 75
+    fragment_252 2 60 75
+    fragment_253 2 65 75
+    fragment_254 2 70 75
+    fragment_255 26 75 75
+  </Fragments>
+  
+  <Layers>
+    count 0
+  </Layers>
+  
+  <Objects>
+    count 0
+  </Objects>
+</Segment 0>
+
+
+<Segment 1>
+  <Fragments>
+    count 256 
+    fragment_0 14 0 0
+    fragment_1 12 5 0
+    fragment_2 12 10 0
+    fragment_3 12 15 0
+    fragment_4 12 20 0
+    fragment_5 12 25 0
+    fragment_6 12 30 0
+    fragment_7 12 35 0
+    fragment_8 12 40 0
+    fragment_9 12 45 0
+    fragment_10 17 50 0
+    fragment_11 13 55 0
+    fragment_12 13 60 0
+    fragment_13 13 65 0
+    fragment_14 13 70 0
+    fragment_15 16 75 0
+    fragment_16 9 0 5
+    fragment_17 0 5 5
+    fragment_18 0 10 5
+    fragment_19 0 15 5
+    fragment_20 0 20 5
+    fragment_21 0 25 5
+    fragment_22 0 30 5
+    fragment_23 0 35 5
+    fragment_24 0 40 5
+    fragment_25 0 45 5
+    fragment_26 25 50 5
+    fragment_27 0 55 5
+    fragment_28 0 60 5
+    fragment_29 0 65 5
+    fragment_30 0 70 5
+    fragment_31 0 75 5
+    fragment_32 9 0 10
+    fragment_33 0 5 10
+    fragment_34 0 10 10
+    fragment_35 0 15 10
+    fragment_36 0 20 10
+    fragment_37 0 25 10
+    fragment_38 0 30 10
+    fragment_39 0 35 10
+    fragment_40 0 40 10
+    fragment_41 0 45 10
+    fragment_42 26 50 10
+    fragment_43 0 55 10
+    fragment_44 0 60 10
+    fragment_45 0 65 10
+    fragment_46 0 70 10
+    fragment_47 0 75 10
+    fragment_48 9 0 15
+    fragment_49 0 5 15
+    fragment_50 0 10 15
+    fragment_51 0 15 15
+    fragment_52 0 20 15
+    fragment_53 0 25 15
+    fragment_54 0 30 15
+    fragment_55 0 35 15
+    fragment_56 0 40 15
+    fragment_57 0 45 15
+    fragment_58 6 50 15
+    fragment_59 7 55 15
+    fragment_60 7 60 15
+    fragment_61 7 65 15
+    fragment_62 7 70 15
+    fragment_63 7 75 15
+    fragment_64 11 0 20
+    fragment_65 1 5 20
+    fragment_66 24 10 20
+    fragment_67 23 15 20
+    fragment_68 4 20 20
+    fragment_69 0 25 20
+    fragment_70 0 30 20
+    fragment_71 0 35 20
+    fragment_72 0 40 20
+    fragment_73 0 45 20
+    fragment_74 0 50 20
+    fragment_75 0 55 20
+    fragment_76 0 60 20
+    fragment_77 0 65 20
+    fragment_78 0 70 20
+    fragment_79 0 75 20
+    fragment_80 10 0 25
+    fragment_81 0 5 25
+    fragment_82 0 10 25
+    fragment_83 0 15 25
+    fragment_84 5 20 25
+    fragment_85 0 25 25
+    fragment_86 0 30 25
+    fragment_87 0 35 25
+    fragment_88 0 40 25
+    fragment_89 0 45 25
+    fragment_90 2 50 25
+    fragment_91 1 55 25
+    fragment_92 1 60 25
+    fragment_93 24 65 25
+    fragment_94 23 70 25
+    fragment_95 1 75 25
+    fragment_96 42 0 30
+    fragment_97 54 5 30
+    fragment_98 45 10 30
+    fragment_99 55 15 30
+    fragment_100 8 20 30
+    fragment_101 0 25 30
+    fragment_102 0 30 30
+    fragment_103 0 35 30
+    fragment_104 0 40 30
+    fragment_105 2 45 30
+    fragment_106 21 50 30
+    fragment_107 0 55 30
+    fragment_108 0 60 30
+    fragment_109 0 65 30
+    fragment_110 0 70 30
+    fragment_111 0 75 30
+    fragment_112 69 0 35
+    fragment_113 37 5 35
+    fragment_114 29 10 35
+    fragment_115 31 15 35
+    fragment_116 0 20 35
+    fragment_117 0 25 35
+    fragment_118 0 30 35
+    fragment_119 0 35 35
+    fragment_120 2 40 35
+    fragment_121 21 45 35
+    fragment_122 0 50 35
+    fragment_123 0 55 35
+    fragment_124 0 60 35
+    fragment_125 0 65 35
+    fragment_126 0 70 35
+    fragment_127 0 75 35
+    fragment_128 66 0 40
+    fragment_129 29 5 40
+    fragment_130 29 10 40
+    fragment_131 31 15 40
+    fragment_132 0 20 40
+    fragment_133 0 25 40
+    fragment_134 0 30 40
+    fragment_135 0 35 40
+    fragment_136 3 40 40
+    fragment_137 0 45 40
+    fragment_138 0 50 40
+    fragment_139 0 55 40
+    fragment_140 0 60 40
+    fragment_141 0 65 40
+    fragment_142 0 70 40
+    fragment_143 0 75 40
+    fragment_144 66 0 45
+    fragment_145 29 5 45
+    fragment_146 40 10 45
+    fragment_147 41 15 45
+    fragment_148 0 20 45
+    fragment_149 0 25 45
+    fragment_150 0 30 45
+    fragment_151 0 35 45
+    fragment_152 3 40 45
+    fragment_153 0 45 45
+    fragment_154 0 50 45
+    fragment_155 0 55 45
+    fragment_156 0 60 45
+    fragment_157 0 65 45
+    fragment_158 0 70 45
+    fragment_159 0 75 45
+    fragment_160 66 0 50
+    fragment_161 29 5 50
+    fragment_162 31 10 50
+    fragment_163 0 15 50
+    fragment_164 0 20 50
+    fragment_165 2 25 50
+    fragment_166 1 30 50
+    fragment_167 1 35 50
+    fragment_168 21 40 50
+    fragment_169 0 45 50
+    fragment_170 0 50 50
+    fragment_171 0 55 50
+    fragment_172 0 60 50
+    fragment_173 0 65 50
+    fragment_174 0 70 50
+    fragment_175 0 75 50
+    fragment_176 66 0 55
+    fragment_177 29 5 55
+    fragment_178 31 10 55
+    fragment_179 0 15 55
+    fragment_180 0 20 55
+    fragment_181 25 25 55
+    fragment_182 0 30 55
+    fragment_183 0 35 55
+    fragment_184 0 40 55
+    fragment_185 0 45 55
+    fragment_186 0 50 55
+    fragment_187 0 55 55
+    fragment_188 0 60 55
+    fragment_189 0 65 55
+    fragment_190 0 70 55
+    fragment_191 0 75 55
+    fragment_192 66 0 60
+    fragment_193 29 5 60
+    fragment_194 38 10 60
+    fragment_195 34 15 60
+    fragment_196 0 20 60
+    fragment_197 26 25 60
+    fragment_198 0 30 60
+    fragment_199 0 35 60
+    fragment_200 0 40 60
+    fragment_201 0 45 60
+    fragment_202 0 50 60
+    fragment_203 0 55 60
+    fragment_204 0 60 60
+    fragment_205 0 65 60
+    fragment_206 0 70 60
+    fragment_207 0 75 60
+    fragment_208 70 0 65
+    fragment_209 33 5 65
+    fragment_210 39 10 65
+    fragment_211 38 15 65
+    fragment_212 30 20 65
+    fragment_213 61 25 65
+    fragment_214 0 30 65
+    fragment_215 0 35 65
+    fragment_216 0 40 65
+    fragment_217 0 45 65
+    fragment_218 0 50 65
+    fragment_219 0 55 65
+    fragment_220 0 60 65
+    fragment_221 0 65 65
+    fragment_222 0 70 65
+    fragment_223 0 75 65
+    fragment_224 11 0 70
+    fragment_225 4 5 70
+    fragment_226 32 10 70
+    fragment_227 29 15 70
+    fragment_228 29 20 70
+    fragment_229 47 25 70
+    fragment_230 45 30 70
+    fragment_231 45 35 70
+    fragment_232 45 40 70
+    fragment_233 55 45 70
+    fragment_234 22 50 70
+    fragment_235 0 55 70
+    fragment_236 0 60 70
+    fragment_237 0 65 70
+    fragment_238 0 70 70
+    fragment_239 0 75 70
+    fragment_240 15 0 75
+    fragment_241 28 5 75
+    fragment_242 67 10 75
+    fragment_243 63 15 75
+    fragment_244 63 20 75
+    fragment_245 63 25 75
+    fragment_246 63 30 75
+    fragment_247 63 35 75
+    fragment_248 63 40 75
+    fragment_249 68 45 75
+    fragment_250 27 50 75
+    fragment_251 0 55 75
+    fragment_252 0 60 75
+    fragment_253 0 65 75
+    fragment_254 0 70 75
+    fragment_255 0 75 75
+  </Fragments>
+  
+  <Layers>
+    count 0
+  </Layers>
+  
+  <Objects>
+    count 4
+    object_0 0 70 45    object_id, x position, y position
+    object_1 1 40 7
+    object_2 2 11 50
+    object_3 3 38 74
+  </Objects>
+</Segment 1>
+
+<Segment 2>
+  <Fragments>
+    count 256
+    fragment_0 0 0 0
+    fragment_1 0 5 0
+    fragment_2 0 10 0
+    fragment_3 0 15 0
+    fragment_4 0 20 0
+    fragment_5 0 25 0
+    fragment_6 0 30 0
+    fragment_7 0 35 0
+    fragment_8 0 40 0
+    fragment_9 0 45 0
+    fragment_10 0 50 0
+    fragment_11 0 55 0
+    fragment_12 0 60 0
+    fragment_13 0 65 0
+    fragment_14 0 70 0
+    fragment_15 0 75 0
+    fragment_16 0 0 5
+    fragment_17 0 5 5
+    fragment_18 0 10 5
+    fragment_19 0 15 5
+    fragment_20 0 20 5
+    fragment_21 0 25 5
+    fragment_22 0 30 5
+    fragment_23 0 35 5
+    fragment_24 0 40 5
+    fragment_25 0 45 5
+    fragment_26 0 50 5
+    fragment_27 0 55 5
+    fragment_28 0 60 5
+    fragment_29 0 65 5
+    fragment_30 0 70 5
+    fragment_31 0 75 5
+    fragment_32 0 0 10
+    fragment_33 0 5 10
+    fragment_34 0 10 10
+    fragment_35 0 15 10
+    fragment_36 0 20 10
+    fragment_37 0 25 10
+    fragment_38 0 30 10
+    fragment_39 0 35 10
+    fragment_40 0 40 10
+    fragment_41 0 45 10
+    fragment_42 0 50 10
+    fragment_43 0 55 10
+    fragment_44 0 60 10
+    fragment_45 0 65 10
+    fragment_46 0 70 10
+    fragment_47 0 75 10
+    fragment_48 0 0 15
+    fragment_49 0 5 15
+    fragment_50 0 10 15
+    fragment_51 0 15 15
+    fragment_52 0 20 15
+    fragment_53 0 25 15
+    fragment_54 0 30 15
+    fragment_55 0 35 15
+    fragment_56 0 40 15
+    fragment_57 0 45 15
+    fragment_58 0 50 15
+    fragment_59 0 55 15
+    fragment_60 0 60 15
+    fragment_61 0 65 15
+    fragment_62 0 70 15
+    fragment_63 0 75 15
+    fragment_64 0 0 20
+    fragment_65 0 5 20
+    fragment_66 0 10 20
+    fragment_67 0 15 20
+    fragment_68 0 20 20
+    fragment_69 0 25 20
+    fragment_70 0 30 20
+    fragment_71 0 35 20
+    fragment_72 0 40 20
+    fragment_73 0 45 20
+    fragment_74 0 50 20
+    fragment_75 0 55 20
+    fragment_76 0 60 20
+    fragment_77 0 65 20
+    fragment_78 0 70 20
+    fragment_79 0 75 20
+    fragment_80 0 0 25
+    fragment_81 0 5 25
+    fragment_82 0 10 25
+    fragment_83 0 15 25
+    fragment_84 0 20 25
+    fragment_85 0 25 25
+    fragment_86 0 30 25
+    fragment_87 0 35 25
+    fragment_88 0 40 25
+    fragment_89 0 45 25
+    fragment_90 0 50 25
+    fragment_91 0 55 25
+    fragment_92 0 60 25
+    fragment_93 0 65 25
+    fragment_94 0 70 25
+    fragment_95 0 75 25
+    fragment_96 0 0 30
+    fragment_97 0 5 30
+    fragment_98 0 10 30
+    fragment_99 0 15 30
+    fragment_100 0 20 30
+    fragment_101 0 25 30
+    fragment_102 0 30 30
+    fragment_103 0 35 30
+    fragment_104 0 40 30
+    fragment_105 0 45 30
+    fragment_106 0 50 30
+    fragment_107 0 55 30
+    fragment_108 0 60 30
+    fragment_109 0 65 30
+    fragment_110 0 70 30
+    fragment_111 0 75 30
+    fragment_112 0 0 35
+    fragment_113 0 5 35
+    fragment_114 0 10 35
+    fragment_115 0 15 35
+    fragment_116 0 20 35
+    fragment_117 0 25 35
+    fragment_118 0 30 35
+    fragment_119 0 35 35
+    fragment_120 0 40 35
+    fragment_121 0 45 35
+    fragment_122 0 50 35
+    fragment_123 0 55 35
+    fragment_124 0 60 35
+    fragment_125 0 65 35
+    fragment_126 0 70 35
+    fragment_127 0 75 35
+    fragment_128 0 0 40
+    fragment_129 0 5 40
+    fragment_130 0 10 40
+    fragment_131 0 15 40
+    fragment_132 0 20 40
+    fragment_133 0 25 40
+    fragment_134 0 30 40
+    fragment_135 0 35 40
+    fragment_136 0 40 40
+    fragment_137 0 45 40
+    fragment_138 0 50 40
+    fragment_139 0 55 40
+    fragment_140 0 60 40
+    fragment_141 0 65 40
+    fragment_142 0 70 40
+    fragment_143 0 75 40
+    fragment_144 0 0 45
+    fragment_145 0 5 45
+    fragment_146 0 10 45
+    fragment_147 0 15 45
+    fragment_148 0 20 45
+    fragment_149 0 25 45
+    fragment_150 0 30 45
+    fragment_151 0 35 45
+    fragment_152 0 40 45
+    fragment_153 0 45 45
+    fragment_154 0 50 45
+    fragment_155 0 55 45
+    fragment_156 0 60 45
+    fragment_157 0 65 45
+    fragment_158 0 70 45
+    fragment_159 0 75 45
+    fragment_160 0 0 50
+    fragment_161 1 5 50
+    fragment_162 0 10 50
+    fragment_163 0 15 50
+    fragment_164 0 20 50
+    fragment_165 0 25 50
+    fragment_166 0 30 50
+    fragment_167 0 35 50
+    fragment_168 0 40 50
+    fragment_169 0 45 50
+    fragment_170 0 50 50
+    fragment_171 0 55 50
+    fragment_172 0 60 50
+    fragment_173 0 65 50
+    fragment_174 0 70 50
+    fragment_175 0 75 50
+    fragment_176 0 0 55
+    fragment_177 0 5 55
+    fragment_178 0 10 55
+    fragment_179 0 15 55
+    fragment_180 0 20 55
+    fragment_181 0 25 55
+    fragment_182 0 30 55
+    fragment_183 0 35 55
+    fragment_184 0 40 55
+    fragment_185 0 45 55
+    fragment_186 0 50 55
+    fragment_187 0 55 55
+    fragment_188 0 60 55
+    fragment_189 0 65 55
+    fragment_190 0 70 55
+    fragment_191 0 75 55
+    fragment_192 0 0 60
+    fragment_193 0 5 60
+    fragment_194 0 10 60
+    fragment_195 0 15 60
+    fragment_196 0 20 60
+    fragment_197 0 25 60
+    fragment_198 0 30 60
+    fragment_199 0 35 60
+    fragment_200 0 40 60
+    fragment_201 0 45 60
+    fragment_202 0 50 60
+    fragment_203 0 55 60
+    fragment_204 0 60 60
+    fragment_205 0 65 60
+    fragment_206 0 70 60
+    fragment_207 0 75 60
+    fragment_208 0 0 65
+    fragment_209 0 5 65
+    fragment_210 0 10 65
+    fragment_211 0 15 65
+    fragment_212 0 20 65
+    fragment_213 0 25 65
+    fragment_214 0 30 65
+    fragment_215 0 35 65
+    fragment_216 0 40 65
+    fragment_217 0 45 65
+    fragment_218 0 50 65
+    fragment_219 0 55 65
+    fragment_220 0 60 65
+    fragment_221 0 65 65
+    fragment_222 0 70 65
+    fragment_223 0 75 65
+    fragment_224 0 0 70
+    fragment_225 0 5 70
+    fragment_226 0 10 70
+    fragment_227 0 15 70
+    fragment_228 0 20 70
+    fragment_229 0 25 70
+    fragment_230 0 30 70
+    fragment_231 0 35 70
+    fragment_232 0 40 70
+    fragment_233 0 45 70
+    fragment_234 0 50 70
+    fragment_235 0 55 70
+    fragment_236 0 60 70
+    fragment_237 0 65 70
+    fragment_238 0 70 70
+    fragment_239 0 75 70
+    fragment_240 0 0 75
+    fragment_241 0 5 75
+    fragment_242 0 10 75
+    fragment_243 0 15 75
+    fragment_244 1 20 75
+    fragment_245 0 25 75
+    fragment_246 0 30 75
+    fragment_247 0 35 75
+    fragment_248 0 40 75
+    fragment_249 0 45 75
+    fragment_250 0 50 75
+    fragment_251 0 55 75
+    fragment_252 0 60 75
+    fragment_253 0 65 75
+    fragment_254 0 70 75
+    fragment_255 0 75 75
+  </Fragments>
+  
+  <Layers>
+    count 0
+  </Layers>
+  
+  <Objects>
+    count 0
+  </Objects>
+</Segment 2>
+

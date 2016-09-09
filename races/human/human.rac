@@ -1,0 +1,965 @@
+#
+#  Dark Oberon - Definition of the Human Race
+#
+
+name "Plastic Humans"
+author "[:-)] PP team"
+schemes "plastic"
+
+
+tg_food_id "food"
+tg_energy_id "energy"
+tg_burning_id "building_burning"
+
+snd_error error
+snd_placement placement
+snd_construction construction
+snd_burning burning
+snd_dead none
+snd_explosion explosion1 explosion2 explosion3 explosion4
+snd_building_selected building_selected
+
+
+#
+#  Units
+#
+
+<Units>
+  count 5
+
+  <Unit 0>
+    id "footman"
+    name "Footman"
+    size 1
+    materials 600 2 2
+    max_life 100
+    max_speed 4 4 4
+    max_rotation_speed 720 720 720
+
+    selection_height 43
+    burning_position 0 0
+    item_type f
+
+    view 6
+  
+    energy 0
+    food -20
+
+    move_terrain_id 0 0 8 25 0 0
+    land_terrain_id 0 0 0 0 0 0
+    min_exist_segment_id 1
+    max_exist_segment_id 1
+    min_max_visible_segment_id 1 2 1 2 1 2
+    land_segment_id 1
+
+    max_hided_units 0
+    can_hide
+
+    tg_picture_id footman_picture
+    tg_stay_id footman_stay
+    tg_anchor_id none
+    tg_move_id footman_move
+    tg_land_id none
+    tg_rotate_id none
+    tg_attack_id footman_attack
+    tg_dying_id none
+    tg_zombie_id footman_zombie
+    tg_projectile_id none
+    tg_burning_id none
+
+    snd_ready footman_ready
+    snd_selected footman_sel1 footman_sel2 footman_sel3 footman_sel4 footman_sel5
+    snd_command footman_comm1 footman_comm2 footman_comm3 footman_comm4 footman_comm5 footman_comm6 footman_comm7
+    snd_fireon none
+    snd_fireoff footman_hit01 footman_hit02 footman_hit03 footman_hit04 footman_hit05 footman_hit06 footman_hit07 footman_hit08 footman_hit09 footman_hit10 footman_hit11
+    snd_hit none
+    snd_burning none
+    snd_dead footman_dead1 footman_dead2 footman_dead3 footman_dead4
+
+    is_offensive true
+    offensive_aggressivity aggressive
+    offensive_accuracy 0.9
+    offensive_flags gun_damage_buildings gun_damage_sources
+    offensive_range 1 1
+    offensive_shot_time 0
+    offensive_wait_time 0
+    offensive_feed_time 1
+    offensive_scope 0
+    offensive_shotable_seg_min_max 1 1
+
+    gun_power_min_max 60 80
+    gun_shot_speed 100
+
+    defence_armour 2
+    defence_protection 0.5
+
+    features heal_when_stay
+    heal_time 30.0
+
+  </Unit 0>
+
+  <Unit 1>
+    id "peasant"
+    name "Peasant"
+    size 1
+    materials 400 1 0
+    max_life 70
+    max_speed 10 10 10
+    max_rotation_speed 1440 1440 1440
+    selection_height 35
+    burning_position 0 0
+    item_type w
+
+    max_amount 100 20 0
+    allowed_materials "gold" "wood"
+    can_build "farm" "tower" "cannontower" "barracks" "shed" "manufactory" "townhall" "fort" "castle" "wall" "citadel"
+    can_repair "catapult" "airship"
+    mining_time 0.1 0.33 0
+    repairing_time 0.2
+    mining_sound_shift 0 0 0
+    mining_sound_time 0 1.0 0
+
+    view 6
+
+    energy 0
+    food -10
+
+    move_terrain_id 0 0 8 25 0 0
+    land_terrain_id 0 0 0 0 0 0
+    min_exist_segment_id 1
+    max_exist_segment_id 1
+    min_max_visible_segment_id 1 2 1 2 1 2
+    land_segment_id 1
+
+    max_hided_units 0
+    can_hide
+
+    tg_picture_id peasant_picture
+    tg_stay_id peasant_stay
+    tg_anchor_id none
+    tg_move_id peasant_stay
+    tg_land_id none
+    tg_rotate_id none
+    tg_attack_id peasant_stay
+    tg_mine_id peasant_stay
+    tg_repair_id peasant_stay
+    tg_dying_id none
+    tg_zombie_id peasant_zombie
+    tg_projectile_id none
+    tg_burning_id none
+
+    snd_ready peasant_ready
+    snd_selected peasant_sel1 peasant_sel2 peasant_sel3 peasant_sel4
+    snd_command peasant_comm1 peasant_comm2 peasant_comm3
+    snd_workcomplete peasant_wc1 peasant_wc2 peasant_wc3
+    snd_mine_material0 none
+    snd_mine_material1 peasant_chop1 peasant_chop2 peasant_chop3 peasant_chop4 peasant_chop5 peasant_chop6 peasant_chop7
+    snd_mine_material2 none
+    snd_mine_material3 none
+    snd_fireon none
+    snd_fireoff peasant_chop1 peasant_chop2 peasant_chop3 peasant_chop4 peasant_chop5 peasant_chop6 peasant_chop7
+    snd_hit none
+    snd_burning none
+    snd_dead peasant_dead1 peasant_dead2 peasant_dead3 peasant_dead4 peasant_dead5 peasant_dead6
+
+    is_offensive true
+    offensive_aggressivity guarded
+    offensive_accuracy 0.8
+    offensive_flags none
+    offensive_range 1 1
+    offensive_shot_time 0
+    offensive_wait_time 0
+    offensive_feed_time 0.8
+    offensive_scope 0
+    offensive_shotable_seg_min_max 1 1
+
+    gun_power_min_max 5 20
+    gun_shot_speed 100
+
+    defence_armour 2
+    defence_protection 0.3
+
+    features heal_when_stay
+    heal_time 5.0
+
+  </Unit 1>
+
+  <Unit 2>
+    id "moleman"
+    name "Moleman"
+    size 1
+    materials 500 2 0
+    max_life 50
+    max_speed 3.5 2 0.01
+    max_rotation_speed 1440 1440 1440
+    selection_height 35
+    burning_position 0 0
+    item_type w
+
+    max_amount 100 0 50
+    allowed_materials "gold" "coal"
+    can_build "castle"
+    can_repair "castle"
+    mining_time 0.08 0 0.1
+    mining_sound_shift 0 0 0
+    mining_sound_time 0 0 0.5
+    repairing_time 0.3
+
+    view 3
+
+    energy 0
+    food -15
+
+    move_terrain_id 10 10 10 10 0 0
+    land_terrain_id 0 0 0 0 0 0
+    min_exist_segment_id 0
+    max_exist_segment_id 1
+    min_max_visible_segment_id 0 0 0 2 1 2
+    land_segment_id 0
+
+    max_hided_units 0
+    can_hide
+
+    tg_picture_id moleman_picture
+    tg_stay_id moleman_stay
+    tg_anchor_id none
+    tg_move_id moleman_stay
+    tg_land_id none
+    tg_rotate_id none
+    tg_attack_id none
+    tg_mine_id moleman_stay
+    tg_repair_id moleman_stay
+    tg_dying_id none
+    tg_zombie_id moleman_zombie
+    tg_burning_id none
+
+    snd_ready peasant_ready
+    snd_selected peasant_sel1 peasant_sel2 peasant_sel3 peasant_sel4
+    snd_command peasant_comm1 peasant_comm2 peasant_comm3
+    snd_workcomplete peasant_wc1 peasant_wc2 peasant_wc3
+    snd_mine_material0 none
+    snd_mine_material1 peasant_chop1 peasant_chop2 peasant_chop3 peasant_chop4 peasant_chop5 peasant_chop6 peasant_chop7
+    snd_mine_material2 none
+    snd_mine_material3 none
+    snd_fireon none
+    snd_fireoff none
+    snd_hit footman_hit01 footman_hit02 footman_hit03 footman_hit04 footman_hit05 footman_hit06 footman_hit07 footman_hit08 footman_hit09 footman_hit10 footman_hit11
+    snd_burning none
+    snd_dead peasant_dead1 peasant_dead2 peasant_dead3 peasant_dead4 peasant_dead5 peasant_dead6
+
+    is_offensive false
+    offensive_aggressivity guarded
+    defence_armour 1
+    defence_protection 0.1
+    
+    features none
+    heal_time 0
+
+  </Unit 2>
+
+  <Unit 3>
+    id "catapult"
+    name "Catapult"
+    size 3
+    materials 900 300 10
+    max_life 300
+    max_speed 2 2 2
+    max_rotation_speed 320 320 320
+
+    selection_height 60
+    burning_position 0 10
+    item_type f
+
+    view 10
+  
+    energy 0
+    food -10
+
+    move_terrain_id 0 0 8 25 0 0
+    land_terrain_id 0 0 0 0 0 0
+    min_exist_segment_id 1
+    max_exist_segment_id 1
+    min_max_visible_segment_id 1 2 1 2 1 2
+    land_segment_id 1
+
+    max_hided_units 0
+    can_hide
+
+    tg_picture_id catapult_picture
+    tg_stay_id catapult_stay
+    tg_anchor_id none
+    tg_move_id catapult_move
+    tg_land_id none
+    tg_rotate_id none
+    tg_attack_id catapult_stay
+    tg_dying_id none
+    tg_zombie_id catapult_zombie
+    tg_projectile_id catapult_projectile
+    tg_burning_id "unit_burning"
+
+    snd_ready catapult_sel
+    snd_selected catapult_sel
+    snd_command catapult_comm
+    snd_fireon none
+    snd_fireoff catapult_fireoff
+    snd_hit catapult_hit
+    snd_burning none
+    snd_dead explosion1 explosion2 explosion3 explosion4
+
+    is_offensive true
+    offensive_aggressivity guarded
+    offensive_accuracy 0.7
+    offensive_flags gun_damage_buildings gun_damage_sources
+    offensive_range 1 10
+    offensive_shot_time 0.4
+    offensive_wait_time 1
+    offensive_feed_time 2
+    offensive_scope 1
+    offensive_shotable_seg_min_max 1 2
+
+    gun_power_min_max 700 800
+    gun_shot_speed 8
+
+    defence_armour 8
+    defence_protection 0
+
+    features none
+    heal_time 0
+
+  </Unit 3>
+
+  <Unit 4>
+    id "airship"
+    name "Airship"
+    size 2
+    materials 600 200 10
+    max_life 200
+    max_speed 3 3 3
+    max_rotation_speed 1 1 720
+
+    selection_height 65
+    burning_position 0 0
+    item_type f
+
+    view 15
+  
+    energy 0
+    food -20
+
+    move_terrain_id 0 0 0 0 10 20
+    land_terrain_id 0 0 8 10 0 0
+    min_exist_segment_id 1
+    max_exist_segment_id 2
+    min_max_visible_segment_id 1 2 1 2 1 2
+    land_segment_id 1
+
+    max_hided_units 10
+    can_hide "peasant" "footman" "catapult"
+
+    tg_picture_id airship_picture
+    tg_stay_id airship_stay
+    tg_anchor_id airship_anchor
+    tg_move_id airship_move
+    tg_land_id airship_land
+    tg_rotate_id none
+    tg_attack_id none
+    tg_dying_id none
+    tg_zombie_id none
+    tg_burning_id none
+
+    snd_ready airship_ready
+    snd_selected airship_sel1 airship_sel2
+    snd_command airship_comm1 airship_comm2 airship_comm3 airship_comm4 airship_comm5
+    snd_burning none
+    snd_dead airship_dead1 airship_dead2 airship_dead3
+
+    is_offensive false
+
+    defence_armour 5
+    defence_protection 0
+
+    features have_to_land
+    heal_time 0
+
+  </Unit 4>
+
+
+</Units>
+
+
+#
+#  Buildings
+#
+
+<Buildings>
+  count 11
+
+  <Building 0>
+    id "townhall"
+    name "Town Hall"
+    item_type a
+    width 7
+    height 7
+    materials 1200 800 0
+    max_life 1000
+    view 7
+    selection_height 60
+    burning_position 10 35
+
+    energy 0
+    min_energy 0
+    food 100
+
+    build_terrain_id 10 10 10 10 10 20
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2 1 2 1 2
+    ancestor none
+
+    max_hided_units 5
+    can_hide "peasant"
+
+    tg_picture_id townhall_picture
+    tg_stay_id townhall_stay
+    tg_build_id townhall_build
+    tg_dying_id none
+    tg_zombie_id townhall_zombie
+    tg_projectile_id none
+    tg_burning_id none
+
+    snd_selected townhall_sel
+    snd_burning none
+    snd_explosion none
+
+    allowed_materials "gold" "wood"
+
+    is_offensive false
+
+    defence_armour 20
+    defence_protection 0
+
+    <Products>
+      count 1
+
+      <Product 0>
+        product "peasant"
+        product_time 20
+      </Product>
+
+    </Products>
+
+  </Building 0>
+
+  <Building 1>
+    id "fort"
+    name "Fort"
+    item_type a
+    width 7
+    height 7
+    materials 1200 800 0
+    max_life 1500
+    view 8
+    selection_height 60
+    burning_position 10 35
+
+    energy 0
+    min_energy 0
+    food 150
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2
+    ancestor "townhall"
+
+    max_hided_units 10
+    can_hide "peasant"
+
+    tg_picture_id fort_picture
+    tg_stay_id fort_stay
+    tg_build_id fort_build
+    tg_dying_id none
+    tg_zombie_id townhall_zombie
+    tg_projectile_id none
+    tg_burning_id none
+
+    snd_selected townhall_sel
+    snd_burning none
+    snd_explosion none
+
+    allowed_materials "gold" "wood" "coal"
+
+    is_offensive false
+    defence_armour 20
+    defence_protection 0
+
+    <Products>
+      count 2
+
+        <Product 0>
+          product "peasant"
+          product_time 15
+        </Product>
+        
+        <Product 1>
+          product "moleman"
+          product_time 30
+        </Product>
+    </Products>
+
+  </Building 1>
+
+  <Building 2>
+    id "castle"
+    name "Castle"
+    item_type a
+    width 7
+    height 7
+    materials 1200 800 100
+    max_life 2000
+    view 10
+    selection_height 60
+    burning_position 10 35
+
+    energy 0
+    min_energy 0
+    food 200
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 0 2
+    ancestor "fort"
+
+    max_hided_units 15
+    can_hide "peasant"
+
+    tg_picture_id castle_picture
+    tg_stay_id castle_stay
+    tg_build_id castle_build
+    tg_dying_id none
+    tg_zombie_id townhall_zombie
+    tg_projectile_id none
+    tg_burning_id none
+
+    snd_selected townhall_sel
+    snd_burning none
+    snd_explosion none
+
+    allowed_materials "gold" "wood" "coal"
+
+    is_offensive false
+    defence_armour 20
+    defence_protection 0
+
+    <Products>
+      count 2
+
+        <Product 0>
+          product "peasant"
+          product_time 10
+        </Product>
+
+        <Product 1>
+          product "moleman"
+          product_time 20
+        </Product>
+    </Products>
+
+  </Building 2>
+
+  <Building 3>
+    id "farm"
+    name "Farm"
+    item_type b
+    width 2
+    height 3
+    materials 500 250 0
+    max_life 400
+    view 4
+    selection_height 30
+    burning_position -5 15
+
+    energy 400
+    min_energy 0
+    food 200
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2
+    ancestor none
+
+    max_hided_units 0
+    can_hide
+
+    tg_picture_id farm_picture
+    tg_stay_id farm_stay
+    tg_build_id farm_build
+    tg_dying_id none
+    tg_zombie_id farm_zombie
+    tg_burning_id none
+
+    snd_selected farm_sel1 farm_sel2 farm_sel3
+    snd_burning none
+    snd_explosion none
+
+    allowed_materials
+
+    is_offensive false
+
+    defence_armour 10
+    defence_protection 0
+  </Building 3>
+
+  <Building 4>
+    id "barracks"
+    name "Barracks"
+    item_type a
+    width 4
+    height 4
+    materials 700 450 0
+    max_life 1000
+    view 5
+    selection_height 40
+    burning_position -20 25
+
+    energy -100
+    min_energy 5
+    food -100
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2
+    ancestor none
+
+    max_hided_units 10
+    can_hide "footman"
+
+    tg_picture_id barracks_picture
+    tg_stay_id barracks_stay
+    tg_build_id barracks_build
+    tg_dying_id none
+    tg_zombie_id barracks_zombie
+    tg_burning_id none
+
+    snd_selected none
+    snd_burning none
+    snd_explosion none
+
+    allowed_materials
+
+    is_offensive false
+
+    defence_armour 20
+    defence_protection 0
+
+    <Products>
+      count 1
+
+      <Product 0>
+        product "footman"
+        product_time 30
+      </Product>
+    </Products>
+
+  </Building 4>
+  
+  <Building 5>
+    id "tower"
+    name "Tower"
+    item_type b
+    width 2
+    height 2
+    materials 550 200 10
+    max_life 700
+    view 15
+    selection_height 50
+    burning_position 2 32
+
+    energy 0
+    min_energy 0
+    food 0
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2
+    ancestor none
+
+    max_hided_units 12
+    can_hide "peasant" "footman"
+
+    tg_picture_id tower_picture
+    tg_stay_id tower_stay
+    tg_build_id tower_build
+    tg_dying_id none
+    tg_zombie_id tower_zombie
+    tg_projectile_id none
+    tg_burning_id none
+
+    snd_selected none
+    snd_burning none
+    snd_explosion none
+    
+    allowed_materials
+
+    is_offensive false
+
+    defence_armour 10
+    defence_protection 0
+  </Building 5>
+  
+  <Building 6>
+    id "cannontower"
+    name "Cannon Tower"
+    item_type b
+    width 2
+    height 2
+    materials 900 300 100
+    max_life 900
+    view 15
+    selection_height 50
+    burning_position 2 32
+
+    energy 0
+    min_energy 0
+    food 0
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2
+    ancestor tower
+
+    max_hided_units 8
+    can_hide "peasant" "footman"
+
+    tg_picture_id cannontower_picture
+    tg_stay_id cannontower_stay
+    tg_build_id cannontower_build
+    tg_dying_id none
+    tg_zombie_id tower_zombie
+    tg_projectile_id catapult_projectile
+    tg_burning_id none
+
+    snd_selected none
+    snd_fireon none
+    snd_fireoff catapult_fireoff
+    snd_hit catapult_hit
+    snd_burning none
+    snd_explosion none
+    
+    allowed_materials
+
+    is_offensive true
+    offensive_aggressivity guarded
+    offensive_accuracy 0.8
+    offensive_flags gun_damage_buildings gun_damage_sources
+    offensive_range 1 10
+    offensive_shot_time 0.1
+    offensive_wait_time 0.5
+    offensive_feed_time 2
+    offensive_scope 2
+    offensive_shotable_seg_min_max 1 1
+
+    gun_power_min_max 400 600
+    gun_shot_speed 15
+
+    defence_armour 12
+    defence_protection 0
+  </Building 6>
+  
+  <Building 7>
+    id "shed"
+    name "Workshop"
+    item_type a
+    width 4
+    height 4
+    materials 1000 500 10
+    max_life 1000
+    view 5
+    selection_height 35
+    burning_position 10 22
+
+    energy -200
+    min_energy 50
+    food 0
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2
+    ancestor none
+
+    max_hided_units 0
+    can_hide
+
+    tg_picture_id shed_picture
+    tg_stay_id shed_stay
+    tg_build_id shed_build
+    tg_dying_id none
+    tg_zombie_id shed_zombie
+    tg_burning_id none
+
+    snd_selected shed_sel
+    snd_burning none
+    snd_explosion none
+
+    allowed_materials "wood"
+
+    is_offensive false
+
+    defence_armour 20
+    defence_protection 0
+
+    <Products>
+      count 1
+
+      <Product 0>
+        product "catapult"
+        product_time 60
+      </Product>
+    </Products>
+
+  </Building 7>
+  
+  <Building 8>
+    id "manufactory"
+    name "Manufactory"
+    item_type a
+    width 4
+    height 4
+    materials 1000 200 50
+    max_life 1300
+    view 8
+    selection_height 50
+    burning_position 10 22
+
+    energy -500
+    min_energy 50
+    food 0
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2
+    ancestor shed
+
+    max_hided_units 0
+    can_hide
+
+    tg_picture_id manufactory_picture
+    tg_stay_id manufactory_stay
+    tg_build_id manufactory_build
+    tg_dying_id none
+    tg_zombie_id shed_zombie
+    tg_burning_id none
+
+    snd_selected shed_sel
+    snd_burning none
+    snd_explosion none
+
+    allowed_materials "wood"
+
+    is_offensive false
+
+    defence_armour 20
+    defence_protection 0
+
+    <Products>
+      count 2
+
+      <Product 0>
+        product "catapult"
+        product_time 40
+      </Product>
+      
+      <Product 1>
+        product "airship"
+        product_time 60
+      </Product>
+    </Products>
+
+  </Building 8>
+  
+  <Building 9>
+    id "wall"
+    name "Wall"
+    item_type b
+    width 1
+    height 1
+    materials 30 2 0
+    max_life 80
+    view 1
+    selection_height 25
+    burning_position 0 12
+
+    energy 0
+    min_energy 0
+    food 0
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2
+    ancestor none
+
+    max_hided_units 0
+    can_hide
+
+    tg_picture_id wall_picture
+    tg_stay_id wall_stay
+    tg_build_id wall_stay
+    tg_dying_id none
+    tg_zombie_id wall_zombie
+    tg_burning_id none
+
+    snd_selected none
+    snd_burning none
+    snd_explosion none
+
+    allowed_materials
+
+    is_offensive false
+
+    defence_armour 15
+    defence_protection 0
+  </Building 9>
+  
+  
+  <Building 10>
+    id "citadel"
+    name "Citadel"
+    item_type b
+    width 2
+    height 2
+    materials 900 300 50
+    max_life 600
+    view 20
+    selection_height 55
+    burning_position 0 37
+
+    energy 0
+    min_energy 0
+    food 0
+
+    build_terrain_id 10 10
+    exist_segment_id 1
+    min_max_visible_segment_id 1 2
+    ancestor none
+
+    max_hided_units 0
+    can_hide
+
+    tg_picture_id citadel_picture
+    tg_stay_id citadel_stay
+    tg_build_id citadel_build
+    tg_dying_id none
+    tg_zombie_id citadel_zombie
+    tg_burning_id none
+
+    snd_selected none
+    snd_burning none
+    snd_explosion none
+
+    allowed_materials
+
+    is_offensive false
+
+    defence_armour 10
+    defence_protection 0
+  </Building 10>
+
+</Buildings>

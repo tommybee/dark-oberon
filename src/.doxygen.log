@@ -1,0 +1,1145 @@
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:140: Command @param not allowed in single-line C++ comment! Ignoring.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:147: Command @param not allowed in single-line C++ comment! Ignoring.
+/home/majo/work/dark-oberon/HEAD/src/dofactories.cpp:18: Warning: file dobuildings.cpp already documented. Skipping documentation.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.cpp:18: Warning: the name `doclient.cpp' supplied as the second argument in the \file statement is not an input file
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:18: Warning: the name `doclient.h' supplied as the second argument in the \file statement is not an input file
+/home/majo/work/dark-oberon/HEAD/src/doleader.cpp:18: Warning: the name `doserver.cpp' supplied as the second argument in the \file statement is not an input file
+/home/majo/work/dark-oberon/HEAD/src/doleader.h:18: Warning: the name `doserver.h' supplied as the second argument in the \file statement is not an input file
+/home/majo/work/dark-oberon/HEAD/src/dosound.cpp:18: Warning: file dodata.cpp already documented. Skipping documentation.
+/home/majo/work/dark-oberon/HEAD/src/dosound.h:18: Warning: file doconfig.h already documented. Skipping documentation.
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:18: Warning: file dounits.cpp already documented. Skipping documentation.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.cpp:18: Warning: file dowalk.cpp already documented. Skipping documentation.
+/home/majo/work/dark-oberon/HEAD/src/utils.h:18: Warning: file utils.h already documented. Skipping documentation.
+/home/majo/work/dark-oberon/HEAD/src/dodraw.h:127: Warning: documentation for unknown define game_h_coef found.
+
+/home/majo/work/dark-oberon/HEAD/src/dodraw.h:132: Warning: documentation for unknown define game_v_coef found.
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1166: Warning: documentation for unknown define IncMaterialBalance found.
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1169: Warning: documentation for unknown define DecMaterialBalance found.
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1172: Warning: documentation for unknown define GetMaterialBalance found.
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1179: Warning: documentation for unknown define IsEmpty found.
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1181: Warning: documentation for unknown define IsInsideMining found.
+
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:1051: Warning: Compound TGUI_COMBO_BOX is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:585: Warning: Compound TPLAYER_ARRAY::PlayerNotFoundException is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dopool.h:80: Warning: Compound TPOOL is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:456: Warning: Compound TUNIT_SORTER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:667: Warning: Compound TGUI_BUTTON is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:160: Warning: Compound TNET_MESSAGE::SendError is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:215: Warning: Compound T4LINE_FULL_CONNECT_PERCEPTRON_NETWORK is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dosound.h:134: Warning: Compound TSTREAM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:299: Warning: Compound TCALLBACK is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:618: Warning: Compound TGUI_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:511: Warning: Compound TBUILD_TOOLTIP is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:361: Warning: Compound TSEL_NODE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:3084: Warning: Compound TDISCONNECT_DATA is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dosound.h:80: Warning: Compound TSOUND is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:1098: Warning: Compound TGUI_MESSAGE_BOX is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:100: Warning: Compound TEVENT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:308: Warning: Compound TNET_LISTENER::MutexException is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dosound.h:102: Warning: Compound TCHANNEL is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:585: Warning: Compound TPOOLED_LIST::TNODE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:148: Warning: Compound TTERRF_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:376: Warning: Compound TPATH_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:119: Warning: Compound TNET_ADDRESS::ConnectingErrorException is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dopool.h:61: Warning: Compound TPOOL_ELEMENT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:1128: Warning: Compound TGUI is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:371: Warning: Compound TNET_TALKER::MutexException is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:310: Warning: Compound TNET_LISTENER::ACCEPT_DATA is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:407: Warning: Compound TGUI_BOX is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:567: Warning: Compound TGUI_LABEL is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.h:48: Warning: Compound TLOCK::MutexException is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.h:49: Warning: Compound GLFfont is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dosound.h:149: Warning: Compound TMODULE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:117: Warning: Compound TNET_ADDRESS is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:403: Warning: Compound TNEAREST_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:241: Warning: Compound TSEG_UNITS is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:162: Warning: Compound TPERCEPTRON_NETWORK is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:917: Warning: Compound TGUI_SCROLL_BOX is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:584: Warning: Compound TPLAYER_ARRAY::TooManyPlayersException is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.h:79: Warning: Compound TRECURSIVE_LOCK is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:264: Warning: Compound TGUI_BOX_ENVELOPE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.h:46: Warning: Compound TLOCK is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:184: Warning: Compound TSCHEME is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:726: Warning: Compound TGUI_CHECK_BOX is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:154: Warning: Compound TTERRL_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:135: Warning: Compound TENTRENCE_PERCEPTRON is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:583: Warning: Compound TPLAYER_ARRAY::MutexException is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:324: Warning: Compound TMAP_AREA is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.h:81: Warning: Compound TRECURSIVE_LOCK::MutexException is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:123: Warning: Compound TDEPENDENCES_TABLE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:978: Warning: Compound TGUI_LIST_BOX is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:832: Warning: Compound TGUI_PANEL is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:744: Warning: Compound TGUI_EDIT_BOX is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:81: Warning: Compound TTERRAIN_SEGMENTS is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.h:101: Warning: Compound TSAVE_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:368: Warning: Compound TCONNECT_DATA is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dosound.h:119: Warning: Compound TSAMPLE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:187: Warning: Compound TQUEUE_EVENTS is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:85: Warning: Compound TPERCEPTRON is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:186: Warning: Compound TMAP_INFO_LIST::NotFoundException is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:789: Warning: Compound TGUI_SLIDER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.h:103: Warning: Compound TSAVE_LIST::MutexException is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2622: Warning: no matching class member found for
+  void TPLAYER_ARRAY::AddRemotePlayer(string player_name, in_addr addr, in_port_t port, bool computer)
+Possible candidates:
+  void TPLAYER_ARRAY::AddRemotePlayer(std::string player_name, struct in_addr addr, in_port_t port, bool computer=false)
+/home/majo/work/dark-oberon/HEAD/src/doconfig.cpp:49: Warning: Member ComputePrecompiled() of file doconfig.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doconfig.h:48: Warning: Member CFG_DEF_SCR_WIDTH of file doconfig.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doconfig.h:49: Warning: Member CFG_DEF_SCR_HEIGHT of file doconfig.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doconfig.h:59: Warning: Member CFG_DEF_TEX_MIN_FILTER of file doconfig.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doconfig.h:60: Warning: Member CFG_DEF_PLAYER_NAME of file doconfig.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.cpp:43: Warning: Member DAT_ST_MODULE of file dodata.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.cpp:44: Warning: Member DAT_ST_SAMPLE of file dodata.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.cpp:45: Warning: Member DAT_ST_STREAM of file dodata.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.cpp:67: Warning: Member fReadString(char **txt, FILE *fr) of file dodata.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:70: Warning: Member DAT_MAX_DISTANCE of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:81: Warning: Member DAT_TEX_RANDOM of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:84: Warning: Member DAT_SID_MENU_MUSIC of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:85: Warning: Member DAT_SID_GAME_MUSIC of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:86: Warning: Member DAT_SID_MENU_BUTTON of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:87: Warning: Member DAT_SID_MENU_CONTROL of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:89: Warning: Member DAT_TGID_MOUSE_CURSORS of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:90: Warning: Member DAT_TGID_BASIC_FONT of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:92: Warning: Member DAT_TGID_PANELS of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:93: Warning: Member DAT_TGID_ACTION_BUTTONS of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:94: Warning: Member DAT_TGID_MENU_BUTTONS of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:95: Warning: Member DAT_TGID_SEG_BUTTONS of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:96: Warning: Member DAT_TGID_LABELS of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:97: Warning: Member DAT_TGID_GUARD_BUTTONS of file dodata.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:72: Warning: Member MNU_MAIN of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:73: Warning: Member MNU_PLAY of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:74: Warning: Member MNU_OPTIONS of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:75: Warning: Member MNU_CREDITS of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:76: Warning: Member MNU_QUIT of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:77: Warning: Member MNU_QUICK_PLAY of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:80: Warning: Member MNU_RESUME of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:81: Warning: Member MNU_CREATE of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:82: Warning: Member MNU_CONNECT of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:83: Warning: Member MNU_DISCONNECT of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:86: Warning: Member MNU_CREATE2 of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:87: Warning: Member MNU_CONNECT2 of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:88: Warning: Member MNU_IP of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:89: Warning: Member MNU_PLAYER_NAME of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:92: Warning: Member MNU_PLAY2 of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:93: Warning: Member MNU_MAP_LIST of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:94: Warning: Member MNU_ADD_COMPUTER of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:95: Warning: Member MNU_KILL_PLAYER of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:98: Warning: Member MNU_VIDEO of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:99: Warning: Member MNU_AUDIO of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:102: Warning: Member MNU_FULLSCREEN of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:103: Warning: Member MNU_VERT_SYNC of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:104: Warning: Member MNU_640 of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:105: Warning: Member MNU_800 of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:106: Warning: Member MNU_1024 of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:107: Warning: Member MNU_1152 of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:108: Warning: Member MNU_1280 of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:109: Warning: Member MNU_1600 of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:112: Warning: Member MNU_TF_NEAREST of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:113: Warning: Member MNU_TF_LINEAR of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:114: Warning: Member MNU_MF_NONE of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:115: Warning: Member MNU_MF_NEAREST of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:116: Warning: Member MNU_MF_LINEAR of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:119: Warning: Member MNU_MASTER_VOL of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:120: Warning: Member MNU_MENU_MUSIC of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:121: Warning: Member MNU_MENU_SOUND_VOL of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:122: Warning: Member MNU_MENU_MUSIC_VOL of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:123: Warning: Member MNU_GAME_MUSIC of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:124: Warning: Member MNU_GAME_SOUND_VOL of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:125: Warning: Member MNU_GAME_MUSIC_VOL of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:126: Warning: Member MNU_UNIT_SPEECH of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:129: Warning: Member MNU_TOGGLE_PANEL of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:130: Warning: Member MNU_TOGGLE_RADAR of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:132: Warning: Member MNU_VIEW_SEGMENT of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:135: Warning: Member MNU_ACTION_STAY of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:136: Warning: Member MNU_ACTION_MOVE of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:137: Warning: Member MNU_ACTION_ATTACK of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:138: Warning: Member MNU_ACTION_MINE of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:139: Warning: Member MNU_ACTION_REPAIR of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:140: Warning: Member MNU_ACTION_BUILD of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:143: Warning: Member MNU_BUILD_BUTTON of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:146: Warning: Member MNU_OK of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:149: Warning: Member MAX_VID_MODES of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:150: Warning: Member GAME_PANEL_ALPHA of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:151: Warning: Member TOOLTIP_ALPHA of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:165: Warning: Member SetMenuPanel() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:174: Warning: Member SetMenuButton(enabled) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:184: Warning: Member SetGamePanel(visible) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:196: Warning: Member SetGameButton(tooltip) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:208: Warning: Member SetBuildButton() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:218: Warning: Member SetStayButton() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:229: Warning: Member SetProduceButton() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:238: Warning: Member SetOrderButton(txt) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:246: Warning: Member StopGame() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:247: Warning: Member BackgroundResolveFinished() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:248: Warning: Member SetActiveMenu(TGUI_PANEL *menu) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:249: Warning: Member UpdateGameMenu() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:250: Warning: Member MenuUpdateMapInfo(string map_name) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:251: Warning: Member Disconnect() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:253: Warning: Member ProcessNetEvent(TNET_MESSAGE *msg) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:254: Warning: Member ProcessPlayerArray(TNET_MESSAGE *msg) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:255: Warning: Member ProcessHello(TNET_MESSAGE *msg) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:256: Warning: Member ProcessPingRequest(TNET_MESSAGE *msg) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:257: Warning: Member ProcessPingReply(TNET_MESSAGE *msg) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:260: Warning: Member ProcessChatMessage(TNET_MESSAGE *msg) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:261: Warning: Member ProcessSynchronise(TNET_MESSAGE *msg) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:262: Warning: Member ProcessAllowProcessFunction(TNET_MESSAGE *msg) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:263: Warning: Member ProcessDisconnect(TNET_MESSAGE *msg) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:265: Warning: Member ProcessDisconnect(int player_id) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:266: Warning: Member OnDisconnect(in_addr address, in_port_t port) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:373: Warning: Member connecting_in_menu_thread(void *_data) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:459: Warning: Member ChangeSoundVolume(T_BYTE vol) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:466: Warning: Member SetMenuMusicVolume(T_BYTE vol) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:476: Warning: Member SetGameMusicVolume(T_BYTE vol) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:485: Warning: Member SetMasterVolume(T_BYTE vol) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:497: Warning: Member PrepareSounds() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1018: Warning: Member ToggleMainPanel() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1032: Warning: Member ToggleRadarPanel() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1042: Warning: Member ToggleChatPanel() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1273: Warning: Member CreateGame() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1312: Warning: Member Connect(string server) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1330: Warning: Member Quit() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1795: Warning: Member MenuPanelOnDraw(TGUI_BOX *sender) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1891: Warning: Member MenuListOnChange(TGUI_BOX *sender, int item_index) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1943: Warning: Member MenuPanelOnShow(TGUI_BOX *sender) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1975: Warning: Member MenuEditOnChange(TGUI_BOX *sender, char *text) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1996: Warning: Member MenuSliderOnChange(TGUI_BOX *sender, GLfloat pos) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:2301: Warning: Member GameStayOnClick(TGUI_BOX *sender) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:2309: Warning: Member GameProduceOnClick(TGUI_BOX *sender) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:2318: Warning: Member GameBuildOnDraw(TGUI_BOX *sender) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:2346: Warning: Member GameBuildOnTooltip(TGUI_BOX *sender) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:2676: Warning: Member GameOnRadarDraw(TGUI_BOX *sender) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:3089: Warning: Member OnDisconnectThread(void *d) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:3854: Warning: Member CreateBuildButtons() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:3905: Warning: Member CreateStayButtons() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:3955: Warning: Member ClearBuildButtons() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:3962: Warning: Member CreateOrderButtons() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:3987: Warning: Member ClearOrderButtons() of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:3994: Warning: Member SetOrderVisibility(bool vis) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:4403: Warning: Member StartGame(double stime) of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:272: Warning: Member app_path of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:278: Warning: Member build_tooltip of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:280: Warning: Member selected_map_name of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:284: Warning: Member ai_thread of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:285: Warning: Member connecting_thread_id of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:288: Warning: Member main_menu of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:289: Warning: Member play_menu of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:290: Warning: Member ip_menu of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:291: Warning: Member game_menu of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:292: Warning: Member options_menu of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:293: Warning: Member video_menu of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:294: Warning: Member audio_menu of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:295: Warning: Member credits_menu of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:296: Warning: Member active_menu of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:299: Warning: Member main_panel of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:300: Warning: Member little_panel of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:301: Warning: Member chat_panel of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:302: Warning: Member radar_panel of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:304: Warning: Member chat_edit of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:307: Warning: Member ip_edit of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:308: Warning: Member ip_label of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:309: Warning: Member connect_button of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:310: Warning: Member create_button of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:312: Warning: Member map_list of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:313: Warning: Member map_label of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:314: Warning: Member play_button of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:315: Warning: Member disconn_button of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:317: Warning: Member resume_button of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:318: Warning: Member disconnect_button of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:321: Warning: Member action_key of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:322: Warning: Member action_force of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:325: Warning: Member map_scheme_label of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:326: Warning: Member map_size_label of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:327: Warning: Member map_players_label of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:328: Warning: Member map_races_label of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:329: Warning: Member map_author_label of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:330: Warning: Member map_info_scroll of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:333: Warning: Member pl_name_label[PL_MAX_PLAYERS] of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:334: Warning: Member pl_race_combo[PL_MAX_PLAYERS] of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:335: Warning: Member pl_kill_button[PL_MAX_PLAYERS] of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:337: Warning: Member add_comp_button of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:340: Warning: Member load_panel of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:346: Warning: Member host of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:347: Warning: Member connected of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:348: Warning: Member started of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:349: Warning: Member allowed_to_start_process_function of file doengine.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:2286: Warning: argument `key' of command @param is not found in the argument list of GameBuildOnClick(TGUI_BOX *sender)
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:2286: Warning: The following parameters of GameBuildOnClick(TGUI_BOX *sender) are not documented:
+  parameter sender
+
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:2234: Warning: The following parameters of GameButtonOnMouseDown(TGUI_BOX *sender, GLfloat, GLfloat, int button) are not documented:
+  parameter button
+
+/home/majo/work/dark-oberon/HEAD/src/doengine.cpp:1343: Warning: The following parameters of MenuButtonOnClick(int key, TGUI_BOX *sender=NULL) are not documented:
+  parameter sender
+
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:100: Warning: Member MN_PL_OK of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:101: Warning: Member MN_PL_ERROR of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:102: Warning: Member MN_PL_FULL of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:103: Warning: Member MN_PL_NOPLAYER of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:111: Warning: Member MNU_STAY_BUTTON of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:337: Warning: Member CreateBuildButtons() of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:338: Warning: Member CreateStayButtons() of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:339: Warning: Member CreateOrderButtons() of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:340: Warning: Member ClearBuildButtons() of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:341: Warning: Member ClearOrderButtons() of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:342: Warning: Member SetOrderVisibility(bool vis) of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:345: Warning: Member PrepareSounds() of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:258: Warning: Member radar_panel of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:352: Warning: Member host of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:355: Warning: Member action_key of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:356: Warning: Member action_force of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:358: Warning: Member app_path of file doengine.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.cpp:182: Warning: Member pack(variable) of file doevents.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.cpp:216: Warning: Member unpack(variable) of file doevents.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.cpp:43: Warning: Member pool_events of file doevents.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.cpp:44: Warning: Member pool_path_info of file doevents.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.cpp:45: Warning: Member pool_sel_node of file doevents.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.cpp:46: Warning: Member pool_nearest_info of file doevents.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.cpp:47: Warning: Member queue_events of file doevents.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.cpp:53: Warning: Member path_mutex of file doevents.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:43: Warning: Member ET_NONE of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:44: Warning: Member ET_NEXTMINE_SOURCE_OK of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:45: Warning: Member ET_NEXTMINE_SOURCE_NOK of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:46: Warning: Member ET_ATTACK_TOO_FAR_AWAY of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:47: Warning: Member ET_TARGET_MOVING of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:48: Warning: Member ET_HIDER_MOVING of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:49: Warning: Member ET_CONSTRUCTED_OBJECT_MOVING of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:50: Warning: Member ET_NOTNEXTPOS_LANDING of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:51: Warning: Member ET_UNIT_AGAINST_UNIT of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:52: Warning: Member ET_WORKER_ACTIVITY of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:53: Warning: Member ET_NEXT_HIDING of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:54: Warning: Member ET_NEXT_UNLOADING of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:55: Warning: Member ET_MINED_HAS_ACCEPTOR of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:56: Warning: Member ET_CANTMINE_CANLEAVE_SOURCE of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:57: Warning: Member ET_NOTPATH_LAND of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:58: Warning: Member ET_NEXTPOS_NOTMOVABLE of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:59: Warning: Member ET_FORCE_UNIT_HIDING of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:60: Warning: Member ET_ATTACK_TO_OTHER_SEG of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:61: Warning: Member ET_UNLOAD_DEST_RUINED of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:62: Warning: Member ET_UNLOAD_DEST_BUILD_NOT_HELD of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:63: Warning: Member ET_UNLOAD_DEST_NOT_NEIGHBOUR of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:64: Warning: Member ET_NEXTMINE_SOURCE_DESTR of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:65: Warning: Member ET_NEXT_CR_NOT_NEIGHBOUR of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:66: Warning: Member ET_UNLOAD_HELD of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:67: Warning: Member ET_NEXTMINE_NOT_HEIGHBOUR of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:68: Warning: Member ET_CANTMINE_LEAVE_NOSOURCE_OK of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:69: Warning: Member ET_CANTMINE_LEAVE_NOSOURCE_NOK of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:73: Warning: Member ET_MINED_SEARCH_ACCEPTOR of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:74: Warning: Member ET_ACC_BUILD_DESTROYED of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:75: Warning: Member ET_UNLOAD_HELD_SEARCH_ACC of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:76: Warning: Member ET_UNLOAD_DEST_BUILD_SEARCH_ACC of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:77: Warning: Member ET_UNLOAD_NO_SOURCE of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:80: Warning: Member ET_GROUP_MOVING of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:83: Warning: Member TS_MIN_EVENTS_DIFF of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:218: Warning: Member pool_events of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doevents.h:219: Warning: Member queue_events of file doevents.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofight.h:79: Warning: Member TNEURON_VALUE of file dofight.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:68: Warning: Member all_players of file dohost.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.cpp:212: Warning: Member init_giant() of file doipc.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.cpp:204: Warning: Member giant of file doipc.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.cpp:205: Warning: Member process_mutex of file doipc.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.h:155: Warning: Member init_giant() of file doipc.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.h:147: Warning: Member giant of file doipc.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doipc.h:148: Warning: Member process_mutex of file doipc.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dolayout.cpp:44: Warning: Member changes[LAY_DIRECTIONS_COUNT] of file dolayout.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dolayout.h:179: Warning: Member changes[] of file dolayout.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.cpp:401: Warning: Member TestNeighbours(x, y) of file domap.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.cpp:2420: Warning: Member DeleteMapSurface(TMAP_SURFACE **surface) of file domap.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:484: Warning: Member RadarPosition(x, y) of file domap.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:492: Warning: Member MapPosition(x, y) of file domap.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:499: Warning: Member SetMapPosition(x, y) of file domap.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:507: Warning: Member DeleteMapSurface(TMAP_SURFACE **surface) of file domap.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domouse.cpp:57: Warning: Member circle_color[MC_COUNT][3] of file domouse.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domouse.cpp:87: Warning: The following parameters of DeleteBoolField(bool **bool_field, int width) are not documented:
+  parameter bool_field
+
+/home/majo/work/dark-oberon/HEAD/src/donet.cpp:56: Warning: Member pool_net_messages of file donet.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:68: Warning: Member socklen_t of file donet.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:69: Warning: Member in_port_t of file donet.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:513: Warning: Member pool_net_messages of file donet.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.cpp:36: Warning: Member lambda of file doperceptron.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.cpp:506: Warning: Member ReadNumber(FILE *file, char *buffer) of file doperceptron.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:49: Warning: Member lambda of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:50: Warning: Member Normalize(BigNumber) of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:51: Warning: Member Denormalize(SmallNumber) of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:52: Warning: Member ActivationFunction(sum) of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:54: Warning: Member NETS_PATH of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:56: Warning: Member file_s_for_armaments of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:57: Warning: Member file_s_for_force_items of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:58: Warning: Member file_s_for_building_items of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:61: Warning: Member file_phaze_AB of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:62: Warning: Member file_phaze_SB of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:63: Warning: Member file_phaze_W of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:64: Warning: Member file_phaze_AU of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:65: Warning: Member file_importance of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:66: Warning: Member file_state of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:67: Warning: Member file_middle of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:68: Warning: Member file_global of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:74: Warning: Member TNEURON_VALUE of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:75: Warning: Member TNEURONS_COUNT of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doperceptron.h:76: Warning: Member P4LINE_FULL_CONNECT_PERCEPTRON_NETWORK of file doperceptron.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:56: Warning: Member player_array of file doplayers.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:47: Warning: Member PL_MAX_PLAYER_NAME_LENGTH of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:48: Warning: Member PL_MAX_ADDRESS_LENGTH of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:49: Warning: Member PL_MAX_SELECTIONS of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:52: Warning: Member PL_HASHTABLE_UNITS_SIZE of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:53: Warning: Member PL_MAX_START_POINTS of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:56: Warning: Member AV_NOT_VISIBLE of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:57: Warning: Member AV_VISIBLE of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:58: Warning: Member AV_WARFOG of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:61: Warning: Member MAP_BUILDING_COEF of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:65: Warning: Member PT_COMPUTER of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:680: Warning: Member DeleteUnits(TMAP_UNIT *units) of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:386: Warning: Member TP_bool of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:672: Warning: Member player_array of file doplayers.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:66: Warning: Member actual of file doraces.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:67: Warning: Member worker_order[SCH_MAX_MATERIALS_COUNT] of file doraces.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:116: Warning: Member RAC_AGGRESIVITY_MODE_COUNT of file doraces.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:1019: Warning: Member RacCriticalTable(race, table) of file doraces.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:84: Warning: Member TNEURON_VALUE of file doraces.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:91: Warning: Member TRAC_NAME[RAC_MAX_NAME_LENGTH] of file doraces.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:94: Warning: Member TITEM_TYPE of file doraces.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:1037: Warning: Member GetSegmentID(int user_terrID, int to_where) of file doraces.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.cpp:36: Warning: Member EMPTY of file doschemes.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.cpp:177: Warning: Member compare(const void *el1, const void *el2) of file doschemes.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.cpp:328: Warning: Member CreateTerrfTable(int sid) of file doschemes.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.cpp:336: Warning: Member CreateTerrlTable(int sid) of file doschemes.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.cpp:344: Warning: Member CreateTerroTable(int sid) of file doschemes.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.cpp:709: Warning: Member LoadSchSegment(TCONF_FILE *cf, int sid) of file doschemes.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:46: Warning: Member SCH_PATH of file doschemes.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:48: Warning: Member SCH_MAX_NAME_LENGTH of file doschemes.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:49: Warning: Member SCH_SEGMENT_MAX_NAME_LENGTH of file doschemes.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:50: Warning: Member SCH_ID_MAX_NAME_LENGTH of file doschemes.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:61: Warning: Member SchCriticalTable(scheme, table) of file doschemes.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:78: Warning: Member TSCHEME_NAME[SCH_MAX_NAME_LENGTH] of file doschemes.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:79: Warning: Member TMATERIAL_NAME[SCH_MAX_MATERIAL_NAME] of file doschemes.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:42: Warning: Member PL_MAX_SELECTIONS of file doselection.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:43: Warning: Member PL_SHOW_LINES_TIME of file doselection.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dosimpletypes.cpp:33: Warning: The following parameters of DeleteTerrainField(TTERRAIN_FIELD terrain_field, int width) are not documented:
+  parameter terrain_field
+
+/home/majo/work/dark-oberon/HEAD/src/dosimpletypes.cpp:81: Warning: argument `max.' of command @param is not found in the argument list of GetRandomInt(int max)
+/home/majo/work/dark-oberon/HEAD/src/dosimpletypes.cpp:81: Warning: The following parameters of GetRandomInt(int max) are not documented:
+  parameter max
+
+/home/majo/work/dark-oberon/HEAD/src/dosimpletypes.h:45: Warning: Member NULL of file dosimpletypes.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dosimpletypes.cpp:33: Warning: The following parameters of DeleteTerrainField(TTERRAIN_FIELD terrain_field, int width) are not documented:
+  parameter terrain_field
+
+/home/majo/work/dark-oberon/HEAD/src/dosimpletypes.cpp:81: Warning: argument `max.' of command @param is not found in the argument list of GetRandomInt(int max)
+/home/majo/work/dark-oberon/HEAD/src/dosimpletypes.cpp:81: Warning: The following parameters of GetRandomInt(int max) are not documented:
+  parameter max
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:77: Warning: Member EventToString(const int event) of file dounits.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:94: Warning: Member RQ_FIRST of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:135: Warning: Member UNI_MAX_MESSAGE_LENGTH of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:143: Warning: Member UNI_BURNING_COEF1 of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:144: Warning: Member UNI_BURNING_COEF2 of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:146: Warning: Member UNI_ZOMBIE_TIME of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:152: Warning: Member RET_MAT_PERCENTAGE of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:155: Warning: Member LIST_HIDING of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:156: Warning: Member LIST_WORKING of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:170: Warning: Member SetUnitColor(style) of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:177: Warning: Member ReleaseCountedPointer(unit) of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1143: Warning: Member PTNEAREST_BUILDINGS of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1293: Warning: Member EventToString(const int event) of file dounits.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.cpp:58: Warning: Member threadpool_astar of file dowalk.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.cpp:59: Warning: Member threadpool_nearest of file dowalk.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:139: Warning: Member PLOC_MAP_FIELD of file dowalk.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:423: Warning: Member pool_path_info of file dowalk.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:424: Warning: Member pool_sel_node of file dowalk.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:425: Warning: Member pool_nearest_info of file dowalk.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:426: Warning: Member threadpool_astar of file dowalk.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:427: Warning: Member threadpool_nearest of file dowalk.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.cpp:45: Warning: Member _glfBuildFont(GLFfont *font) of file glfont.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.cpp:88: Warning: Member glfNewFont(GLuint Tex, int tWidth, int tHeight, int xCount, int yCount, int Width, int Height, int Spacing, int dWidth, int dHeight) of file glfont.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.cpp:118: Warning: Member glfDeleteFont(GLFfont *font) of file glfont.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.cpp:130: Warning: Member glfPrint(GLFfont *font, GLfloat x, GLfloat y, char *string, bool outline) of file glfont.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.cpp:211: Warning: Member glfSetFontBase(GLFfont *font, int BaseFG, int BaseBG) of file glfont.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.cpp:218: Warning: Member glfSetFontDisplayMode(GLFfont *font, int dWidth, int dHeight) of file glfont.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.cpp:225: Warning: Member glfSetEnable(int flag, bool enable) of file glfont.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.cpp:235: Warning: Member glfEnable(int flag) of file glfont.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.cpp:241: Warning: Member glfDisable(int flag) of file glfont.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.cpp:37: Warning: Member reset_projection of file glfont.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.h:36: Warning: Member GLF_RESET_PROJECTION of file glfont.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.h:79: Warning: Member glfNewFont(GLuint Tex, int tWidth, int tHeight, int xCount, int yCount, int Width, int Height, int Spacing, int dWidth, int dHeight) of file glfont.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.h:81: Warning: Member glfDeleteFont(GLFfont *font) of file glfont.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.h:88: Warning: Member glfSetFontBase(GLFfont *font, int BaseFG, int BaseBG) of file glfont.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.h:89: Warning: Member glfSetFontDisplayMode(GLFfont *font, int dWidth, int dHeight) of file glfont.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.h:92: Warning: Member glfDisable(int flag) of file glfont.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.h:93: Warning: Member glfEnable(int flag) of file glfont.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glfont.h:100: Warning: Member glfPrint(GLFfont *font, GLfloat x, GLfloat y, char *string, bool outline) of file glfont.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:39: Warning: Member T_BYTE of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:42: Warning: Member GUI_MAX_CLIP_LEVEL of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:43: Warning: Member GUI_CLIP_EPSILON of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:49: Warning: Member SET_COLOR(color, r, g, b) of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:88: Warning: Member TranslateKey(int key) of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:135: Warning: Member DrawFaceRectangle(GLfloat x, GLfloat y, GLfloat width, GLfloat height, GLfloat *fcolor, GLfloat alpha, bool border, bool inverse) of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:172: Warning: Member DrawBgRectangle(GLfloat x, GLfloat y, GLfloat width, GLfloat height, GLfloat *fcolor, GLfloat *bgcolor, GLfloat alpha, bool border) of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:209: Warning: Member SetHoverBox(TGUI_BOX *box) of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:58: Warning: Member hover_box of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:59: Warning: Member down_box of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:60: Warning: Member focus_box of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:61: Warning: Member modal_box of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:62: Warning: Member float_box of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:63: Warning: Member tooltip_box of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:65: Warning: Member hover_time of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:67: Warning: Member show_tooltip of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:68: Warning: Member hover_box_hide of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:69: Warning: Member rescan_mouse of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:71: Warning: Member clip_buffer[GUI_MAX_CLIP_LEVEL][4] of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:72: Warning: Member clip_level of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.cpp:80: Warning: Member clip_eqn[4][4] of file glgui.cpp is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:55: Warning: Member GUI_NEW of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:58: Warning: Member GUI_KEY of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:60: Warning: Member GUI_DEF_COLOR of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:61: Warning: Member GUI_DEF_FONT_COLOR of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:62: Warning: Member GUI_DEF_ALPHA of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:64: Warning: Member GUI_LIGHT_COEF of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:65: Warning: Member GUI_HOVER_COEF of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:68: Warning: Member GUI_BS_BUTTON of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:69: Warning: Member GUI_BS_CHECK of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:70: Warning: Member GUI_BS_GROUP of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:91: Warning: Member GUI_BS_COUNT of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:99: Warning: Member GUI_ST_COUNT of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:103: Warning: Member GUI_CHECK_BOX_SIZE of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:104: Warning: Member GUI_SLIDER_SIZE of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:105: Warning: Member GUI_TOOLTIP_DELAY of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:106: Warning: Member GUI_TOOLTIP_TIME of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:1091: Warning: Member GUI_MB_BUTTONS_COUNT of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:1092: Warning: Member GUI_MB_OK of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:1093: Warning: Member GUI_MB_YES of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:1094: Warning: Member GUI_MB_NO of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:1095: Warning: Member GUI_MB_CANCEL of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:125: Warning: Member GUI_TEX_ID of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:126: Warning: Member TGUI_COLOR of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:84: Warning: Member TGUI_BUTTON_STATE of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:94: Warning: Member TGUI_SLIDER_TYPE of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:288: Warning: Member TCALLBACK_TYPE of file glgui.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/utils.h:56: Warning: Member do_close(int fd) of file utils.h is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:337: Warning: Member GetGroup(TSEL_NODE **unit_list) of class TA_STAR_ALG is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.cpp:550: Warning: The following parameters of TA_STAR_ALG::FieldDifficultyAux(int x, int y, int z, TLOC_MAP_FIELD ***loc_map) are not documented:
+  parameter loc_map
+
+/home/majo/work/dark-oberon/HEAD/src/dowalk.cpp:563: Warning: argument `p' of command @param is not found in the argument list of TA_STAR_ALG::IsOccupiedByOwn(int x, int y, int z, TLOC_MAP_FIELD ***loc_map)
+/home/majo/work/dark-oberon/HEAD/src/dowalk.cpp:563: Warning: The following parameters of TA_STAR_ALG::IsOccupiedByOwn(int x, int y, int z, TLOC_MAP_FIELD ***loc_map) are not documented:
+  parameter loc_map
+
+/home/majo/work/dark-oberon/HEAD/src/dowalk.cpp:595: Warning: The following parameters of TA_STAR_ALG::IsUnavailableField(int x, int y, int z, TFORCE_ITEM *type, TLOC_MAP_FIELD ***loc_map) are not documented:
+  parameter type
+  parameter loc_map
+
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:957: Warning: argument `param' of command @param is not found in the argument list of TACTIVITY_COUNTER::TACTIVITY_COUNTER(int start_left, int start_up, T_SIMPLE start_width, T_SIMPLE start_height)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:957: Warning: argument `param' of command @param is not found in the argument list of TACTIVITY_COUNTER::TACTIVITY_COUNTER(int start_left, int start_up, T_SIMPLE start_width, T_SIMPLE start_height)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:957: Warning: The following parameters of TACTIVITY_COUNTER::TACTIVITY_COUNTER(int start_left, int start_up, T_SIMPLE start_width, T_SIMPLE start_height) are not documented:
+  parameter start_left
+  parameter start_up
+  parameter start_width
+  parameter start_height
+
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:731: Warning: argument `ID' of command @param is not found in the argument list of TACTIVITY_COUNTER::Move(TCOMPUTER_PLAYER *Player)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:731: Warning: The following parameters of TACTIVITY_COUNTER::Move(TCOMPUTER_PLAYER *Player) are not documented:
+  parameter Player
+
+/home/majo/work/dark-oberon/HEAD/src/dofight.h:263: Warning: Member GetOffensive() const  of class TARMAMENT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofight.h:267: Warning: Member GetDefense() const  of class TARMAMENT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofight.h:272: Warning: Member GetWorth() of class TARMAMENT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofight.cpp:463: Warning: Found unknown command `\parameter'
+/home/majo/work/dark-oberon/HEAD/src/dofight.cpp:464: Warning: Found unknown command `\parameter'
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:398: Warning: Member mat_per_pt[SCH_MAX_MATERIALS_COUNT] of class TBASIC_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:153: Warning: The following parameters of TBASIC_ITEM::IsPossibleBuildable(float *price, TBASIC_ITEM **next_itm) are not documented:
+  parameter price
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:802: Warning: Member ShowNeedFood() of class TBASIC_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:803: Warning: Member ShowNeedEnergy() of class TBASIC_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:804: Warning: Member ShowNeedMaterial(T_BYTE mat) of class TBASIC_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:805: Warning: Member ShowNeedElement(T_BYTE id) of class TBASIC_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:811: Warning: Member has_view of class TBASIC_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:793: Warning: argument `pos' of command @param is not found in the argument list of TBASIC_UNIT::IsAimableByUnit(TPOSITION unit_pos, int x_test, int y_test, int u_width, int u_height, int range_min, int range_max)
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:793: Warning: The following parameters of TBASIC_UNIT::IsAimableByUnit(TPOSITION unit_pos, int x_test, int y_test, int u_width, int u_height, int range_min, int range_max) are not documented:
+  parameter unit_pos
+
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:560: Warning: Member allow_any_material of class TBUILDING_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:578: Warning: The following parameters of TBUILDING_ITEM::IsPossibleBuildable(float *price, TBASIC_ITEM **next_itm) are not documented:
+  parameter price
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:987: Warning: Member TestVisibility() of class TBUILDING_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:991: Warning: Member RecreateBurnAnimation() of class TBUILDING_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1021: Warning: Member GetAllowedMaterial(T_BYTE material) const  of class TBUILDING_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1022: Warning: Member AllowAnyMaterial() of class TBUILDING_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1026: Warning: Member DestroyGhost() of class TBUILDING_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1042: Warning: Member prepayed of class TBUILDING_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1043: Warning: Member max_prepayed of class TBUILDING_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dobuildings.cpp:371: Warning: argument `Pointer' of command @param is not found in the argument list of TBUILDING_UNIT::ProcessEvent(TEVENT *proc_event)
+/home/majo/work/dark-oberon/HEAD/src/dobuildings.cpp:371: Warning: The following parameters of TBUILDING_UNIT::ProcessEvent(TEVENT *proc_event) are not documented:
+  parameter proc_event
+
+/home/majo/work/dark-oberon/HEAD/src/dobuildings.cpp:292: Warning: argument `new_ts' of command @param is not found in the argument list of TBUILDING_UNIT::SendEvent(bool n_priority=false, double n_time_stamp=0, int n_event=0, int n_request_id=0, T_SIMPLE n_simple1=0, T_SIMPLE n_simple2=0, T_SIMPLE n_simple3=0, T_SIMPLE n_simple4=0, T_SIMPLE n_simple5=0, T_SIMPLE n_simple6=0, int n_int1=0, int n_int2=0)
+/home/majo/work/dark-oberon/HEAD/src/dobuildings.cpp:292: Warning: The following parameters of TBUILDING_UNIT::SendEvent(bool n_priority=false, double n_time_stamp=0, int n_event=0, int n_request_id=0, T_SIMPLE n_simple1=0, T_SIMPLE n_simple2=0, T_SIMPLE n_simple3=0, T_SIMPLE n_simple4=0, T_SIMPLE n_simple5=0, T_SIMPLE n_simple6=0, int n_int1=0, int n_int2=0) are not documented:
+  parameter n_priority
+  parameter n_time_stamp
+  parameter n_event
+  parameter n_request_id
+  parameter n_simple1
+  parameter n_simple2
+  parameter n_simple3
+  parameter n_simple4
+  parameter n_simple5
+  parameter n_simple6
+  parameter n_int1
+  parameter n_int2
+
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:512: Warning: Member GetSorterListNodesPool() const  of class TCOMPUTER_PLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:514: Warning: Member GetUnitSorter() of class TCOMPUTER_PLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:516: Warning: Member NeedBuilding(bool energy, bool food) of class TCOMPUTER_PLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:518: Warning: Member NeedMaterial(T_SIMPLE mater) of class TCOMPUTER_PLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:520: Warning: Member MoveUnused() of class TCOMPUTER_PLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:522: Warning: Member BuildBuilding(TWORKER_UNIT *worker, TBUILDING_ITEM *building) of class TCOMPUTER_PLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:562: Warning: Member phaze_detector_SB of class TCOMPUTER_PLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:563: Warning: Member phaze_detector_W of class TCOMPUTER_PLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:564: Warning: Member phaze_detector_AU of class TCOMPUTER_PLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:575: Warning: Member unit_sorter of class TCOMPUTER_PLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofile.h:303: Warning: Member GetActSection(void) of class TCONF_FILE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofile.cpp:1915: Warning: argument `mandatory' of command @param is not found in the argument list of TCONF_FILE::ReadSound(TSND_GROUP *value, char *item, TSND_TABLE *snd_table, char *section)
+/home/majo/work/dark-oberon/HEAD/src/dofile.cpp:999: Warning: The following parameters of TCONF_FILE::SelectSection(char *section, bool mandatory) are not documented:
+  parameter mandatory
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:228: Warning: Member Draw() of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:230: Warning: Member DrawToRadar() of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:244: Warning: Member SetVisible(bool vis) of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:265: Warning: Member TranslateToCentralize(const TPOSITION_3D position) of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:269: Warning: Member GetUnitWidth() const  of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:273: Warning: Member IsFlyingUp() of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:274: Warning: Member IsInActiveArea() of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:296: Warning: Member IsCloserThan(TDRAW_UNIT *unit) of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:298: Warning: Member TestVisibility() of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:308: Warning: Member rpos_x of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:224: Warning: Member TSEG_UNITS of class TDRAW_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:290: Warning: argument `new_next' of command @param is not found in the argument list of TDRAW_UNIT::SetPrevInSegment(T_BYTE seg, TDRAW_UNIT *new_prev)
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:290: Warning: The following parameters of TDRAW_UNIT::SetPrevInSegment(T_BYTE seg, TDRAW_UNIT *new_prev) are not documented:
+  parameter new_prev
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1263: Warning: Member GetOrderedUnit(int index) of class TFACTORY_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofactories.cpp:481: Warning: argument `added' of command @param is not found in the argument list of TFACTORY_UNIT::AddUnitToOrder(TFORCE_ITEM *unit_item)
+/home/majo/work/dark-oberon/HEAD/src/dofactories.cpp:481: Warning: The following parameters of TFACTORY_UNIT::AddUnitToOrder(TFORCE_ITEM *unit_item) are not documented:
+  parameter unit_item
+
+/home/majo/work/dark-oberon/HEAD/src/dofile.h:122: Warning: Member ResetValue() of class TFE_LINE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofile.cpp:532: Warning: The following parameters of TFE_SECTION::GetItem(char *item, bool warn) are not documented:
+  parameter warn
+
+/home/majo/work/dark-oberon/HEAD/src/dofile.cpp:557: Warning: argument `name' of command @param is not found in the argument list of TFE_SECTION::SelectSection(char *s_name, bool mandatory)
+/home/majo/work/dark-oberon/HEAD/src/dofile.cpp:557: Warning: The following parameters of TFE_SECTION::SelectSection(char *s_name, bool mandatory) are not documented:
+  parameter s_name
+  parameter mandatory
+
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:76: Warning: Member SetMyAddress(in_addr address, in_port_t port) of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:78: Warning: Member GetMyAddress() of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:79: Warning: Member GetMyPort() of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:81: Warning: Member GetPingRequestTime() of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:82: Warning: Member GetMinimalTimeshift() of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:83: Warning: Member SetMinimalTimeshift(double timeshift) of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:85: Warning: Member SendPingRequest() of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:86: Warning: Member SendSynchronise() of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:90: Warning: Member have_my_address of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:91: Warning: Member my_address of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.h:92: Warning: Member my_port of class TFOLLOWER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofollower.cpp:67: Warning: argument `player_name' of command @param is not found in the argument list of TFOLLOWER::Connect(std::string)
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:450: Warning: Member GetFeatures() const  of class TFORCE_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:302: Warning: argument `holder' of command @param is not found in the argument list of TFORCE_ITEM::IsPosAroundHolderAvailable(TFORCE_UNIT *unit, TMAP_UNIT *holder_unit, T_BYTE seg, TPOSITION_3D *free_position)
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:302: Warning: The following parameters of TFORCE_ITEM::IsPosAroundHolderAvailable(TFORCE_UNIT *unit, TMAP_UNIT *holder_unit, T_BYTE seg, TPOSITION_3D *free_position) are not documented:
+  parameter unit
+  parameter holder_unit
+  parameter seg
+  parameter free_position
+
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:326: Warning: argument `cx' of command @param is not found in the argument list of TFORCE_ITEM::TestPositionFeatures(T_SIMPLE tx, T_SIMPLE ty, T_SIMPLE ts)
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:326: Warning: argument `cy' of command @param is not found in the argument list of TFORCE_ITEM::TestPositionFeatures(T_SIMPLE tx, T_SIMPLE ty, T_SIMPLE ts)
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:326: Warning: argument `cs' of command @param is not found in the argument list of TFORCE_ITEM::TestPositionFeatures(T_SIMPLE tx, T_SIMPLE ty, T_SIMPLE ts)
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:326: Warning: The following parameters of TFORCE_ITEM::TestPositionFeatures(T_SIMPLE tx, T_SIMPLE ty, T_SIMPLE ts) are not documented:
+  parameter tx
+  parameter ty
+  parameter ts
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:834: Warning: Member ComputePath(TPOSITION_3D goal, int request_id, int event_type=US_NONE, T_SIMPLE e_simple1=0, T_SIMPLE e_simple2=0) of class TFORCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:835: Warning: Member SearchForNearestBuilding(TSOURCE_UNIT *source, int request_id, int event_type, T_SIMPLE e_simple1=0, T_SIMPLE e_simple2=0) of class TFORCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:865: Warning: Member IsLanding() const  of class TFORCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:873: Warning: Member GetSpeed() const  of class TFORCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:878: Warning: Member GetRotationSpeed() const  of class TFORCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:907: Warning: Member GetGoal(void) of class TFORCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:927: Warning: Member IsHeld() of class TFORCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:928: Warning: Member SetHeld(bool is_held) of class TFORCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:930: Warning: Member SetHider(TMAP_UNIT *hid) of class TFORCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:931: Warning: Member GetHider() of class TFORCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doforces.cpp:2852: Warning: argument `area_position' of command @param is not found in the argument list of TFORCE_UNIT::CountPathDistance(TPOSITION_3D area_pos, int area_width, int area_height, int max_cnt)
+/home/majo/work/dark-oberon/HEAD/src/doforces.cpp:2852: Warning: The following parameters of TFORCE_UNIT::CountPathDistance(TPOSITION_3D area_pos, int area_width, int area_height, int max_cnt) are not documented:
+  parameter area_pos
+
+/home/majo/work/dark-oberon/HEAD/src/doforces.cpp:194: Warning: argument `Pointer' of command @param is not found in the argument list of TFORCE_UNIT::ProcessEvent(TEVENT *proc_event)
+/home/majo/work/dark-oberon/HEAD/src/doforces.cpp:194: Warning: The following parameters of TFORCE_UNIT::ProcessEvent(TEVENT *proc_event) are not documented:
+  parameter proc_event
+
+/home/majo/work/dark-oberon/HEAD/src/doforces.cpp:2046: Warning: The following parameters of TFORCE_UNIT::SelectReaction(TMAP_UNIT *unit, TUNIT_ACTION action) are not documented:
+  parameter action
+
+/home/majo/work/dark-oberon/HEAD/src/doforces.cpp:101: Warning: argument `new_ts' of command @param is not found in the argument list of TFORCE_UNIT::SendEvent(bool n_priority=false, double n_time_stamp=0, int n_event=0, int n_request_id=0, T_SIMPLE n_simple1=0, T_SIMPLE n_simple2=0, T_SIMPLE n_simple3=0, T_SIMPLE n_simple4=0, T_SIMPLE n_simple5=0, T_SIMPLE n_simple6=0, int n_int1=0, int n_int2=0)
+/home/majo/work/dark-oberon/HEAD/src/doforces.cpp:101: Warning: The following parameters of TFORCE_UNIT::SendEvent(bool n_priority=false, double n_time_stamp=0, int n_event=0, int n_request_id=0, T_SIMPLE n_simple1=0, T_SIMPLE n_simple2=0, T_SIMPLE n_simple3=0, T_SIMPLE n_simple4=0, T_SIMPLE n_simple5=0, T_SIMPLE n_simple6=0, int n_int1=0, int n_int2=0) are not documented:
+  parameter n_priority
+  parameter n_time_stamp
+  parameter n_event
+  parameter n_request_id
+  parameter n_simple1
+  parameter n_simple2
+  parameter n_simple3
+  parameter n_simple4
+  parameter n_simple5
+  parameter n_simple6
+  parameter n_int1
+  parameter n_int2
+
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:190: Warning: Member Stop() of class TGUI_ANIMATION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:219: Warning: Member SetSpeedRatio(double ratio) of class TGUI_ANIMATION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:220: Warning: Member ResetSpeedRatio() of class TGUI_ANIMATION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:222: Warning: Member SetAnimTime(double atime) of class TGUI_ANIMATION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:223: Warning: Member ResetAnimTime() of class TGUI_ANIMATION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:226: Warning: Member SetReverse(bool rev, bool reset_frame) of class TGUI_ANIMATION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:227: Warning: Member SetLoop(bool setloop) of class TGUI_ANIMATION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:229: Warning: Member SetRandomFrame() of class TGUI_ANIMATION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:207: Warning: argument `width' of command @param is not found in the argument list of TGUI_ANIMATION::Draw(GLfloat w, GLfloat h)
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:207: Warning: argument `height' of command @param is not found in the argument list of TGUI_ANIMATION::Draw(GLfloat w, GLfloat h)
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:207: Warning: The following parameters of TGUI_ANIMATION::Draw(GLfloat w, GLfloat h) are not documented:
+  parameter w
+  parameter h
+
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:170: Warning: Member DrawFrame(int frame) of class TGUI_TEXTURE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:171: Warning: Member DrawFrame(int frame, GLfloat w, GLfloat h) of class TGUI_TEXTURE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:140: Warning: Member width of class TGUI_TEXTURE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:141: Warning: Member height of class TGUI_TEXTURE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:147: Warning: Member h_count of class TGUI_TEXTURE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/glgui.h:148: Warning: Member v_count of class TGUI_TEXTURE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofight.h:137: Warning: Member GetRange() of class TGUN is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dofight.h:140: Warning: Member GetShotableSegments() of class TGUN is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:109: Warning: Member HashFunction(int h_unit_id) of class THASHTABLE_UNITS is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:190: Warning: argument `g_player_unit.' of command @param is not found in the argument list of THASHTABLE_UNITS::GetUnitID(TPLAYER_UNIT *g_player_unit)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:190: Warning: The following parameters of THASHTABLE_UNITS::GetUnitID(TPLAYER_UNIT *g_player_unit) are not documented:
+  parameter g_player_unit
+
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:161: Warning: argument `g_unit_id.' of command @param is not found in the argument list of THASHTABLE_UNITS::GetUnitPointer(int g_unit_id)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:128: Warning: argument `r_player_unit' of command @param is not found in the argument list of THASHTABLE_UNITS::RemoveFromHashTable(int r_unit_id)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:128: Warning: The following parameters of THASHTABLE_UNITS::RemoveFromHashTable(int r_unit_id) are not documented:
+  parameter r_unit_id
+
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:85: Warning: Member THOST(int incoming_message_queue_size, in_port_t listen_port, int outgoing_message_queue_size) of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:123: Warning: Member GetRemoteAddress() of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:124: Warning: Member GetRemotePort() of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:126: Warning: Member RemoveAllAddresses() of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:130: Warning: Member AddRemoteAddress(in_addr address, in_port_t port) of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:134: Warning: Member AddRemoteAddress(in_addr address, in_port_t port, int fd) of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:138: Warning: Member AddEmptyAddress() of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:142: Warning: Member RegisterExtendedFunction(T_BYTE type, void(*f)(TNET_MESSAGE *msg)) of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:146: Warning: Member DisconnectAddress(int id) of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:150: Warning: Member DisconnectAddress(in_addr address, in_port_t port) of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:154: Warning: Member RemoveAddress(int id) of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:158: Warning: Member RegisterOnDisconnect(void(*f)(in_addr, in_port_t)) of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.h:164: Warning: Member talker of class THOST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dohost.cpp:58: Warning: The following parameters of THOST::THOST(int incoming_message_queue_size, in_port_t listen_port, int outgoing_message_queue_size, in_addr remote_address, in_port_t remote_port) are not documented:
+  parameter outgoing_message_queue_size
+  parameter remote_address
+  parameter remote_port
+
+/home/majo/work/dark-oberon/HEAD/src/dohost.cpp:103: Warning: argument `chat_message' of command @param is not found in the argument list of THOST::SendDisconnect(T_BYTE player_id)
+/home/majo/work/dark-oberon/HEAD/src/dohost.cpp:103: Warning: The following parameters of THOST::SendDisconnect(T_BYTE player_id) are not documented:
+  parameter player_id
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:673: Warning: Member TITERATOR_POOLED_LIST(const TPOOLED_LIST *const list) of class TITERATOR_POOLED_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doleader.h:65: Warning: Member ConnectFollower(in_addr remote_address, in_port_t remote_port, int fd) of class TLEADER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doleader.h:67: Warning: Member SendPingReply(double request_time) of class TLEADER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doleader.h:69: Warning: Member SendPlayerArray(std::string map_name, bool start_game) of class TLEADER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doleader.h:71: Warning: Member SendAllowProcessFunction() of class TLEADER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doleader.h:73: Warning: Member FillRemoteAddresses() of class TLEADER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doleader.cpp:48: Warning: The following parameters of TLEADER::TLEADER(int incoming_message_queue_size, in_port_t listen_port, int outgoing_message_queue_size) are not documented:
+  parameter outgoing_message_queue_size
+
+/home/majo/work/dark-oberon/HEAD/src/dosimpletypes.h:173: Warning: Member GetFirst() of class TLIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dosimpletypes.h:157: Warning: Member TNODE(T *itm) of class TLIST::TNODE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2078: Warning: argument `pos' of command @param is not found in the argument list of TLOC_MAP::TLOC_MAP()
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2078: Warning: argument `width' of command @param is not found in the argument list of TLOC_MAP::TLOC_MAP()
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2078: Warning: argument `height' of command @param is not found in the argument list of TLOC_MAP::TLOC_MAP()
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2078: Warning: argument `neighbourhood' of command @param is not found in the argument list of TLOC_MAP::TLOC_MAP()
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2115: Warning: argument `width' of command @param is not found in the argument list of TLOC_MAP::CreateLocalMap(T_SIMPLE w, T_SIMPLE h, T_SIMPLE d=DAT_SEGMENTS_COUNT)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2115: Warning: argument `height' of command @param is not found in the argument list of TLOC_MAP::CreateLocalMap(T_SIMPLE w, T_SIMPLE h, T_SIMPLE d=DAT_SEGMENTS_COUNT)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2115: Warning: argument `depth' of command @param is not found in the argument list of TLOC_MAP::CreateLocalMap(T_SIMPLE w, T_SIMPLE h, T_SIMPLE d=DAT_SEGMENTS_COUNT)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2115: Warning: The following parameters of TLOC_MAP::CreateLocalMap(T_SIMPLE w, T_SIMPLE h, T_SIMPLE d=DAT_SEGMENTS_COUNT) are not documented:
+  parameter w
+  parameter h
+  parameter d
+
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2427: Warning: argument `pos' of command @param is not found in the argument list of TLOC_MAP::GetAreaVisibility(const T_SIMPLE pos_x, const T_SIMPLE pos_y, const T_BYTE seg_min, const T_BYTE seg_max, const T_SIMPLE width, const T_SIMPLE height)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2427: Warning: The following parameters of TLOC_MAP::GetAreaVisibility(const T_SIMPLE pos_x, const T_SIMPLE pos_y, const T_BYTE seg_min, const T_BYTE seg_max, const T_SIMPLE width, const T_SIMPLE height) are not documented:
+  parameter pos_x
+  parameter pos_y
+  parameter seg_min
+  parameter seg_max
+
+/home/majo/work/dark-oberon/HEAD/src/domap.h:397: Warning: Member GetZoom() of class TMAP is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:443: Warning: Member InitPools(void) of class TMAP is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:453: Warning: Member RenderRadarTextures() of class TMAP is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:205: Warning: Member GetRandomMap(void) of class TMAP_INFO_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:256: Warning: Member snd_fireon of class TMAP_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:257: Warning: Member snd_fireoff of class TMAP_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:700: Warning: Member TMAP_POOLED_LIST(TPOOL< TNODE > *elements_source) of class TMAP_POOLED_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:178: Warning: Member IncreaseActivity(const T_SIMPLE PlayerID, TNEURON_VALUE added) of class TMAP_SURFACE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:180: Warning: Member Clear() of class TMAP_SURFACE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:171: Warning: Member activity of class TMAP_SURFACE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:193: Warning: Member aimers of class TMAP_SURFACE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:194: Warning: Member watchers of class TMAP_SURFACE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.cpp:226: Warning: Found unknown command `\PlayerID'
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:421: Warning: Member TestVisibility() of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:429: Warning: Member SetSelected(bool sel) of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:432: Warning: Member SetWaitRequestId(int wr_id) of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:434: Warning: Member IsInMap(void) of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:437: Warning: Member SetGroupID(int gid) of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:443: Warning: Member GetLife() const  of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:494: Warning: Member GetBurnAnimation() const  of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:498: Warning: Member IsSelected() of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:499: Warning: Member MessageText(bool possitive, char *text,...) of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:506: Warning: Member GetWorkingUnits() of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:508: Warning: Member CanAcceptUnit(TFORCE_UNIT *unit) of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:509: Warning: Member AcceptsHidedUnits() of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:510: Warning: Member IsFull() of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:511: Warning: Member EjectUnits() of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:512: Warning: Member CanEject() of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:513: Warning: Member GetHidedCount() of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:524: Warning: Member GetGhostOwner() of class TMAP_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:185: Warning: The following parameters of TMAP_UNIT::TMAP_UNIT(int uplayer, int ux, int uy, int uz, TMAP_ITEM *mi, int new_unit_id, bool global_unit) are not documented:
+  parameter uplayer
+  parameter global_unit
+
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1125: Warning: argument `added' of command @param is not found in the argument list of TMAP_UNIT::AddToListOfUnits(TFORCE_UNIT *unit, T_BYTE which_list)
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1125: Warning: The following parameters of TMAP_UNIT::AddToListOfUnits(TFORCE_UNIT *unit, T_BYTE which_list) are not documented:
+  parameter unit
+
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1243: Warning: The following parameters of TMAP_UNIT::AddToMap(bool to_segment, bool set_view) are not documented:
+  parameter set_view
+
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1389: Warning: argument `area_position' of command @param is not found in the argument list of TMAP_UNIT::CountPathDistance(TPOSITION_3D area_pos, int area_width, int area_height, int max_cnt)
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1389: Warning: The following parameters of TMAP_UNIT::CountPathDistance(TPOSITION_3D area_pos, int area_width, int area_height, int max_cnt) are not documented:
+  parameter area_pos
+
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:621: Warning: argument `Pointer' of command @param is not found in the argument list of TMAP_UNIT::ProcessEvent(TEVENT *proc_event)
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:621: Warning: The following parameters of TMAP_UNIT::ProcessEvent(TEVENT *proc_event) are not documented:
+  parameter proc_event
+
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1154: Warning: argument `removed' of command @param is not found in the argument list of TMAP_UNIT::RemoveFromListOfUnits(TFORCE_UNIT *unit, T_BYTE which_list)
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1154: Warning: The following parameters of TMAP_UNIT::RemoveFromListOfUnits(TFORCE_UNIT *unit, T_BYTE which_list) are not documented:
+  parameter unit
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:462: Warning: The following parameters of TMAP_UNIT::SelectReaction(TMAP_UNIT *unit, TUNIT_ACTION action) are not documented:
+  parameter action
+
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1414: Warning: The following parameters of TMAP_UNIT::SetAggressivity(TAGGRESSIVITY_MODE new_agg, bool test_is_being_build) are not documented:
+  parameter test_is_being_build
+
+/home/majo/work/dark-oberon/HEAD/src/domouse.h:125: Warning: Member ResetCursor(void) of class TMOUSE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:450: Warning: Member TNET_DISPATCHER(TNET_MESSAGE_QUEUE *incoming_messages, TNET_MESSAGE_HANDLER *handler) of class TNET_DISPATCHER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:467: Warning: Member dispatcher_thread_function(void *dispatcher_class) of class TNET_DISPATCHER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:325: Warning: Member AddListenerByFileDescriptor(in_addr address, in_port_t port, int fd) of class TNET_LISTENER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:335: Warning: Member ConsumerIsAttached(GLFWthread thread) of class TNET_LISTENER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:336: Warning: Member GetListenersFileDescriptor(in_addr address) of class TNET_LISTENER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:338: Warning: Member RegisterOnDisconnect(void(*f)(in_addr, in_port_t)) of class TNET_LISTENER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:342: Warning: Member listener_accept(void *d) of class TNET_LISTENER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:345: Warning: Member consumer_thread of class TNET_LISTENER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:347: Warning: Member subthread_fd of class TNET_LISTENER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:348: Warning: Member subthread_address of class TNET_LISTENER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:349: Warning: Member subthread_thread of class TNET_LISTENER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:356: Warning: Member on_disconnect)(in_addr, in_port_t) of class TNET_LISTENER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:168: Warning: Member GetSize() of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:169: Warning: Member GetType() of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:170: Warning: Member GetSubtype() of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:171: Warning: Member GetDest() of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:173: Warning: Member SetDest(T_BYTE dest) of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:175: Warning: Member GetBuf() of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:229: Warning: Member GetAddress() of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:230: Warning: Member GetPort() of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:231: Warning: Member GetFileDescriptor() of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:233: Warning: Member Send(int fd) of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:250: Warning: Member address of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:251: Warning: Member port of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:252: Warning: Member fd of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:254: Warning: Member extract_p of class TNET_MESSAGE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:428: Warning: Member HandleMessage(TNET_MESSAGE *msg) of class TNET_MESSAGE_HANDLER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:430: Warning: Member RegisterExtendedFunction(T_BYTE type, void(*f)(TNET_MESSAGE *msg)) of class TNET_MESSAGE_HANDLER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:280: Warning: Member Die() of class TNET_MESSAGE_QUEUE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:294: Warning: Member dead of class TNET_MESSAGE_QUEUE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:499: Warning: Member AsciiToNetwork(std::string address) of class TNET_RESOLVER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:502: Warning: Member mutex of class TNET_RESOLVER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:373: Warning: Member TNET_TALKER(int queue_size) of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:377: Warning: Member RemoveAllAddresses() of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:379: Warning: Member AddAddress(in_addr address, in_port_t port, int fd=-1) of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:380: Warning: Member AddEmptyAddress() of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:382: Warning: Member DisconnectAddress(int id) of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:383: Warning: Member DisconnectAddress(in_addr address, in_port_t port) of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:384: Warning: Member RemoveAddress(int id) of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:391: Warning: Member GetRemoteAddress(int index) of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:394: Warning: Member GetRemotePort(int index) of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:397: Warning: Member GetRemoteFiledescriptor(int index) of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:400: Warning: Member Initialise(int queue_size) of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:412: Warning: Member RemoveAddressFromDisctinctAddresses(in_addr address, in_port_t port) of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:409: Warning: Member remote_address of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/donet.h:410: Warning: Member distinct_remote_addresses of class TNET_TALKER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:64: Warning: Member has_path of class TNODE_OF_UNITS_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:230: Warning: Member material_image[SCH_MAX_MATERIALS_COUNT] of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:231: Warning: Member food_label of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:232: Warning: Member energy_label of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:234: Warning: Member picture_image of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:239: Warning: Member info_label of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:242: Warning: Member stay_button of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:243: Warning: Member move_button of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:244: Warning: Member attack_button of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:246: Warning: Member mine_button of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:247: Warning: Member repair_button of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:248: Warning: Member build_button of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:250: Warning: Member seg_button of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:252: Warning: Member build_panel of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doengine.h:253: Warning: Member order_panel of class TPANEL_INFO is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:264: Warning: Member GetPostitionInPath(int steps_count) of class TPATH_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:274: Warning: Member DecreaseSteps(int st_count) of class TPATH_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:277: Warning: Member SetASteps(int value) of class TPATH_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:278: Warning: Member SetSteps(int value) of class TPATH_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:279: Warning: Member SetANode(TPATH_NODE *n) of class TPATH_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:280: Warning: Member GetRealGoalPosition() of class TPATH_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:281: Warning: Member SetRealGoalPosition(TPOSITION_3D new_pos) of class TPATH_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dowalk.h:304: Warning: Member TPATH_LIST::CreateCopy(int, int, int) of class TPATH_NODE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:217: Warning: Member GetPlayerID() of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:227: Warning: Member UpdateGraphics(double time_shift) of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:231: Warning: Member IncrementGlobalUnitCounter() of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:256: Warning: Member GetStoredMaterial(int mat) of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:258: Warning: Member SetStoredMaterial(int mat, float val) of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:259: Warning: Member IncStoredMaterial(int mat, float val) of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:260: Warning: Member DecStoredMaterial(int mat, float val) of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:273: Warning: Member GetInFood() of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:288: Warning: Member SetPlayerType(int pt_type) of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:290: Warning: Member GetPlayerUnitsCount() of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:222: Warning: Member hash_table_units of class TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:510: Warning: argument `index' of command @param is not found in the argument list of TPLAYER::IncreaseBuildingCount(int mat_index, int player_id)
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:510: Warning: The following parameters of TPLAYER::IncreaseBuildingCount(int mat_index, int player_id) are not documented:
+  parameter mat_index
+
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:597: Warning: Member AddRemotePlayer(std::string player_name, struct in_addr addr, in_port_t port, bool computer=false) of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:609: Warning: Member EveryPlayerHasDifferentRace() of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:611: Warning: Member Lock() of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:612: Warning: Member Unlock() of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:618: Warning: Member ChooseRandomStartPoints() of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:619: Warning: Member SetStartPointsCount(int value) of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:620: Warning: Member GetStartPoint(int player_index) of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:621: Warning: Member SetStartPoint(int player_index, int value) of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:623: Warning: Member GetMyPlayerID() of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:624: Warning: Member GetPlayerID(in_addr address, in_port_t port, int min_id) of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:626: Warning: Member RunningOnFollower() of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:628: Warning: Member AllPlayersAreLocal() of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:630: Warning: Member PlayerReady(in_addr address, in_port_t port) of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:631: Warning: Member AllRemoteReady() of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:659: Warning: Member running_on_leader of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:661: Warning: Member lock of class TPLAYER_ARRAY is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2602: Warning: The following parameters of TPLAYER_ARRAY::AddLocalPlayer(std::string player_name, std::string race_id_name="", bool computer=false) are not documented:
+  parameter race_id_name
+  parameter computer
+
+/home/majo/work/dark-oberon/HEAD/src/doplayers.cpp:2549: Warning: The following parameters of TPLAYER_ARRAY::AddPlayer(std::string player_name, std::string race_id_name, bool computer, bool lock=true, bool remote=false, in_addr *addr_p=NULL, in_port_t port=0) are not documented:
+  parameter remote
+  parameter addr_p
+  parameter port
+
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:651: Warning: Member start_point of class TPLAYER_ARRAY::TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doplayers.h:653: Warning: Member ready_to_start_game of class TPLAYER_ARRAY::TPLAYER is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:329: Warning: Member SendEvent(bool n_priority=false, double n_time_stamp=0, int n_event=0, int n_request_id=0, T_SIMPLE n_simple1=0, T_SIMPLE n_simple2=0, T_SIMPLE n_simple3=0, T_SIMPLE n_simple4=0, T_SIMPLE n_simple5=0, T_SIMPLE n_simple6=0, int n_int1=0, int n_int2=0) of class TPLAYER_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:330: Warning: Member TestVisibility() of class TPLAYER_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:331: Warning: Member IsGhost() of class TPLAYER_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:332: Warning: Member CreateGhost() of class TPLAYER_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:333: Warning: Member DestroyGhost() of class TPLAYER_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:334: Warning: Member Disconnect() of class TPLAYER_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:337: Warning: Member GetPlayer() const  of class TPLAYER_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:348: Warning: Member TestPlayer(TPLAYER *owner) of class TPLAYER_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:359: Warning: Member TestItemType(TITEM_TYPE it) of class TPLAYER_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:387: Warning: argument `global_unit.' of command @param is not found in the argument list of TPLAYER_UNIT::TPLAYER_UNIT(int set_player, int p_x, int p_y, int p_z, TDRAW_ITEM *set_item, int new_unit_id, bool global_unit)
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:387: Warning: The following parameters of TPLAYER_UNIT::TPLAYER_UNIT(int set_player, int p_x, int p_y, int p_z, TDRAW_ITEM *set_item, int new_unit_id, bool global_unit) are not documented:
+  parameter set_player
+  parameter p_x
+  parameter p_y
+  parameter p_z
+  parameter set_item
+  parameter global_unit
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:539: Warning: Found unknown command `\notes'
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:371: Warning: argument `tested' of command @param is not found in the argument list of TPLAYER_UNIT::GetState() const
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:467: Warning: Found unknown command `\notes'
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:495: Warning: Found unknown command `\notes'
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:613: Warning: Member TPOOLED_LIST(TPOOL< TNODE > *elements_source) of class TPOOLED_LIST is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1457: Warning: Found unknown command `\new_item'
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1514: Warning: Found unknown command `\new_item'
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1483: Warning: Found unknown command `\new_item'
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1543: Warning: Found unknown command `\new_item'
+/home/majo/work/dark-oberon/HEAD/src/domapunits.cpp:1575: Warning: Found unknown command `\delete_item'
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:968: Warning: The following parameters of TPROJECTILE_UNIT::TPROJECTILE_UNIT(int playerID, double time, TPOSITION_3D spos, TPOSITION_3D ipos, TGUN *g, int new_unit_id, bool global_unit) are not documented:
+  parameter new_unit_id
+  parameter global_unit
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:1106: Warning: argument `Pointer' of command @param is not found in the argument list of TPROJECTILE_UNIT::ProcessEvent(TEVENT *proc_event)
+/home/majo/work/dark-oberon/HEAD/src/dounits.cpp:1106: Warning: The following parameters of TPROJECTILE_UNIT::ProcessEvent(TEVENT *proc_event) are not documented:
+  parameter proc_event
+
+/home/majo/work/dark-oberon/HEAD/src/dodraw.h:137: Warning: Member game_h_coef of class TPROJECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodraw.h:138: Warning: Member game_v_coef of class TPROJECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:971: Warning: Member workers_item_count[SCH_MAX_MATERIALS_COUNT] of class TRACE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:984: Warning: Member snd_building_selected of class TRACE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:846: Warning: The following parameters of TRACE::FindBuilding(int *result, int *mat, int *shot_seg, int need_food, int need_energy, TPOSITION start_pos, TPOSITION end_pos) are not documented:
+  parameter result
+
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:968: Warning: The following parameters of TRACE::FindUnit(int *result, int *mat, int *shot_seg, int need_food, int need_energy, TPOSITION start_pos, TPOSITION end_pos) are not documented:
+  parameter result
+
+/home/majo/work/dark-oberon/HEAD/src/domap.h:305: Warning: Member Draw(void) of class TRADAR is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:306: Warning: Member ToggleHideable() of class TRADAR is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:308: Warning: Member IsHideable() of class TRADAR is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:309: Warning: Member GetMoving() of class TRADAR is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:310: Warning: Member SetMoving(bool mov) of class TRADAR is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:95: Warning: Member GetUnitsList() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:99: Warning: Member IsMy() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:100: Warning: Member OnlyOne() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:101: Warning: Member GetUnitsCount() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:102: Warning: Member GetFirstUnit() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:104: Warning: Member UnselectAll() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:108: Warning: Member AddUnit(TMAP_UNIT *punit, bool sound) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:116: Warning: Member DrawUnitsLines() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:118: Warning: Member StartTimer() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:119: Warning: Member CanDrawLines() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:121: Warning: Member TestCanMove() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:122: Warning: Member TestCanHide(TMAP_UNIT *over_unit) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:123: Warning: Member TestCanAttack(TMAP_UNIT *over_unit) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:124: Warning: Member TestCanMine(TSOURCE_UNIT *over_unit) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:125: Warning: Member TestCanUnload(TBUILDING_UNIT *over_unit) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:126: Warning: Member TestCanBuildOrRepair(TBASIC_UNIT *over_unit) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:127: Warning: Member TestCanBuild(TBUILDING_ITEM *building, TPOSITION pos, bool **build_map) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:129: Warning: Member MoveUnits(TPOSITION position) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:133: Warning: Member SetAggressivity(TAGGRESSIVITY_MODE mode) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:135: Warning: Member GetCanMove() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:136: Warning: Member GetCanAttack() of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:139: Warning: Member StoreSelection(int gid) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:140: Warning: Member RestoreSelection(int gid, bool center, bool sound=true) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:141: Warning: Member DeleteStoredUnit(int gid, TMAP_UNIT *unit) of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:167: Warning: Member groups[PL_MAX_SELECTIONS] of class TSELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doselection.cpp:160: Warning: The following parameters of TSELECTION::_AddUnit(TMAP_UNIT *punit, bool sound, bool lock) are not documented:
+  parameter sound
+  parameter lock
+
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:183: Warning: Member Play() of class TSND_GROUP is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:187: Warning: Member IsEmpty() of class TSND_GROUP is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:188: Warning: Member Clear() of class TSND_GROUP is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:202: Warning: Member Load(const char *fname) of class TSND_TABLE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:203: Warning: Member Clear(void) of class TSND_TABLE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:745: Warning: Member GetCapacity() const  of class TSOURCE_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.cpp:384: Warning: argument `seg' of command @param is not found in the argument list of TSOURCE_ITEM::IsPositionAvailable(int pos_x, int pos_y)
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:742: Warning: Found unknown command `\cap'
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1160: Warning: Member TestVisibility() of class TSOURCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1164: Warning: Member GetOfferMaterial() const  of class TSOURCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1174: Warning: Member IncMaterialBalance() of class TSOURCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1175: Warning: Member DecMaterialBalance() of class TSOURCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1176: Warning: Member GetMaterialBalance() const  of class TSOURCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1183: Warning: Member IsEmpty() of class TSOURCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1184: Warning: Member IsInsideMining() of class TSOURCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1193: Warning: Member GetPlayerArray() of class TSOURCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1203: Warning: Member DestroyGhost() of class TSOURCE_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dosources.cpp:224: Warning: argument `worker' of command @param is not found in the argument list of TSOURCE_UNIT::AddToListOfUnits(TFORCE_UNIT *unit, T_BYTE which_list)
+/home/majo/work/dark-oberon/HEAD/src/dosources.cpp:224: Warning: The following parameters of TSOURCE_UNIT::AddToListOfUnits(TFORCE_UNIT *unit, T_BYTE which_list) are not documented:
+  parameter unit
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1186: Warning: argument `Player' of command @param is not found in the argument list of TSOURCE_UNIT::GetPositionInPlayerArray(const int pid)
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1186: Warning: The following parameters of TSOURCE_UNIT::GetPositionInPlayerArray(const int pid) are not documented:
+  parameter pid
+
+/home/majo/work/dark-oberon/HEAD/src/dosources.cpp:544: Warning: argument `Pointer' of command @param is not found in the argument list of TSOURCE_UNIT::ProcessEvent(TEVENT *proc_event)
+/home/majo/work/dark-oberon/HEAD/src/dosources.cpp:544: Warning: The following parameters of TSOURCE_UNIT::ProcessEvent(TEVENT *proc_event) are not documented:
+  parameter proc_event
+
+/home/majo/work/dark-oberon/HEAD/src/dosources.cpp:243: Warning: argument `worker' of command @param is not found in the argument list of TSOURCE_UNIT::RemoveFromListOfUnits(TFORCE_UNIT *unit, T_BYTE which_list)
+/home/majo/work/dark-oberon/HEAD/src/dosources.cpp:243: Warning: The following parameters of TSOURCE_UNIT::RemoveFromListOfUnits(TFORCE_UNIT *unit, T_BYTE which_list) are not documented:
+  parameter unit
+
+/home/majo/work/dark-oberon/HEAD/src/dosources.cpp:469: Warning: argument `new_ts' of command @param is not found in the argument list of TSOURCE_UNIT::SendEvent(bool n_priority=false, double n_time_stamp=0, int n_event=0, int n_request_id=0, T_SIMPLE n_simple1=0, T_SIMPLE n_simple2=0, T_SIMPLE n_simple3=0, T_SIMPLE n_simple4=0, T_SIMPLE n_simple5=0, T_SIMPLE n_simple6=0, int n_int1=0, int n_int2=0)
+/home/majo/work/dark-oberon/HEAD/src/dosources.cpp:469: Warning: The following parameters of TSOURCE_UNIT::SendEvent(bool n_priority=false, double n_time_stamp=0, int n_event=0, int n_request_id=0, T_SIMPLE n_simple1=0, T_SIMPLE n_simple2=0, T_SIMPLE n_simple3=0, T_SIMPLE n_simple4=0, T_SIMPLE n_simple5=0, T_SIMPLE n_simple6=0, int n_int1=0, int n_int2=0) are not documented:
+  parameter n_priority
+  parameter n_time_stamp
+  parameter n_event
+  parameter n_request_id
+  parameter n_simple1
+  parameter n_simple2
+  parameter n_simple3
+  parameter n_simple4
+  parameter n_simple5
+  parameter n_simple6
+  parameter n_int1
+  parameter n_int2
+
+/home/majo/work/dark-oberon/HEAD/src/dosources.cpp:161: Warning: argument `The' of command @param is not found in the argument list of TSOURCE_UNIT::SetMaterialBalance(int new_value)
+/home/majo/work/dark-oberon/HEAD/src/dosources.cpp:161: Warning: The following parameters of TSOURCE_UNIT::SetMaterialBalance(int new_value) are not documented:
+  parameter new_value
+
+/home/majo/work/dark-oberon/HEAD/src/doselection.h:83: Warning: Member DeleteUnit(TMAP_UNIT *unit) of class TSTORED_SELECTION is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:128: Warning: Member IsInActiveArea() of class TTERR_BASIC is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:110: Warning: Member Draw(int anim_id) of class TTERR_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:111: Warning: Member UpdateGraphics(double time_shift) of class TTERR_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:115: Warning: Member SetTextures(TTEX_GROUP *group) of class TTERR_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:116: Warning: Member SetUsed(bool use) of class TTERR_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:117: Warning: Member IsUsed() of class TTERR_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:118: Warning: Member GetAnimCount() of class TTERR_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:119: Warning: Member ClearAnimations() of class TTERR_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doschemes.h:144: Warning: Member anim_count of class TTERR_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:154: Warning: Member Clear(void) of class TTEX_TABLE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.h:156: Warning: Member GetTexture(int group_id, int tex_id) of class TTEX_TABLE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dodata.cpp:86: Warning: The following parameters of TTEX_TABLE::Load(const char *file_name, int mag_filter, int min_filter) are not documented:
+  parameter mag_filter
+  parameter min_filter
+
+/home/majo/work/dark-oberon/HEAD/src/dothreadpool.h:87: Warning: Member TPMETHOD)(I *) of class TTHREAD_POOL is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dothreadpool.h:570: Warning: Member TTHREAD_POOL(TTHREAD_POOL< I, O, A > *threadpool) of class TTHREAD_POOL is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dothreadpool.h:202: Warning: argument `new_request' of command @param is not found in the argument list of TTHREAD_POOL< I, O, A >::AddRequest(I *request, O *(A::*processor)(I *))
+/home/majo/work/dark-oberon/HEAD/src/dothreadpool.h:202: Warning: The following parameters of TTHREAD_POOL::AddRequest(I *request, O *(A::*processor)(I *)) are not documented:
+  parameter request
+  parameter processor
+
+/home/majo/work/dark-oberon/HEAD/src/dothreadpool.h:352: Warning: Member TTHREAD_POOL<I, O, A> of class TTHREAD_POOL::TQUEUE is not documented.
+/home/majo/work/dark-oberon/HEAD/src/dothreadpool.h:567: Warning: Member TTHREAD_POOL<I, O, A> of class TTHREAD_POOL::TTHREAD is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:268: Warning: Member tex_id of class TWARFOG is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:269: Warning: Member radar_tex_id of class TWARFOG is not documented.
+/home/majo/work/dark-oberon/HEAD/src/domap.h:271: Warning: Member tex[DAT_SEGMENTS_COUNT+1] of class TWARFOG is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:680: Warning: Member GetMiningSoundTime(T_BYTE material) const  of class TWORKER_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:683: Warning: Member GetMiningSoundShift(T_BYTE material) const  of class TWORKER_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:702: Warning: Member SetMiningSoundTime(T_BYTE material, double time) of class TWORKER_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:705: Warning: Member SetMiningSoundShift(T_BYTE material, double time) of class TWORKER_ITEM is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:577: Warning: argument `o' of command @param is not found in the argument list of TWORKER_ITEM::TWORKER_ITEM()
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:635: Warning: argument `new_materials' of command @param is not found in the argument list of TWORKER_ITEM::SetAllowedMaterial(const T_BYTE material, bool value)
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:635: Warning: The following parameters of TWORKER_ITEM::SetAllowedMaterial(const T_BYTE material, bool value) are not documented:
+  parameter material
+  parameter value
+
+/home/majo/work/dark-oberon/HEAD/src/doraces.h:574: Warning: The following parameters of TWORKER_ITEM::SetOrder(int material, int ord) are not documented:
+  parameter ord
+
+/home/majo/work/dark-oberon/HEAD/src/dounits.h:1074: Warning: Member IsSourceOnPosition(int pos_x, int pos_y) of class TWORKER_UNIT is not documented.
+/home/majo/work/dark-oberon/HEAD/src/doworkers.cpp:3514: Warning: argument `acceptable_building' of command @param is not found in the argument list of TWORKER_UNIT::FindNearestBuilding(TLIST< TBUILDING_UNIT > &acceptable_buildings, TNEAREST_BUILDINGS &nearest, TA_STAR_ALG *path_tool)
+/home/majo/work/dark-oberon/HEAD/src/doworkers.cpp:3514: Warning: argument `worker' of command @param is not found in the argument list of TWORKER_UNIT::FindNearestBuilding(TLIST< TBUILDING_UNIT > &acceptable_buildings, TNEAREST_BUILDINGS &nearest, TA_STAR_ALG *path_tool)
+/home/majo/work/dark-oberon/HEAD/src/doworkers.cpp:3514: Warning: The following parameters of TWORKER_UNIT::FindNearestBuilding(TLIST< TBUILDING_UNIT > &acceptable_buildings, TNEAREST_BUILDINGS &nearest, TA_STAR_ALG *path_tool) are not documented:
+  parameter acceptable_buildings
+
+/home/majo/work/dark-oberon/HEAD/src/doworkers.cpp:50: Warning: argument `Pointer' of command @param is not found in the argument list of TWORKER_UNIT::ProcessEvent(TEVENT *proc_event)
+/home/majo/work/dark-oberon/HEAD/src/doworkers.cpp:50: Warning: The following parameters of TWORKER_UNIT::ProcessEvent(TEVENT *proc_event) are not documented:
+  parameter proc_event
+
+/home/majo/work/dark-oberon/HEAD/src/doworkers.cpp:2846: Warning: The following parameters of TWORKER_UNIT::SelectReaction(TMAP_UNIT *unit, TUNIT_ACTION action) are not documented:
+  parameter action
+
